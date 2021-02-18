@@ -9,7 +9,7 @@ public class TryWithResources {
                 BufferedReader reader = new BufferedReader(
                         new FileReader(
                                 new File(
-                                        ClassLoader.getSystemResource("resources/sample.log").toURI()
+                                        ClassLoader.getSystemResource("sample.log").toURI()
                                 )
                         )
                 );

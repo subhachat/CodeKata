@@ -16,7 +16,7 @@ public class ReaderExample {
     public static void main(String... args) {
         BufferedReader reader = null;
         try {
-            File file = new File(ClassLoader.getSystemResource("resources/sample.log").toURI());
+            File file = new File(ClassLoader.getSystemResource("sample.log").toURI());
             //System.out.println("Current working directory -> " + System.getProperty("user.dir"));
             reader = new BufferedReader(new FileReader(file));
             String line; //this is the buffer for each line read
