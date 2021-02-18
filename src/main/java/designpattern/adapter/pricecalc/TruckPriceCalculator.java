@@ -1,4 +1,4 @@
-package designpattern.adapter;
+package designpattern.adapter.pricecalc;
 
 public class TruckPriceCalculator implements PriceCalculator {
     private static double depreciation = 8.5d;

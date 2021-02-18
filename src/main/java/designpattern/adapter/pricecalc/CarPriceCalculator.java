@@ -1,4 +1,4 @@
-package designpattern.adapter;
+package designpattern.adapter.pricecalc;
 
 public class CarPriceCalculator implements PriceCalculator {
     private double depreciation = 2.5d; // 2.5% YoY

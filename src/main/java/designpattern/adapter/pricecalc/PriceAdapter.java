@@ -1,4 +1,4 @@
-package designpattern.adapter;
+package designpattern.adapter.pricecalc;
 
 public class PriceAdapter implements PriceCalculator{
     private UkPriceCalculator ukPriceCalculator;

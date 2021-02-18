@@ -1,4 +1,4 @@
-package designpattern.adapter;
+package designpattern.adapter.pricecalc;
 
 import java.util.Objects;
 

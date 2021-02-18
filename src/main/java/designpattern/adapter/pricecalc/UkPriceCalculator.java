@@ -1,4 +1,4 @@
-package designpattern.adapter;
+package designpattern.adapter.pricecalc;
 
 public class UkPriceCalculator {
     private String model;
