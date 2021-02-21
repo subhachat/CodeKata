@@ -1,4 +1,4 @@
-package designpattern.bridge.challenge;
+package designpattern.composite.pattern.challenge;
 
 public interface Book {
     void checkout();

@@ -1,4 +1,4 @@
-package designpattern.bridge.challenge;
+package designpattern.composite.pattern.challenge;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
