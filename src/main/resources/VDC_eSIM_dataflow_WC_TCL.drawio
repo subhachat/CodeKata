@@ -1,1 +1,276 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T11:31:07.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" version="14.4.2" etag="7Jo7-sUyK7ebAdY5Ys72" type="github"><diagram id="RhtLAE1Mlf4OvtyMxZqe">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-26T12:08:44.794Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="FERA9XJek_df2yf0GGcl" version="14.4.2" type="github">
+  <diagram id="RhtLAE1Mlf4OvtyMxZqe" name="Overall eSIM System Interactions">
+    <mxGraphModel dx="1043" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="480" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-2" target="kg-ppahTLLXkwu-JNpcm-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-2" value="" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.externalEntity" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-3" value="LGE &#xa;IT (EDI) &#xa;Service" style="autosize=1;part=1;resizable=0;strokeColor=inherit;fillColor=inherit;gradientColor=inherit;" vertex="1" parent="kg-ppahTLLXkwu-JNpcm-2">
+          <mxGeometry width="60" height="50" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.376;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-4" target="kg-ppahTLLXkwu-JNpcm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-56" value="HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kg-ppahTLLXkwu-JNpcm-30">
+          <mxGeometry x="0.2021" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-4" value="" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.externalEntity" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-5" value="JLR &#xa;IT &#xa;Service" style="autosize=1;part=1;resizable=0;strokeColor=inherit;fillColor=inherit;gradientColor=inherit;" vertex="1" parent="kg-ppahTLLXkwu-JNpcm-4">
+          <mxGeometry width="60" height="50" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-6" target="kg-ppahTLLXkwu-JNpcm-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="276" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-32" value="ToES/HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kg-ppahTLLXkwu-JNpcm-31">
+          <mxGeometry x="-0.4189" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-6" value="Car/TCU" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.car;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-7" value="TSDP" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="420" y="10" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-8" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="40" as="sourcePoint" />
+            <mxPoint x="520" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-9" value="Core" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="50" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-10" value="eSIM LCM" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="535" y="50" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-11" target="kg-ppahTLLXkwu-JNpcm-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-11" value="MDI" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="156" width="70" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-17" value="RDP Cache" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cache_node;" vertex="1" parent="1">
+          <mxGeometry x="319" y="242" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-19" value="RDP" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" vertex="1" parent="1">
+          <mxGeometry x="248" y="243" width="44" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-20" target="kg-ppahTLLXkwu-JNpcm-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-20" target="kg-ppahTLLXkwu-JNpcm-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-20" value="PDP" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" vertex="1" parent="1">
+          <mxGeometry x="340" y="156" width="44" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-21" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.exchange_active_sync;fillColor=#2072B8;" vertex="1" parent="1">
+          <mxGeometry x="292" y="258" width="34" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.145;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-22" target="kg-ppahTLLXkwu-JNpcm-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="86" />
+              <mxPoint x="500" y="208" />
+              <mxPoint x="541" y="208" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-22" value="VCP" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" vertex="1" parent="1">
+          <mxGeometry x="340" y="56" width="44" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.875;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-23" target="kg-ppahTLLXkwu-JNpcm-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-45" target="kg-ppahTLLXkwu-JNpcm-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-23" value="Dispatcher" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="410" y="330" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-25" value="Service &#xa;Integrator" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="413.5" y="248" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-26" target="kg-ppahTLLXkwu-JNpcm-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="351" y="355" />
+              <mxPoint x="351" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-26" value="IF1 Web Proxy" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.reverse_proxy;" vertex="1" parent="1">
+          <mxGeometry x="260" y="352" width="32" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-27" target="kg-ppahTLLXkwu-JNpcm-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="358" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-41" value="UDP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kg-ppahTLLXkwu-JNpcm-36">
+          <mxGeometry x="-0.0395" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-27" value="UDP Proxy" style="verticalLabelPosition=bottom;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.design.udp_director_2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="362" width="35" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-37" target="kg-ppahTLLXkwu-JNpcm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-42" value="SM-MO/MT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kg-ppahTLLXkwu-JNpcm-40">
+          <mxGeometry x="0.2194" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-37" value="SMS-GT" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.sms_gateway;" vertex="1" parent="1">
+          <mxGeometry x="374" y="472" width="59" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-33" value="TCL Network" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="450" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-45" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/UltimateGnome/128x128/actions/exit.png" vertex="1" parent="1">
+          <mxGeometry x="430" y="391" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-23" target="kg-ppahTLLXkwu-JNpcm-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="380" as="sourcePoint" />
+            <mxPoint x="403.5" y="472" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-49" value="SMPP Interface" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="472" y="396" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-55" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" target="kg-ppahTLLXkwu-JNpcm-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="240" as="sourcePoint" />
+            <mxPoint x="310" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-58" value="ESim Datastore" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
+          <mxGeometry x="590" y="116" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-61" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="477" y="295" as="sourcePoint" />
+            <mxPoint x="461" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-62" target="kg-ppahTLLXkwu-JNpcm-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-62" value="Transaction &lt;br&gt;Queue" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mq;" vertex="1" parent="1">
+          <mxGeometry x="620" y="212" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-63" target="kg-ppahTLLXkwu-JNpcm-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-63" value="IF-eSIM &#xa;Web &#xa;Proxy" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="610" y="352" width="70" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-57" target="kg-ppahTLLXkwu-JNpcm-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-57" target="kg-ppahTLLXkwu-JNpcm-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="612" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-57" value="Event &lt;br&gt;processing &lt;br&gt;Functions" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="535" y="208" width="40" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-65" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="472" width="360" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-66" target="kg-ppahTLLXkwu-JNpcm-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-66" value="AKANA &lt;br&gt;API GW" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="1">
+          <mxGeometry x="512" y="480" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-68" value="BRE" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="624" y="478" width="70" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-70" value="KYC DB&lt;br&gt;" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" vertex="1" parent="1">
+          <mxGeometry x="647" y="616" width="44" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-71" target="kg-ppahTLLXkwu-JNpcm-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-71" value="Data &lt;br&gt;processor &lt;br&gt;Services" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/microservice.svg;" vertex="1" parent="1">
+          <mxGeometry x="507" y="616" width="82.2" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-74" value="DLQ" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.queue_generic;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="613" y="306" width="50" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-77" value="" style="endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-62" target="kg-ppahTLLXkwu-JNpcm-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="470" as="sourcePoint" />
+            <mxPoint x="450" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-82" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=10;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-71" target="kg-ppahTLLXkwu-JNpcm-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="550" as="sourcePoint" />
+            <mxPoint x="590" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-83" value="Radius &#xa;AAA &#xa;Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="730" y="480" width="70" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-84" value="eSIM HUB" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" vertex="1" parent="1">
+          <mxGeometry x="740" y="576" width="44" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-85" value="WCar &#xa;Radius &#xa;Service " style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="231" y="90" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-87" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.068;entryY=0.486;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-68" target="kg-ppahTLLXkwu-JNpcm-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="610" as="sourcePoint" />
+            <mxPoint x="730" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-89" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-84" target="kg-ppahTLLXkwu-JNpcm-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="580" as="sourcePoint" />
+            <mxPoint x="800" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kg-ppahTLLXkwu-JNpcm-90" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kg-ppahTLLXkwu-JNpcm-84" target="kg-ppahTLLXkwu-JNpcm-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="610" as="sourcePoint" />
+            <mxPoint x="720" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
