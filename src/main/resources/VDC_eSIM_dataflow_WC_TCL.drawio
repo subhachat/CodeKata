@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-01T12:12:46.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="LpUr46vvpqSKkzBPhqdU" version="14.4.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-03-01T12:42:49.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="XKrX3VyFbMaKShzwWG3T" version="14.4.3" type="github" pages="12">
   <diagram id="RhtLAE1Mlf4OvtyMxZqe" name="Overall eSIM System Interactions">
     <mxGraphModel dx="1000" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -104,7 +104,7 @@
         </mxCell>
         <mxCell id="J4HA_HVOePMti-CXJ_7W-1" value="state change" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kg-ppahTLLXkwu-JNpcm-60">
           <mxGeometry x="-0.5083" y="4" relative="1" as="geometry">
-            <mxPoint x="-1" as="offset" />
+            <mxPoint x="-24.67" y="3.93" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kg-ppahTLLXkwu-JNpcm-22" value="VCP" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" parent="1" vertex="1">
@@ -352,6 +352,11 @@
         <mxCell id="1pmA1xr76UVllCymz63s-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" parent="RpzHaVayalx9nMp1wObZ-1" source="1pmA1xr76UVllCymz63s-21" target="1pmA1xr76UVllCymz63s-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qAoUHG3ZF6pdiqzVWE5v-0" value="tcu, vehicle, subs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1pmA1xr76UVllCymz63s-20">
+          <mxGeometry x="-0.2725" relative="1" as="geometry">
+            <mxPoint x="-16" y="-0.07" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="1pmA1xr76UVllCymz63s-21" value="PDP" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" parent="RpzHaVayalx9nMp1wObZ-1" vertex="1">
           <mxGeometry x="340" y="162" width="44" height="54" as="geometry" />
         </mxCell>
@@ -365,6 +370,11 @@
               <mxPoint x="500" y="214" />
               <mxPoint x="541" y="214" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QfRF37oPiLddmNfTB_JA-0" value="state change" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1pmA1xr76UVllCymz63s-23">
+          <mxGeometry x="-0.7849" relative="1" as="geometry">
+            <mxPoint x="12.329999999999998" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1pmA1xr76UVllCymz63s-24" value="VCP" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" parent="RpzHaVayalx9nMp1wObZ-1" vertex="1">
@@ -556,6 +566,11 @@
         <mxCell id="A_KSWRBMAwLPUeFDh9hg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" parent="VKY7mcPc9pdi348JQNVr-1" source="A_KSWRBMAwLPUeFDh9hg-21" target="A_KSWRBMAwLPUeFDh9hg-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2qt7t4XNBbkkfbtXQpL6-1" value="tcu, vehicle, subs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A_KSWRBMAwLPUeFDh9hg-20">
+          <mxGeometry x="-0.3639" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="A_KSWRBMAwLPUeFDh9hg-21" value="PDP" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" parent="VKY7mcPc9pdi348JQNVr-1" vertex="1">
           <mxGeometry x="329" y="163" width="44" height="54" as="geometry" />
         </mxCell>
@@ -569,6 +584,11 @@
               <mxPoint x="489" y="215" />
               <mxPoint x="530" y="215" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9-L8EGTmdLGUQruv4yT-0" value="state change" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A_KSWRBMAwLPUeFDh9hg-23">
+          <mxGeometry x="-0.3992" relative="1" as="geometry">
+            <mxPoint x="-38.33" y="-0.07" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="A_KSWRBMAwLPUeFDh9hg-24" value="VCP" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" parent="VKY7mcPc9pdi348JQNVr-1" vertex="1">
@@ -724,10 +744,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A_KSWRBMAwLPUeFDh9hg-68" value="IF-eSIM" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;entryX=0;entryY=1;entryDx=10;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" parent="VKY7mcPc9pdi348JQNVr-1" source="A_KSWRBMAwLPUeFDh9hg-53" target="A_KSWRBMAwLPUeFDh9hg-47" edge="1">
+        <mxCell id="A_KSWRBMAwLPUeFDh9hg-68" value="IF-eSIM" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" parent="VKY7mcPc9pdi348JQNVr-1" source="A_KSWRBMAwLPUeFDh9hg-53" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="519" y="487" as="sourcePoint" />
-            <mxPoint x="569" y="437" as="targetPoint" />
+            <mxPoint x="600" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6NvJV_yNkxZbJFA8Q15o-0" value="&lt;h1&gt;Data In&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;{&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;TCU_serial_number,&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;VIN,&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;TCU_SW_Version(s)&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;}&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="VKY7mcPc9pdi348JQNVr-1" vertex="1">
@@ -805,6 +825,11 @@
         <mxCell id="Trf0k04t3CwV4KCzUv_n-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" parent="vROOJjTgnusdTpPtQLWc-1" source="Trf0k04t3CwV4KCzUv_n-21" target="Trf0k04t3CwV4KCzUv_n-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="oXLfl6VsVy9T3wcnrUsL-0" value="tcu, vehicle, subs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Trf0k04t3CwV4KCzUv_n-20">
+          <mxGeometry x="-0.4671" y="-1" relative="1" as="geometry">
+            <mxPoint x="2.67" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Trf0k04t3CwV4KCzUv_n-21" value="PDP" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" parent="vROOJjTgnusdTpPtQLWc-1" vertex="1">
           <mxGeometry x="389" y="217" width="44" height="54" as="geometry" />
         </mxCell>
@@ -818,6 +843,11 @@
               <mxPoint x="549" y="269" />
               <mxPoint x="590" y="269" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUn37_sejzc2WCPryt1X-0" value="state change" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Trf0k04t3CwV4KCzUv_n-23">
+          <mxGeometry x="-0.3867" y="2" relative="1" as="geometry">
+            <mxPoint x="-40" y="1.93" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Trf0k04t3CwV4KCzUv_n-24" value="VCP" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" parent="vROOJjTgnusdTpPtQLWc-1" vertex="1">
@@ -929,7 +959,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Trf0k04t3CwV4KCzUv_n-68" value="IF-eSIM" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;entryX=0;entryY=1;entryDx=10;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" parent="vROOJjTgnusdTpPtQLWc-1" source="Trf0k04t3CwV4KCzUv_n-53" target="Trf0k04t3CwV4KCzUv_n-47" edge="1">
+        <mxCell id="Trf0k04t3CwV4KCzUv_n-68" value="IF-eSIM" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;entryX=-0.043;entryY=0.87;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" parent="vROOJjTgnusdTpPtQLWc-1" source="Trf0k04t3CwV4KCzUv_n-53" target="Trf0k04t3CwV4KCzUv_n-47" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="579" y="541" as="sourcePoint" />
             <mxPoint x="629" y="491" as="targetPoint" />
@@ -950,14 +980,14 @@
         <mxCell id="DJBcBXLVywly40jViHtk-0" value="TCL IT" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=14;" parent="vROOJjTgnusdTpPtQLWc-1" vertex="1">
           <mxGeometry x="663" y="791" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3-QpskHUyKnJryKDfMhs-0" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;Impact on failure&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;#VIN market isn&#39;t known to TCL&lt;br&gt;&lt;br&gt;##SIM bind event isn&#39;t generated in TCL (&lt;font color=&quot;#0000ff&quot;&gt;Bind user-sim with Vehicle event, pre-entry-to-market&lt;/font&gt;)&lt;br&gt;&lt;br&gt;###[&lt;font color=&quot;#ff6666&quot;&gt;Market 1&lt;/font&gt;] Permanent roaming allowed - VDC would work as normal&lt;br&gt;&lt;br&gt;####[&lt;font color=&quot;#ff6666&quot;&gt;Market 2&lt;/font&gt;] Permanent roaming only for fixed duration, Local carrier profile expected after - SIM would be out-of-service soon, after the roaming allowance expires e.g. Russia&lt;br&gt;&lt;br&gt;#### [&lt;font color=&quot;#ff6666&quot;&gt;Market 3&lt;/font&gt;] SIM enters into the market of sales, as disabled - remain disabled without the data. e.g. Brazil / Saudi&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;overflow=fill;whiteSpace=wrap;" vertex="1" parent="vROOJjTgnusdTpPtQLWc-1">
-          <mxGeometry x="939" y="381" width="190" height="350" as="geometry" />
+        <mxCell id="3-QpskHUyKnJryKDfMhs-0" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;Impact on failure&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;#VIN market isn&#39;t known to TCL&lt;br&gt;&lt;br&gt;## [&lt;font color=&quot;#ff6666&quot;&gt;Market 1&lt;/font&gt;] Permanent roaming allowed -&amp;gt; VDC would work as normal, although on STEP-1 plan&lt;br&gt;&lt;br&gt;### [&lt;font color=&quot;#ff6666&quot;&gt;Market 2&lt;/font&gt;] Permanent roaming only for fixed duration, Local carrier profile expected after -&amp;gt; SIM would be out-of-service soon, after the roaming allowance expires e.g. Russia&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;overflow=fill;whiteSpace=wrap;" vertex="1" parent="vROOJjTgnusdTpPtQLWc-1">
+          <mxGeometry x="939" y="381" width="190" height="219" as="geometry" />
         </mxCell>
         <mxCell id="3-QpskHUyKnJryKDfMhs-1" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;Impact on failure&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;#Static IP not assigned in the network&lt;br&gt;&lt;br&gt;##WCar can&#39;t use a fall-back of UDP in the messages to wakeup sequence&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;overflow=fill;whiteSpace=wrap;" vertex="1" parent="vROOJjTgnusdTpPtQLWc-1">
           <mxGeometry x="337" y="637" width="160" height="134" as="geometry" />
         </mxCell>
         <mxCell id="B8jUsXuapgEvEJHuqu9s-0" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Process to Mitigate&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;#Weekly reconciliation of eSIM VDC records at WCar vs. VehicleProfile events received by TCL&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;overflow=fill;whiteSpace=wrap;fontColor=#333333;" vertex="1" parent="vROOJjTgnusdTpPtQLWc-1">
-          <mxGeometry x="939" y="731" width="190" height="100" as="geometry" />
+          <mxGeometry x="939" y="600" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="B8jUsXuapgEvEJHuqu9s-1" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Process to Mitigate&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;#Retry of the Operation (TU-initiated) - some cases, multiple attempts (as seen in Graz line trial)&lt;br&gt;&lt;br&gt;# backend initiated operations (remote, SVT, prov/force config/FA etc.) should be working on SM(S)-MT.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;overflow=fill;whiteSpace=wrap;fontColor=#333333;" vertex="1" parent="vROOJjTgnusdTpPtQLWc-1">
           <mxGeometry x="337" y="771" width="160" height="189" as="geometry" />
@@ -1018,6 +1048,11 @@
         <mxCell id="4v9NISjxdUrb50thsT8q-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="4bP8FtH4IolprEwvIJyH-1" source="4v9NISjxdUrb50thsT8q-13" target="4v9NISjxdUrb50thsT8q-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="S5JszrIWMd8GyiT8owzR-0" value="tcu, vehicle, subs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4v9NISjxdUrb50thsT8q-12">
+          <mxGeometry x="-0.4805" y="-2" relative="1" as="geometry">
+            <mxPoint x="4" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4v9NISjxdUrb50thsT8q-13" value="PDP" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" vertex="1" parent="4bP8FtH4IolprEwvIJyH-1">
           <mxGeometry x="329" y="163" width="44" height="54" as="geometry" />
         </mxCell>
@@ -1031,6 +1066,11 @@
               <mxPoint x="489" y="215" />
               <mxPoint x="530" y="215" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rqmkK39S9XDieIsXNHQ2-0" value="state change" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4v9NISjxdUrb50thsT8q-15">
+          <mxGeometry x="-0.3493" y="4" relative="1" as="geometry">
+            <mxPoint x="-48.33" y="3.93" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4v9NISjxdUrb50thsT8q-16" value="VCP" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" vertex="1" parent="4bP8FtH4IolprEwvIJyH-1">
@@ -1186,17 +1226,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4v9NISjxdUrb50thsT8q-53" value="IF-eSIM" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;entryX=0;entryY=1;entryDx=10;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="4bP8FtH4IolprEwvIJyH-1" source="4v9NISjxdUrb50thsT8q-38" target="4v9NISjxdUrb50thsT8q-32">
+        <mxCell id="4v9NISjxdUrb50thsT8q-53" value="IF-eSIM" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="4bP8FtH4IolprEwvIJyH-1" source="4v9NISjxdUrb50thsT8q-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="519" y="487" as="sourcePoint" />
-            <mxPoint x="569" y="437" as="targetPoint" />
+            <mxPoint x="600" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4v9NISjxdUrb50thsT8q-54" value="&lt;h1&gt;Data In&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;{&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;equipment_id,&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;TCU_state,&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;vehicle_state&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;}&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4bP8FtH4IolprEwvIJyH-1">
           <mxGeometry x="19" y="340" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="4v9NISjxdUrb50thsT8q-55" value="&lt;h1&gt;Data Out&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;{&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;euiccid,&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;vdc_old_state = preactivated_logistics,&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;vdc_new_state = silent_legislated&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;}&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4bP8FtH4IolprEwvIJyH-1">
-          <mxGeometry x="719" y="152" width="160" height="170" as="geometry" />
+          <mxGeometry x="719" y="152" width="160" height="188" as="geometry" />
         </mxCell>
         <mxCell id="4v9NISjxdUrb50thsT8q-56" value="TSDP" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=14;" vertex="1" parent="4bP8FtH4IolprEwvIJyH-1">
           <mxGeometry x="409" y="17" width="80" height="20" as="geometry" />
@@ -1204,11 +1244,8 @@
         <mxCell id="4v9NISjxdUrb50thsT8q-57" value="TCL IT" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=14;" vertex="1" parent="4bP8FtH4IolprEwvIJyH-1">
           <mxGeometry x="609" y="737" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4v9NISjxdUrb50thsT8q-58" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;Impact on failure&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;#Not much on TCL network, is impacted if this state isn&#39;t received by TCL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;overflow=fill;whiteSpace=wrap;" vertex="1" parent="4bP8FtH4IolprEwvIJyH-1">
-          <mxGeometry x="879" y="287" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="4v9NISjxdUrb50thsT8q-59" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Failure Modes&lt;br&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;#Wrong UDP IP address&lt;br&gt;##TCU not sending HTTP GET and POST messages&lt;br&gt;###SIM isn&#39;t attached to network/PLMN&lt;br&gt;####SIM attached but not allowed to access data session on a VPLMN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;overflow=fill;whiteSpace=wrap;fontColor=#333333;" vertex="1" parent="4bP8FtH4IolprEwvIJyH-1">
-          <mxGeometry x="129" y="600" width="160" height="150" as="geometry" />
+        <mxCell id="4v9NISjxdUrb50thsT8q-58" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;Impact on failure&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;# No immediate network issue observed.&amp;nbsp;&lt;br&gt;&lt;br&gt;##SIM bind event isn&#39;t generated in TCL (&lt;font color=&quot;#0000ff&quot;&gt;Bind user-sim with Vehicle event, entry-to-market&lt;/font&gt;)&lt;br&gt;&lt;br&gt;## [&lt;font color=&quot;#ff6666&quot;&gt;Market 1&lt;/font&gt;] Permanent roaming allowed -&amp;gt; VDC would work as normal, although on STEP-1 plan&lt;br&gt;&lt;br&gt;### [&lt;font color=&quot;#ff6666&quot;&gt;Market 2&lt;/font&gt;] Permanent roaming only for fixed duration, Local carrier profile expected after -&amp;gt; SIM would be out-of-service soon, after the roaming allowance expires e.g. Russia&lt;br&gt;&lt;br&gt;#### [&lt;font color=&quot;#ff6666&quot;&gt;Market 3&lt;/font&gt;] SIM enters into the market of sales, as disabled -&amp;gt; remain disabled without the data. e.g. Brazil / Saudi&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;overflow=fill;whiteSpace=wrap;" vertex="1" parent="4bP8FtH4IolprEwvIJyH-1">
+          <mxGeometry x="879" y="287" width="160" height="403" as="geometry" />
         </mxCell>
         <mxCell id="V320SGUA44N-QpstNTq5-0" value="SMS-GT" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.sms_gateway;" vertex="1" parent="4bP8FtH4IolprEwvIJyH-1">
           <mxGeometry x="359" y="481" width="59" height="37" as="geometry" />
@@ -1240,14 +1277,303 @@
             <mxPoint x="-94.17" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="_uEK8z0VBbIT2Jd5oGdH-0" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Failure Modes&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;#Wrong UDP IP address&lt;br&gt;&lt;br&gt;##TCU not sending HTTP GET and POST messages&lt;br&gt;&lt;br&gt;###SIM isn&#39;t attached to network/PLMN&lt;br&gt;&lt;br&gt;####SIM attached but not allowed to access data session on a VPLMN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;overflow=fill;whiteSpace=wrap;fontColor=#333333;" vertex="1" parent="4bP8FtH4IolprEwvIJyH-1">
+          <mxGeometry x="129" y="591" width="160" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="0x67W92JXsbFBgFT_5Qz-0" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Process to Mitigate&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;# No proactive measures from Operations team is possible, unless alerted by WCar / TCL monitoring of the data feed issues&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;overflow=fill;whiteSpace=wrap;fontColor=#333333;" vertex="1" parent="4bP8FtH4IolprEwvIJyH-1">
+          <mxGeometry x="879" y="690" width="161" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="bhy-fo8mKoRiWW_Huwhy" name="Port of Entry - PDI">
-    <mxGraphModel dx="906" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1000" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="I9a4XHafPSlzATrHFXFj-0" />
         <mxCell id="I9a4XHafPSlzATrHFXFj-1" parent="I9a4XHafPSlzATrHFXFj-0" />
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-0" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="189" y="47" width="480" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-3" target="JyyKZ4M9rqXcre1hDgwS-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="547" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-2" value="ToES/HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JyyKZ4M9rqXcre1hDgwS-1">
+          <mxGeometry x="-0.4189" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-3" value="Car/TCU" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.car;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="29" y="527" width="73" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="509" y="47" as="sourcePoint" />
+            <mxPoint x="509" y="427" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-5" value="Core" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="249" y="57" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-6" value="eSIM LCM" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="524" y="57" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-8" target="JyyKZ4M9rqXcre1hDgwS-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-8" value="MDI" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="189" y="163" width="70" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-9" value="RDP Cache" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cache_node;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="308" y="249" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-10" value="RDP" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="237" y="250" width="44" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-13" target="JyyKZ4M9rqXcre1hDgwS-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-13" target="JyyKZ4M9rqXcre1hDgwS-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5NUzAUckZhBPe1LboIx-0" value="tcu, vehicle, subs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JyyKZ4M9rqXcre1hDgwS-12">
+          <mxGeometry x="-0.494" y="4" relative="1" as="geometry">
+            <mxPoint x="5.33" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-13" value="PDP" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="329" y="163" width="44" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-14" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.exchange_active_sync;fillColor=#2072B8;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="281" y="265" width="34" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.145;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-16" target="JyyKZ4M9rqXcre1hDgwS-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="489" y="93" />
+              <mxPoint x="489" y="215" />
+              <mxPoint x="530" y="215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vv404XHKyJwTVWom2AIR-0" value="state change" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JyyKZ4M9rqXcre1hDgwS-15">
+          <mxGeometry x="-0.368" y="4" relative="1" as="geometry">
+            <mxPoint x="-45.67" y="3.93" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-16" value="VCP" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="329" y="63" width="44" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.875;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-18" target="JyyKZ4M9rqXcre1hDgwS-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-18" value="Dispatcher" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="399" y="337" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-19" value="Service &#xa;Integrator" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="402.5" y="255" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-21" target="JyyKZ4M9rqXcre1hDgwS-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="362" />
+              <mxPoint x="340" y="352" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-21" value="IF1 Web Proxy" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.reverse_proxy;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="249" y="359" width="32" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-24" target="JyyKZ4M9rqXcre1hDgwS-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="347" y="567" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-23" value="UDP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JyyKZ4M9rqXcre1hDgwS-22">
+          <mxGeometry x="-0.0395" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-24" value="UDP Proxy" style="verticalLabelPosition=bottom;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.design.udp_director_2;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="329" y="369" width="35" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-25" value="TCL Network" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="229" y="457" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-26" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" target="JyyKZ4M9rqXcre1hDgwS-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="269" y="247" as="sourcePoint" />
+            <mxPoint x="299" y="227" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-27" value="ESim Datastore" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="579" y="123" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-28" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="466" y="302" as="sourcePoint" />
+            <mxPoint x="450" y="342" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-30" target="JyyKZ4M9rqXcre1hDgwS-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-30" value="Transaction &lt;br&gt;Queue" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mq;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="609" y="219" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-32" target="JyyKZ4M9rqXcre1hDgwS-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-32" value="IF-eSIM &#xa;Web &#xa;Proxy" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="599" y="359" width="70" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-35" target="JyyKZ4M9rqXcre1hDgwS-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-35" target="JyyKZ4M9rqXcre1hDgwS-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="601" y="217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-35" value="Event &lt;br&gt;processing &lt;br&gt;Functions" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="524" y="215" width="40" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-36" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="469" y="479" width="360" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-38" target="JyyKZ4M9rqXcre1hDgwS-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-38" value="AKANA &lt;br&gt;API GW" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="501" y="487" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-39" value="BRE" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="613" y="508" width="70" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-40" value="KYC DB&lt;br&gt;" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="636" y="623" width="44" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-42" target="JyyKZ4M9rqXcre1hDgwS-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-42" value="Data &lt;br&gt;processor &lt;br&gt;Services" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/microservice.svg;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="496" y="612" width="82.2" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-43" value="DLQ" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.queue_generic;pointerEvents=1;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="602" y="313" width="50" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-44" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=10;entryDy=0;entryPerimeter=0;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-42" target="JyyKZ4M9rqXcre1hDgwS-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="529" y="557" as="sourcePoint" />
+            <mxPoint x="579" y="507" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-45" value="Radius &#xa;AAA &#xa;Service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="719" y="487" width="70" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-46" value="eSIM HUB" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="729" y="583" width="44" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-47" value="WCar &#xa;Radius &#xa;Service " style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="220" y="97" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-48" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.068;entryY=0.486;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-39" target="JyyKZ4M9rqXcre1hDgwS-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="669" y="617" as="sourcePoint" />
+            <mxPoint x="719" y="567" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-49" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-46" target="JyyKZ4M9rqXcre1hDgwS-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="739" y="587" as="sourcePoint" />
+            <mxPoint x="789" y="537" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-50" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-46" target="JyyKZ4M9rqXcre1hDgwS-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659" y="617" as="sourcePoint" />
+            <mxPoint x="709" y="567" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-51" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-30" target="JyyKZ4M9rqXcre1hDgwS-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="689" y="267" as="sourcePoint" />
+            <mxPoint x="739" y="217" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="699" y="367" />
+              <mxPoint x="699" y="377" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-52" value="IF-TATA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JyyKZ4M9rqXcre1hDgwS-51">
+          <mxGeometry x="-0.1055" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-53" value="IF-eSIM" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="519" y="487" as="sourcePoint" />
+            <mxPoint x="600" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-54" value="&lt;h1&gt;Data In&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;{&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;equipment_id,&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;TCU_state,&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;vehicle_state&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;}&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="19" y="340" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-55" value="&lt;h1&gt;Data Out&lt;/h1&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;{&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;euiccid,&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;vdc_old_state = preactivated_logistics,&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;vdc_new_state = silent_legislated&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;}&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="719" y="152" width="160" height="188" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-56" value="TSDP" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=14;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="409" y="17" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-57" value="TCL IT" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=14;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="609" y="737" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-58" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;Impact on failure&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;# No immediate network issue observed.&amp;nbsp;&lt;br&gt;&lt;br&gt;##SIM bind event isn&#39;t generated in TCL (&lt;font color=&quot;#0000ff&quot;&gt;Bind user-sim with Vehicle event, entry-to-market&lt;/font&gt;)&lt;br&gt;&lt;br&gt;## [&lt;font color=&quot;#ff6666&quot;&gt;Market 1&lt;/font&gt;] Permanent roaming allowed -&amp;gt; VDC would work as normal, although on STEP-1 plan&lt;br&gt;&lt;br&gt;### [&lt;font color=&quot;#ff6666&quot;&gt;Market 2&lt;/font&gt;] Permanent roaming only for fixed duration, Local carrier profile expected after -&amp;gt; SIM would be out-of-service soon, after the roaming allowance expires e.g. Russia&lt;br&gt;&lt;br&gt;#### [&lt;font color=&quot;#ff6666&quot;&gt;Market 3&lt;/font&gt;] SIM enters into the market of sales, as disabled -&amp;gt; remain disabled without the data. e.g. Brazil / Saudi&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;overflow=fill;whiteSpace=wrap;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="879" y="287" width="160" height="403" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-59" value="SMS-GT" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.sms_gateway;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="359" y="481" width="59" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-60" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/UltimateGnome/128x128/actions/exit.png" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="415" y="400" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-61" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-18" target="JyyKZ4M9rqXcre1hDgwS-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="520" as="sourcePoint" />
+            <mxPoint x="520" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="387" />
+              <mxPoint x="440" y="499" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-62" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;dashed=1;" edge="1" parent="I9a4XHafPSlzATrHFXFj-1" source="JyyKZ4M9rqXcre1hDgwS-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="388.5" y="559" as="sourcePoint" />
+            <mxPoint x="100" y="581" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="581" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-63" value="SM-MO/MT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JyyKZ4M9rqXcre1hDgwS-62">
+          <mxGeometry x="-0.3505" y="-1" relative="1" as="geometry">
+            <mxPoint x="-94.17" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-64" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Failure Modes&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;#Wrong UDP IP address&lt;br&gt;&lt;br&gt;##TCU not sending HTTP GET and POST messages&lt;br&gt;&lt;br&gt;###SIM isn&#39;t attached to network/PLMN&lt;br&gt;&lt;br&gt;####SIM attached but not allowed to access data session on a VPLMN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;overflow=fill;whiteSpace=wrap;fontColor=#333333;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="129" y="591" width="160" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="JyyKZ4M9rqXcre1hDgwS-65" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Process to Mitigate&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;# No proactive measures from Operations team is possible, unless alerted by WCar / TCL monitoring of the data feed issues&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;overflow=fill;whiteSpace=wrap;fontColor=#333333;" vertex="1" parent="I9a4XHafPSlzATrHFXFj-1">
+          <mxGeometry x="879" y="690" width="161" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
