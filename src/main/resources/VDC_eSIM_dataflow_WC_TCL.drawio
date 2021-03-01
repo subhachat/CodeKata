@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-01T12:10:03.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="Ea5fo8cBmgI5YcfcqEmt" version="14.4.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-03-01T12:12:46.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="LpUr46vvpqSKkzBPhqdU" version="14.4.3" type="github" pages="12">
   <diagram id="RhtLAE1Mlf4OvtyMxZqe" name="Overall eSIM System Interactions">
     <mxGraphModel dx="1000" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,6 +82,11 @@
         <mxCell id="kg-ppahTLLXkwu-JNpcm-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" parent="1" source="kg-ppahTLLXkwu-JNpcm-20" target="kg-ppahTLLXkwu-JNpcm-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="J4HA_HVOePMti-CXJ_7W-2" value="tcu, vehicle, subs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kg-ppahTLLXkwu-JNpcm-59">
+          <mxGeometry x="-0.4267" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kg-ppahTLLXkwu-JNpcm-20" value="PDP" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" parent="1" vertex="1">
           <mxGeometry x="325" y="165" width="44" height="54" as="geometry" />
         </mxCell>
@@ -95,6 +100,11 @@
               <mxPoint x="485" y="217" />
               <mxPoint x="526" y="217" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J4HA_HVOePMti-CXJ_7W-1" value="state change" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kg-ppahTLLXkwu-JNpcm-60">
+          <mxGeometry x="-0.5083" y="4" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kg-ppahTLLXkwu-JNpcm-22" value="VCP" style="shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.3d.datastore;" parent="1" vertex="1">
@@ -735,8 +745,8 @@
         <mxCell id="QgLVD-15PTfnerMLTKW6-0" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;Impact on failure&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;#Not much on TCL network, is impacted if this state isn&#39;t received by TCL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;overflow=fill;whiteSpace=wrap;" vertex="1" parent="VKY7mcPc9pdi348JQNVr-1">
           <mxGeometry x="879" y="287" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1SpheOQkTPTL7958XU5v-0" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Failure Modes&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;#Wrong UDP IP address&lt;br&gt;##TCU not sending HTTP GET and POST messages&lt;br&gt;###SIM isn&#39;t attached to network/PLMN&lt;br&gt;####SIM attached but not allowed to access data session on a VPLMN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;overflow=fill;whiteSpace=wrap;fontColor=#333333;" vertex="1" parent="VKY7mcPc9pdi348JQNVr-1">
-          <mxGeometry x="129" y="572" width="160" height="140" as="geometry" />
+        <mxCell id="1SpheOQkTPTL7958XU5v-0" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Failure Modes&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;#Wrong UDP IP address&lt;br&gt;&lt;br&gt;##TCU not sending HTTP GET and POST messages&lt;br&gt;&lt;br&gt;###SIM isn&#39;t attached to network/PLMN&lt;br&gt;&lt;br&gt;####SIM attached but not allowed to access data session on a VPLMN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;overflow=fill;whiteSpace=wrap;fontColor=#333333;" vertex="1" parent="VKY7mcPc9pdi348JQNVr-1">
+          <mxGeometry x="129" y="572" width="160" height="198" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -940,7 +950,7 @@
         <mxCell id="DJBcBXLVywly40jViHtk-0" value="TCL IT" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=14;" parent="vROOJjTgnusdTpPtQLWc-1" vertex="1">
           <mxGeometry x="663" y="791" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3-QpskHUyKnJryKDfMhs-0" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;Impact on failure&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;#VIN market isn&#39;t known to TCL&lt;br&gt;&lt;br&gt;##SIM bind event isn&#39;t generated in TCL (&lt;font color=&quot;#0000ff&quot;&gt;Bind user-sim with Vehicle event, pre-entry-to-market&lt;/font&gt;)&lt;br&gt;&lt;br&gt;###[scene 1] Permanent roaming allowed - VDC would work as normal&lt;br&gt;&lt;br&gt;####[scene 2] Permanent roaming only for fixed duration, Local carrier profile expected after - SIM would be out-of-service soon, after the roaming allowance expires e.g. Russia&lt;br&gt;&lt;br&gt;#### [scene 3] SIM enters into the market of sales, as disabled - remain disabled without the data. e.g. Brazil / Saudi&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;overflow=fill;whiteSpace=wrap;" vertex="1" parent="vROOJjTgnusdTpPtQLWc-1">
+        <mxCell id="3-QpskHUyKnJryKDfMhs-0" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;Impact on failure&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;#VIN market isn&#39;t known to TCL&lt;br&gt;&lt;br&gt;##SIM bind event isn&#39;t generated in TCL (&lt;font color=&quot;#0000ff&quot;&gt;Bind user-sim with Vehicle event, pre-entry-to-market&lt;/font&gt;)&lt;br&gt;&lt;br&gt;###[&lt;font color=&quot;#ff6666&quot;&gt;Market 1&lt;/font&gt;] Permanent roaming allowed - VDC would work as normal&lt;br&gt;&lt;br&gt;####[&lt;font color=&quot;#ff6666&quot;&gt;Market 2&lt;/font&gt;] Permanent roaming only for fixed duration, Local carrier profile expected after - SIM would be out-of-service soon, after the roaming allowance expires e.g. Russia&lt;br&gt;&lt;br&gt;#### [&lt;font color=&quot;#ff6666&quot;&gt;Market 3&lt;/font&gt;] SIM enters into the market of sales, as disabled - remain disabled without the data. e.g. Brazil / Saudi&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;overflow=fill;whiteSpace=wrap;" vertex="1" parent="vROOJjTgnusdTpPtQLWc-1">
           <mxGeometry x="939" y="381" width="190" height="350" as="geometry" />
         </mxCell>
         <mxCell id="3-QpskHUyKnJryKDfMhs-1" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;Impact on failure&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;#Static IP not assigned in the network&lt;br&gt;&lt;br&gt;##WCar can&#39;t use a fall-back of UDP in the messages to wakeup sequence&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;overflow=fill;whiteSpace=wrap;" vertex="1" parent="vROOJjTgnusdTpPtQLWc-1">
@@ -949,8 +959,8 @@
         <mxCell id="B8jUsXuapgEvEJHuqu9s-0" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Process to Mitigate&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;#Weekly reconciliation of eSIM VDC records at WCar vs. VehicleProfile events received by TCL&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;overflow=fill;whiteSpace=wrap;fontColor=#333333;" vertex="1" parent="vROOJjTgnusdTpPtQLWc-1">
           <mxGeometry x="939" y="731" width="190" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="B8jUsXuapgEvEJHuqu9s-1" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Process to Mitigate&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;#Retry of the Operation (TU-initiated) - some cases, multiple attempts (as seen in Graz line trial)&lt;br&gt;# backend initiated operations (remote, SVT, prov/force config/FA etc.) should be working on SM(S)-MT.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;overflow=fill;whiteSpace=wrap;fontColor=#333333;" vertex="1" parent="vROOJjTgnusdTpPtQLWc-1">
-          <mxGeometry x="337" y="771" width="160" height="170" as="geometry" />
+        <mxCell id="B8jUsXuapgEvEJHuqu9s-1" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Process to Mitigate&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;#Retry of the Operation (TU-initiated) - some cases, multiple attempts (as seen in Graz line trial)&lt;br&gt;&lt;br&gt;# backend initiated operations (remote, SVT, prov/force config/FA etc.) should be working on SM(S)-MT.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;overflow=fill;whiteSpace=wrap;fontColor=#333333;" vertex="1" parent="vROOJjTgnusdTpPtQLWc-1">
+          <mxGeometry x="337" y="771" width="160" height="189" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
