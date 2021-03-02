@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T14:58:57.155Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="BuCv8PyR9dkz3sgiaXNO" version="14.4.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-03-02T15:01:16.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="Ugc3Snxp07b2gfgyDTDZ" version="14.4.3" type="github" pages="12">
   <diagram id="RhtLAE1Mlf4OvtyMxZqe" name="Overall eSIM System Interactions">
     <mxGraphModel dx="1442" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -306,7 +306,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IaSmkhFbeTDP3-BSdtkD" name="TCU Registration">
-    <mxGraphModel dx="1442" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="RpzHaVayalx9nMp1wObZ-0" />
         <mxCell id="RpzHaVayalx9nMp1wObZ-1" parent="RpzHaVayalx9nMp1wObZ-0" />
@@ -523,14 +523,14 @@
         <mxCell id="jXD54yJ0hzn1ioKkc1G_-3" value="&lt;h1&gt;Error Cause #400 (message content)&lt;/h1&gt;&lt;p&gt;Bad request (euiccid / iccid is not found) - failed in validation&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Action&lt;/u&gt;&lt;/b&gt;: DLQ and flag the euiccid, for withholding subsequent messages for the eUICCID;&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;b&gt;Expectation&lt;/b&gt;: &lt;br&gt;# TCL to add ability to validate eSIM details with eSIM HUB (to avoid saving non-TCL sim info)&lt;br&gt;&lt;br&gt;## WCar/JLR to resolve within 1 week&lt;br&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="RpzHaVayalx9nMp1wObZ-1" vertex="1">
           <mxGeometry x="1080" y="750" width="190" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="UR8PNEO0NXK2_IQxG5QX-0" value="&lt;h1&gt;JLR Expects&lt;/h1&gt;&lt;p&gt;# This event must occur in sequence, skipping which would fail to deliver other lifecycle events to TCL.&lt;/p&gt;&lt;p&gt;&lt;b&gt;##&amp;nbsp;&lt;/b&gt;recover within 1 week, from the time of message failure&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="RpzHaVayalx9nMp1wObZ-1" vertex="1">
+        <mxCell id="UR8PNEO0NXK2_IQxG5QX-0" value="&lt;h1&gt;JLR Expects&lt;/h1&gt;&lt;p&gt;# This event must occur in sequence, skipping which would fail to deliver other lifecycle events to TCL.&lt;/p&gt;&lt;p&gt;##&lt;b&gt;&amp;nbsp;&lt;/b&gt;recover within 1 week, from the time of message failure&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="RpzHaVayalx9nMp1wObZ-1" vertex="1">
           <mxGeometry x="720" y="22" width="320" height="128" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="kRq24Itg5GWNOGSFQb2v" name="GSM Comms Test">
-    <mxGraphModel dx="1442" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VKY7mcPc9pdi348JQNVr-0" />
         <mxCell id="VKY7mcPc9pdi348JQNVr-1" parent="VKY7mcPc9pdi348JQNVr-0" />
@@ -794,7 +794,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TabcHhocYSsyTMIPGtt4" name="EoL - ABS">
-    <mxGraphModel dx="1442" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="vROOJjTgnusdTpPtQLWc-0" />
         <mxCell id="vROOJjTgnusdTpPtQLWc-1" parent="vROOJjTgnusdTpPtQLWc-0" />
@@ -1017,7 +1017,7 @@
         <mxCell id="hZuVwNIfKpyz3afGvBxz-3" value="&lt;h1&gt;Error Cause #400 (message content)&lt;/h1&gt;&lt;p&gt;Bad request (TCUProfile is not found, from the TCU registration data) - failed in validation&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Action&lt;/u&gt;&lt;/b&gt;: DLQ and flag the euiccid, for withholding subsequent messages for the eUICCID;&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;b&gt;Expectation&lt;/b&gt;: &lt;br&gt;# TCL to add ability to validate eSIM details with eSIM HUB (to avoid saving non-TCL sim info)&lt;br&gt;&lt;br&gt;## WCar/JLR to resolve within 1 week&lt;br&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="vROOJjTgnusdTpPtQLWc-1" vertex="1">
           <mxGeometry x="1166" y="738" width="190" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="j1BbOlOvaRhsAmk9ErVy-0" value="&lt;h1&gt;JLR Expects&lt;/h1&gt;&lt;p&gt;# This event must occur in sequence, skipping which would fail to deliver other lifecycle events to TCL.&lt;/p&gt;&lt;p&gt;&lt;span&gt;## recover within 1 week, from the time of message failure&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;### IF-eSIM failure - TCL should retry for next 8 hours&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;#### WCar to add proactive monitoring for no IP assigned to a VDC that had VehicleProfile sent over to TCL&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="vROOJjTgnusdTpPtQLWc-1" vertex="1">
+        <mxCell id="j1BbOlOvaRhsAmk9ErVy-0" value="&lt;h1&gt;JLR Expects&lt;/h1&gt;&lt;p&gt;# This event must occur in sequence, skipping which would fail to deliver other lifecycle events to TCL.&lt;/p&gt;&lt;p&gt;&lt;span&gt;## Recover within 1 week, from the time of message failure&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;### IF-eSIM failure - TCL should retry for next 8 hours&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;#### WCar to add proactive monitoring for no IP assigned to a VDC that had VehicleProfile sent over to TCL&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="vROOJjTgnusdTpPtQLWc-1" vertex="1">
           <mxGeometry x="759" y="4" width="390" height="176" as="geometry" />
         </mxCell>
         <mxCell id="cD_h3nMfWm1Mj53tBoKO-0" value="&lt;h1&gt;Error Cause #504 (infra related)&lt;/h1&gt;&lt;p&gt;IF-TATA isn&#39;t up and running&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Action&lt;/u&gt;&lt;/b&gt;: WCar to RETRY &lt;b&gt;until resolved&lt;/b&gt;,&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Expectation&lt;/b&gt;: TCL to resolve this within 8 hours&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="vROOJjTgnusdTpPtQLWc-1" vertex="1">
@@ -1033,7 +1033,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fw48ju8wUHmtm9Oy2YRo" name="PDI at factory">
-    <mxGraphModel dx="1442" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4bP8FtH4IolprEwvIJyH-0" />
         <mxCell id="4bP8FtH4IolprEwvIJyH-1" parent="4bP8FtH4IolprEwvIJyH-0" />
@@ -1330,7 +1330,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bhy-fo8mKoRiWW_Huwhy" name="Port of Entry - PDI">
-    <mxGraphModel dx="1442" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="I9a4XHafPSlzATrHFXFj-0" />
         <mxCell id="I9a4XHafPSlzATrHFXFj-1" parent="I9a4XHafPSlzATrHFXFj-0" />
@@ -2838,7 +2838,7 @@
         <mxCell id="e7DCq0z2gnjGppxZUUOr-1" value="&lt;h1&gt;Error Cause #504 (infra related)&lt;/h1&gt;&lt;p&gt;IF-TATA isn&#39;t up and running&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Action&lt;/u&gt;&lt;/b&gt;: WCar to RETRY &lt;b&gt;until resolved&lt;/b&gt;,&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Expectation&lt;/b&gt;: TCL to resolve this within 8 hours&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="oesYtdPsf_cbNKxE6J5Z-1" vertex="1">
           <mxGeometry x="1256" y="39" width="190" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="e7DCq0z2gnjGppxZUUOr-2" value="&lt;h1&gt;Error Cause #500 (backend process related)&lt;/h1&gt;&lt;p&gt;TCL Internal processing issue&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Action&lt;/u&gt;&lt;/b&gt;: WCar to DLQ and flag the euiccid, for withholding subsequent messages for the eUICCID;&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;b&gt;Expectation&lt;/b&gt;: TCL to resolve this within 1 week" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="oesYtdPsf_cbNKxE6J5Z-1" vertex="1">
+        <mxCell id="e7DCq0z2gnjGppxZUUOr-2" value="&lt;h1&gt;Error Cause #500 (backend process related)&lt;/h1&gt;&lt;p&gt;TCL Internal processing issue&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Action&lt;/u&gt;&lt;/b&gt;: WCar to DLQ and flag the euiccid, for withholding subsequent messages for the eUICCID;&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;b&gt;Expectation&lt;/b&gt;: TCL to resolve this within &lt;strike&gt;1 week&lt;/strike&gt;&amp;nbsp;&lt;font color=&quot;#0000ff&quot;&gt;8 hours&lt;/font&gt;&amp;nbsp; &amp;nbsp;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="oesYtdPsf_cbNKxE6J5Z-1" vertex="1">
           <mxGeometry x="1256" y="260" width="190" height="263" as="geometry" />
         </mxCell>
         <mxCell id="e7DCq0z2gnjGppxZUUOr-3" value="&lt;h1&gt;Error Cause #404 (infra related)&lt;/h1&gt;&lt;p&gt;TCL internal processing modules are not up and running (behind API GW).&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Action&lt;/b&gt;: WCar to RETRY &lt;b&gt;until resolved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Expectation&lt;/b&gt;: TCL to resolve this within 8 hours&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="oesYtdPsf_cbNKxE6J5Z-1" vertex="1">
