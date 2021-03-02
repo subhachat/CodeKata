@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T11:03:18.467Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="8H_UdhFV_Ei_rFBF1J6H" version="14.4.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-03-02T11:20:56.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="m5JaZTNmCgyFBZ4mwErv" version="14.4.3" type="github" pages="12">
   <diagram id="RhtLAE1Mlf4OvtyMxZqe" name="Overall eSIM System Interactions">
-    <mxGraphModel dx="1701" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1649" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -306,7 +306,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IaSmkhFbeTDP3-BSdtkD" name="TCU Registration">
-    <mxGraphModel dx="1306" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1649" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="RpzHaVayalx9nMp1wObZ-0" />
         <mxCell id="RpzHaVayalx9nMp1wObZ-1" parent="RpzHaVayalx9nMp1wObZ-0" />
@@ -529,14 +529,14 @@
         <mxCell id="jXD54yJ0hzn1ioKkc1G_-3" value="&lt;h1&gt;Error Cause #400 (message content)&lt;/h1&gt;&lt;p&gt;Bad request (euiccid / iccid is not found) - failed in validation&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Action&lt;/u&gt;&lt;/b&gt;: DLQ and flag the euiccid, for withholding subsequent messages for the eUICCID;&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;b&gt;Expectation&lt;/b&gt;: &lt;br&gt;# TCL to add ability to validate eSIM details with eSIM HUB (to avoid saving non-TCL sim info)&lt;br&gt;&lt;br&gt;## WCar/JLR to resolve within 1 week&lt;br&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="RpzHaVayalx9nMp1wObZ-1">
           <mxGeometry x="1080" y="720" width="190" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="UR8PNEO0NXK2_IQxG5QX-0" value="&lt;h1&gt;JLR Expects&lt;/h1&gt;&lt;p&gt;This event must occur in sequence, skipping which would fail to deliver other lifecycle events to TCL.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Reconcile&lt;/b&gt; - within 1 week, from the alert of message failure&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="RpzHaVayalx9nMp1wObZ-1">
+        <mxCell id="UR8PNEO0NXK2_IQxG5QX-0" value="&lt;h1&gt;JLR Expects&lt;/h1&gt;&lt;p&gt;This event must occur in sequence, skipping which would fail to deliver other lifecycle events to TCL.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Reconcile&lt;/b&gt; - recover within 1 week, from the alert of message failure&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="RpzHaVayalx9nMp1wObZ-1">
           <mxGeometry x="720" y="22" width="320" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="kRq24Itg5GWNOGSFQb2v" name="GSM Comms Test">
-    <mxGraphModel dx="1306" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1649" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VKY7mcPc9pdi348JQNVr-0" />
         <mxCell id="VKY7mcPc9pdi348JQNVr-1" parent="VKY7mcPc9pdi348JQNVr-0" />
@@ -763,7 +763,7 @@
         </mxCell>
         <mxCell id="A_KSWRBMAwLPUeFDh9hg-67" value="IF-TATA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="A_KSWRBMAwLPUeFDh9hg-66" vertex="1" connectable="0">
           <mxGeometry x="-0.1055" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-2" y="36.86" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="A_KSWRBMAwLPUeFDh9hg-68" value="IF-eSIM" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" parent="VKY7mcPc9pdi348JQNVr-1" source="A_KSWRBMAwLPUeFDh9hg-53" edge="1">
@@ -799,14 +799,14 @@
         <mxCell id="6Gkywwd-YB89xKkcVRd0-2" value="&lt;h1&gt;Error Cause #404 (infra related)&lt;/h1&gt;&lt;p&gt;TCL internal processing modules are not up and running (behind API GW).&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Action&lt;/b&gt;: RETRY &lt;b&gt;until resolved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Expectation&lt;/b&gt;: TCL to resolve this within 8 hours&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="VKY7mcPc9pdi348JQNVr-1">
           <mxGeometry x="1080" y="523" width="190" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="eUKJKtCMnR6A9xjSmiJc-0" value="&lt;h1&gt;JLR Expects&lt;/h1&gt;&lt;p&gt;This state change event can be covered by any future events of a state change, as TCL isn&#39;t storing individual state changes, rather just setting a trigger state goes when from &quot;logistics&quot; to &quot;silent_leg&quot;&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="VKY7mcPc9pdi348JQNVr-1">
+        <mxCell id="eUKJKtCMnR6A9xjSmiJc-0" value="&lt;h1&gt;JLR Expects&lt;/h1&gt;&lt;p&gt;This state change event can be covered by any future events of a state change, as TCL isn&#39;t storing individual state changes, except just setting a trigger when state goes from &quot;logistics&quot; to &quot;silent_leg&quot;&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="VKY7mcPc9pdi348JQNVr-1">
           <mxGeometry x="890" y="22" width="150" height="218" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="TabcHhocYSsyTMIPGtt4" name="EoL - ABS">
-    <mxGraphModel dx="1306" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1649" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="vROOJjTgnusdTpPtQLWc-0" />
         <mxCell id="vROOJjTgnusdTpPtQLWc-1" parent="vROOJjTgnusdTpPtQLWc-0" />
@@ -1651,7 +1651,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WkMA92fEzbvKoi7kyv_E" name="Part Replacement at PDI">
-    <mxGraphModel dx="1306" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1649" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="D3IT1hMb6fb6iIDiYIUc-0" />
         <mxCell id="D3IT1hMb6fb6iIDiYIUc-1" parent="D3IT1hMb6fb6iIDiYIUc-0" />
@@ -1944,11 +1944,11 @@
         <mxCell id="ZYM3YzosjCp-2EGWDWHa-1" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;Impact on failure&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;# Static IP not assigned in the network and set in WCar&lt;br&gt;&lt;br&gt;## WCar can&#39;t use a fall-back of UDP in the messages to wakeup sequence&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;overflow=fill;whiteSpace=wrap;" parent="D3IT1hMb6fb6iIDiYIUc-1" vertex="1">
           <mxGeometry x="308" y="590" width="160" height="153" as="geometry" />
         </mxCell>
-        <mxCell id="ZYM3YzosjCp-2EGWDWHa-2" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Process to Mitigate&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;# Retry of the Operation (TU-initiated) - some cases, multiple attempts (as seen in Graz line trial)&lt;br&gt;&lt;br&gt;# backend initiated operations (remote, SVT, prov/force config/FA etc.) should be working on SM(S)-MT.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;overflow=fill;whiteSpace=wrap;fontColor=#333333;" parent="D3IT1hMb6fb6iIDiYIUc-1" vertex="1">
+        <mxCell id="ZYM3YzosjCp-2EGWDWHa-2" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Process to Mitigate&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;# Retry of the Operation (TU-initiated) - some cases, multiple attempts (as seen in Graz line trial)&lt;br&gt;&lt;br&gt;# Backend initiated operations (remote, SVT, prov/force config/FA etc.) should be working on SM(S)-MT.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;overflow=fill;whiteSpace=wrap;fontColor=#333333;" parent="D3IT1hMb6fb6iIDiYIUc-1" vertex="1">
           <mxGeometry x="308" y="741" width="160" height="179" as="geometry" />
         </mxCell>
-        <mxCell id="BX20UteXnxG4C7c4ZYDz-0" value="&lt;h1&gt;JLR Expects&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Monitoring and alerting should be in place from TCL to JLR, for such failures&lt;/b&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="D3IT1hMb6fb6iIDiYIUc-1">
-          <mxGeometry x="919" y="38" width="320" height="110" as="geometry" />
+        <mxCell id="BX20UteXnxG4C7c4ZYDz-0" value="&lt;h1&gt;JLR Expects&lt;/h1&gt;&lt;p&gt;# Monitoring and alerting should be in place from TCL&amp;nbsp; / WCar to JLR, for such failures&lt;br&gt;&lt;/p&gt;&lt;p&gt;## WCar to add a proactive monitoring for no IP assigned to a VDC that has sent VehicleProfile to TCL&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="D3IT1hMb6fb6iIDiYIUc-1">
+          <mxGeometry x="920" y="38" width="319" height="122" as="geometry" />
         </mxCell>
         <mxCell id="4Tv3wZOYmPNRnhY5whRL-0" value="&lt;h1&gt;Error Cause #504 (infra related)&lt;/h1&gt;&lt;p&gt;IF-TATA isn&#39;t up and running&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;u&gt;Action&lt;/u&gt;&lt;/b&gt;: RETRY &lt;b&gt;until resolved&lt;/b&gt;,&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Expectation&lt;/b&gt;: TCL to resolve this within 8 hours&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="D3IT1hMb6fb6iIDiYIUc-1">
           <mxGeometry x="1159" y="183" width="190" height="210" as="geometry" />
