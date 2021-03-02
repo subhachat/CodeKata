@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T15:05:05.003Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="y1ss8D0QMyGnVNNOc0fD" version="14.4.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-03-02T15:09:10.776Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="AZamVlq0HOu68rHcXqHI" version="14.4.3" type="github" pages="12">
   <diagram id="RhtLAE1Mlf4OvtyMxZqe" name="Overall eSIM System Interactions">
-    <mxGraphModel dx="1442" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -306,7 +306,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IaSmkhFbeTDP3-BSdtkD" name="TCU Registration">
-    <mxGraphModel dx="1160" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="RpzHaVayalx9nMp1wObZ-0" />
         <mxCell id="RpzHaVayalx9nMp1wObZ-1" parent="RpzHaVayalx9nMp1wObZ-0" />
@@ -530,7 +530,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kRq24Itg5GWNOGSFQb2v" name="GSM Comms Test">
-    <mxGraphModel dx="1160" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VKY7mcPc9pdi348JQNVr-0" />
         <mxCell id="VKY7mcPc9pdi348JQNVr-1" parent="VKY7mcPc9pdi348JQNVr-0" />
@@ -794,7 +794,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TabcHhocYSsyTMIPGtt4" name="EoL - ABS">
-    <mxGraphModel dx="1160" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="1691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="vROOJjTgnusdTpPtQLWc-0" />
         <mxCell id="vROOJjTgnusdTpPtQLWc-1" parent="vROOJjTgnusdTpPtQLWc-0" />
@@ -1033,7 +1033,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fw48ju8wUHmtm9Oy2YRo" name="PDI at factory">
-    <mxGraphModel dx="1160" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="4bP8FtH4IolprEwvIJyH-0" />
         <mxCell id="4bP8FtH4IolprEwvIJyH-1" parent="4bP8FtH4IolprEwvIJyH-0" />
@@ -1330,7 +1330,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bhy-fo8mKoRiWW_Huwhy" name="Port of Entry - PDI">
-    <mxGraphModel dx="1160" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="I9a4XHafPSlzATrHFXFj-0" />
         <mxCell id="I9a4XHafPSlzATrHFXFj-1" parent="I9a4XHafPSlzATrHFXFj-0" />
@@ -1627,7 +1627,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WkMA92fEzbvKoi7kyv_E" name="Part Replacement at PDI">
-    <mxGraphModel dx="1160" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="D3IT1hMb6fb6iIDiYIUc-0" />
         <mxCell id="D3IT1hMb6fb6iIDiYIUc-1" parent="D3IT1hMb6fb6iIDiYIUc-0" />
@@ -1942,7 +1942,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DxFScJhFD7KsGWzRhGXI" name="BUV-TSDP">
-    <mxGraphModel dx="1160" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="fNIDHQVdcrighkxgQhuE-0" />
         <mxCell id="fNIDHQVdcrighkxgQhuE-1" parent="fNIDHQVdcrighkxgQhuE-0" />
@@ -2239,7 +2239,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="V7ZFmKmCUg2I0Od3sel1" name="FA-TSDP">
-    <mxGraphModel dx="1160" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="hjz-TS55Fly1ZSjEuJZ4-0" />
         <mxCell id="hjz-TS55Fly1ZSjEuJZ4-1" parent="hjz-TS55Fly1ZSjEuJZ4-0" />
@@ -2536,7 +2536,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lxKPNXSSpFSPzb-IEIKw" name="Part Replacement at Service">
-    <mxGraphModel dx="1160" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="oesYtdPsf_cbNKxE6J5Z-0" />
         <mxCell id="oesYtdPsf_cbNKxE6J5Z-1" parent="oesYtdPsf_cbNKxE6J5Z-0" />
@@ -2841,7 +2841,7 @@
         <mxCell id="e7DCq0z2gnjGppxZUUOr-3" value="&lt;h1&gt;Error Cause #404 (infra related)&lt;/h1&gt;&lt;p&gt;TCL internal processing modules are not up and running (behind API GW).&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Action&lt;/b&gt;: WCar to RETRY &lt;b&gt;until resolved&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Expectation&lt;/b&gt;: TCL to resolve this within 8 hours&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="oesYtdPsf_cbNKxE6J5Z-1" vertex="1">
           <mxGeometry x="1256" y="533" width="190" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="QrYKrTCKW3RRIRfhygUq-0" value="&lt;h1&gt;JLR Expects&lt;/h1&gt;&lt;p&gt;# Monitoring and alerting should be in place &lt;font color=&quot;#0000ff&quot;&gt;from TCL &amp;amp; WCar to JLR&lt;/font&gt;, for &lt;font color=&quot;#0000ff&quot;&gt;the replacement event failures&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;## IF-eSIM failure - TCL should retry for next 8 hours&lt;/p&gt;&lt;p&gt;### WCar to add proactive monitoring for no IP assigned to a VDC that has sent VehicleProfile to TCL&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="oesYtdPsf_cbNKxE6J5Z-1">
+        <mxCell id="QrYKrTCKW3RRIRfhygUq-0" value="&lt;h1&gt;JLR Expects&lt;/h1&gt;&lt;p&gt;# Monitoring and alerting should be in place &lt;font color=&quot;#0000ff&quot;&gt;from TCL &amp;amp; WCar to JLR&lt;/font&gt;, for &lt;font color=&quot;#0000ff&quot;&gt;the replacement event failures&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;## IF-eSIM failure - TCL should retry for next 8 hours&lt;/p&gt;&lt;p&gt;### &lt;font color=&quot;#0000ff&quot;&gt;WCar to add proactive monitoring &amp;amp; alerting&lt;/font&gt; for no IP assigned to a VDC that has sent VehicleProfile to TCL&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="oesYtdPsf_cbNKxE6J5Z-1">
           <mxGeometry x="919" y="39" width="319" height="152" as="geometry" />
         </mxCell>
       </root>
