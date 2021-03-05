@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T14:01:31.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="hgSEW8IFZZljkKAg9Uer" version="14.4.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-05T14:02:23.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="KAIZBeDnM8T6oOf_evzO" version="14.4.4" type="github" pages="2">
   <diagram id="RKgw7NWyR4_IA50PSXi3" name="Page-1">
     <mxGraphModel dx="1022" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -219,7 +219,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZDS3lEpDy90F4QYVIH9w" name="Option 1 - Anthos BMCtl">
-    <mxGraphModel dx="920" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="1691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="goQCptSuUJL0mUhyzHnP-0" />
         <mxCell id="goQCptSuUJL0mUhyzHnP-1" parent="goQCptSuUJL0mUhyzHnP-0" />
@@ -273,7 +273,7 @@
         <mxCell id="goQCptSuUJL0mUhyzHnP-13" value="NVSM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="goQCptSuUJL0mUhyzHnP-1">
           <mxGeometry x="421.5" y="230" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="goQCptSuUJL0mUhyzHnP-19" value="&lt;h1&gt;Capacity&lt;/h1&gt;&lt;p&gt;# &lt;b&gt;8 x&lt;/b&gt; A100 GPUs&lt;/p&gt;&lt;p&gt;# &lt;b&gt;128 x&lt;/b&gt; CPU cores = 1:n vCPUs&lt;/p&gt;&lt;p&gt;# &lt;b&gt;1 TB&lt;/b&gt; in-box RAM&lt;/p&gt;&lt;p&gt;# &lt;b&gt;15 TB&lt;/b&gt; in-box storage&lt;/p&gt;&lt;p&gt;# &lt;b&gt;10/200&lt;/b&gt; GbE data rate (NIC-vLAN)&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="goQCptSuUJL0mUhyzHnP-1">
+        <mxCell id="goQCptSuUJL0mUhyzHnP-19" value="&lt;h1&gt;Single Blade ~Capacity&lt;/h1&gt;&lt;p&gt;# &lt;b&gt;8 x&lt;/b&gt; A100 GPUs&lt;/p&gt;&lt;p&gt;# &lt;b&gt;128 x&lt;/b&gt; CPU cores = 1:n vCPUs&lt;/p&gt;&lt;p&gt;# &lt;b&gt;1 TB&lt;/b&gt; in-box RAM&lt;/p&gt;&lt;p&gt;# &lt;b&gt;15 TB&lt;/b&gt; in-box storage&lt;/p&gt;&lt;p&gt;# &lt;b&gt;10/200&lt;/b&gt; GbE data rate (NIC-vLAN)&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="goQCptSuUJL0mUhyzHnP-1">
           <mxGeometry x="550" y="3" width="200" height="180" as="geometry" />
         </mxCell>
         <mxCell id="goQCptSuUJL0mUhyzHnP-20" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="goQCptSuUJL0mUhyzHnP-1">
