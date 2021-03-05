@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T13:58:33.432Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="fLcDYs4wLSe5aEKpFjFJ" version="14.4.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-05T13:59:59.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.81" etag="RPjByPgvVQIbI3kqJ7TE" version="14.4.4" type="github" pages="2">
   <diagram id="RKgw7NWyR4_IA50PSXi3" name="Page-1">
     <mxGraphModel dx="1022" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -219,7 +219,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZDS3lEpDy90F4QYVIH9w" name="Option 1 - Anthos BMCtl">
-    <mxGraphModel dx="782" dy="1613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="1691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="goQCptSuUJL0mUhyzHnP-0" />
         <mxCell id="goQCptSuUJL0mUhyzHnP-1" parent="goQCptSuUJL0mUhyzHnP-0" />
@@ -535,6 +535,15 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="980" y="359" as="sourcePoint" />
             <mxPoint x="1057" y="359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="goQCptSuUJL0mUhyzHnP-126" value="&lt;font size=&quot;1&quot;&gt;Atlas Meta API over HTTPs&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;fontStyle=1" vertex="1" parent="goQCptSuUJL0mUhyzHnP-1">
+          <mxGeometry x="722" y="410" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="goQCptSuUJL0mUhyzHnP-128" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=11;dashed=1;" edge="1" parent="goQCptSuUJL0mUhyzHnP-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="440" as="sourcePoint" />
+            <mxPoint x="650" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
