@@ -6,6 +6,7 @@ public class ScannerExample {
 
     public static void main(String... args) {
         Scanner scanner = new Scanner(System.in);
+        //Scanner scan = new Scanner(System.in).useDelimiter("\\r\\n|[\\n\\r\\u2028\\u2029\\u0085]");
         System.out.println("Enter name, age and phone number: ");
         Person person = new Person(scanner.next(), scanner.nextInt(), scanner.nextLong());
     }

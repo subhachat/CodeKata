@@ -1,8 +1,6 @@
 package poc.basic;
 
-import javax.swing.*;
-import javax.swing.plaf.synth.SynthSpinnerUI;
-import javax.swing.text.html.Option;
+import java.util.Calendar;
 import java.util.InputMismatchException;
 import java.util.Optional;
 import java.util.Scanner;
@@ -12,8 +10,10 @@ import java.util.Scanner;
  */
 public class RunNewSwitch {
     public static void main(String[] args) {
+        System.out.println(findDay(8,5,2015));
         System.out.println("----------------");
         System.out.print("Enter the choice: ");
+
         Scanner entryPoint = new Scanner(System.in);
         try {
             Optional<Integer> choice = Optional.of(entryPoint.nextInt());
@@ -37,5 +37,25 @@ public class RunNewSwitch {
         catch(NullPointerException ex){
             System.out.println("--No Input provided--");
         }
+    }
+    public static String findDay(int month, int day, int year) {
+        if (year < 2000 || year > 3000) {
+            return "";
+        }
+        Calendar calendar = Calendar.getInstance();
+        System.out.println("Calendar date->"+calendar.getTime());
+        calendar.set(year, month-1, day); //month starts from 0
+        System.out.println("Calendar date->"+calendar.getTime());
+        String dayOfWeek = switch(calendar.get(Calendar.DAY_OF_WEEK)) {
+            case 1 -> "SUNDAY";
+            case 2 -> "MONDAY";
+            case 3 -> "TUESDAY";
+            case 4 -> "WEDNESDAY";
+            case 5 -> "THURSDAY";
+            case 6 -> "FRIDAY";
+            case 7 -> "SATURDAY";
+            default -> "";
+        };
+        return dayOfWeek;
     }
 }
