@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T10:32:54.343Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="jlR9_ZPIBccpipFwieD7" version="14.4.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-03-11T10:34:32.505Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36 Edg/89.0.774.48" etag="M-nRUX38iYwPuuSHS5JA" version="14.4.5" type="github" pages="3">
   <diagram id="RKgw7NWyR4_IA50PSXi3" name="Blackbox approach">
     <mxGraphModel dx="734" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -232,7 +232,7 @@
         <mxCell id="goQCptSuUJL0mUhyzHnP-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;fontSize=11;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="goQCptSuUJL0mUhyzHnP-1" source="goQCptSuUJL0mUhyzHnP-82" target="goQCptSuUJL0mUhyzHnP-85" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="goQCptSuUJL0mUhyzHnP-87" value="JLR SD-WAN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="goQCptSuUJL0mUhyzHnP-86" vertex="1" connectable="0">
+        <mxCell id="goQCptSuUJL0mUhyzHnP-87" value="IPLink / LAN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="goQCptSuUJL0mUhyzHnP-86" vertex="1" connectable="0">
           <mxGeometry x="0.2274" y="3" relative="1" as="geometry">
             <mxPoint x="-1" y="-44" as="offset" />
           </mxGeometry>
@@ -315,10 +315,10 @@
         <mxCell id="goQCptSuUJL0mUhyzHnP-39" value="ADAS-VPC" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAACgAAAAnCAYAAAB9qAq4AAAFSklEQVRYCe2Y6U9UVxjG+cfalMXE5ZOpS2ObfqgIwypWRG1i06osonVDrMo2AzMDWCuLWsGiaJTWFbSISm2ptqLGyiLMvefuv+bcQZmBOMrQ+dDGmzyZO5lz8jzznnOe875v0vFrBpFovWEQ7NHJr1dJr1LJqAnD47MpahSMhhzifV6ocKLX4MRNXnG23TDwXdTJrFVZUz3Nt6ZGUNSokRQpTr7/pwVubBKoevwRVPVERtBrsT4g+OVPi6FntosHf9s8GXfeCo/H5ByH9huJWuJaldVVKgt3KKSWClJLBIvKFXePZnsFWXWxkVmn8eUxjZbrBu19dgL24JTABWUKySWC5GLBwnJBeo1BltfAU/cG+By+OJpggZ8dUVlQbpG2C9J2wpK9kOWHvEbIDb4BzbAhmEiBdRqeWpX8Bo28ekGuV7DOL9h5SmdPh87u029Ah0lVd9gl2vucBCzxlA+OhECeY9sJYy6eOCkSeYqnBEqzjfeZiEfgmUF4ic570Nlvcfyq4S5fRo1GTgAXec2Q51N5PmnHq49xJXyDdA+FOTvvwpl+k+bLBtleFU/tNF92ANYFTJKuDVlI9D6w6PnVZHeHztbjAnkgMqoFB7sMDp/TOdRt09BjENLj1oc06psPbfoehj+luJJ2zT3dqw6qrD6icuBHncPnNL49a+DvMUmKpBtVHBbvVPigWCNth8nHlSrKq5sj/hskkiPyvfcPi/e3hXhvmyClVGdlhcqkiOaJEjgScliyUxqxQdoOm5UVCpNa9IRIgvm+Xx+ySCsJkVqqkVpmsGK/ygs1mi9K4PPJcASTi3VSSi1W7FeYmPGP5isqcv7V3y1SihWSizWSSww+3KsyNiNbihI4psCnh1SWVRisqLTJrJkd8kiC+b7fHbb56IDK8gqd5ZU2OV5BaMaKRQmU4V0XUMmut8j1w+bm2RPmKypy/qMRmwK/IGeKr7hNw7AiRxB9SKTAAr+Kx2eR3QCbmhIr8K8Rm/x6QdYU37ZWDd18JzA6ArG+vYtgrOi8zW/vIvg2UYo15v8XQXmt5TeoeOodsv1hHxRG9N0YKyJz/U0ada5PkDXFJ33QmpHNJTkOSMhHGnVRkyDPb7I24LDlO8GY4qCZDprhuC7/b8h9yfdo1GF9UCPfb1EQhNITupvNSD5p2PJWSbo4aCFxadDiwl2L5isG3gsGm5sEhQHB9laN7W0SFvs69HklD4oOP9+36LnvcGnQ5OxAOFmtPm9QGBRsCE7zbW3RqOjUSTo9AFHoh2NXbdY2aKRX63h8Dp56yA5CQYPKyGT8MZTlgqyLu+6HOX8YgI5+CF62kXVzRq3ubi/Jl1kPaxvE3HozG5u0WdnGXPZdSEtw0SSX4LenNk/HHRfPJhzksslUXmbesSDHPJtIpMBa4bY5VlWqLNunuPjkoMqWYxpft2h89b2IjRaDvR262z1LTF1cq7qFVFqZIKXMJKXUZNE3prtXZOUnbSkWcoIgt0hCezOy0kstVUgp1Ugp0Vi4SyfD65Dd4LheJv3stZC+2pxQgcLtgC7do7qV3+JyhaV7FNcaNh8VbvYtM/DXYdNRnfKTOq0J6275LNer7g3bDI86DI85PBlzGFcc1+ClyceCHPd4zElsC1h2WBVtLsYSPVae+Dn3qNv7IBInb0HzFYf8eo3VVQLZzJbI9DkUBlRk7RzvI41aNs1P357mPHUL/D/ZZNQK0qun+dJrNAqDGkldty0ice6Oxcle07WPzwOCDY2ai/WNJtvb9FmF9VzEyq7B+TsmXQP2K87uO6bbiitqCgt6ySfFFbfp/AP7mZbklTpogAAAAABJRU5ErkJggg==;" parent="goQCptSuUJL0mUhyzHnP-1" vertex="1">
           <mxGeometry x="930" y="241" width="40" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="goQCptSuUJL0mUhyzHnP-43" value="Budapest Centre&amp;nbsp;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="goQCptSuUJL0mUhyzHnP-1" vertex="1">
+        <mxCell id="goQCptSuUJL0mUhyzHnP-43" value="Budapest Centre&amp;nbsp;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="goQCptSuUJL0mUhyzHnP-1" vertex="1">
           <mxGeometry x="346" y="50" width="128" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="goQCptSuUJL0mUhyzHnP-45" value="Gaydon JPC&amp;nbsp;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="goQCptSuUJL0mUhyzHnP-1" vertex="1">
+        <mxCell id="goQCptSuUJL0mUhyzHnP-45" value="Budapest Centre" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="goQCptSuUJL0mUhyzHnP-1" vertex="1">
           <mxGeometry x="144.1" y="456.00000000000006" width="128" height="20" as="geometry" />
         </mxCell>
         <mxCell id="goQCptSuUJL0mUhyzHnP-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=classic;startFill=1;" parent="goQCptSuUJL0mUhyzHnP-1" source="goQCptSuUJL0mUhyzHnP-54" target="goQCptSuUJL0mUhyzHnP-48" edge="1">
@@ -536,7 +536,7 @@
         <mxCell id="IPknPwYpwGhpL5Uo5BQT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;fontSize=11;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="Pubf-G392jjU1klfQDG4-1" source="IPknPwYpwGhpL5Uo5BQT-54" target="IPknPwYpwGhpL5Uo5BQT-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IPknPwYpwGhpL5Uo5BQT-2" value="JLR SD-WAN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="IPknPwYpwGhpL5Uo5BQT-1" vertex="1" connectable="0">
+        <mxCell id="IPknPwYpwGhpL5Uo5BQT-2" value="IPLink / LAN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="IPknPwYpwGhpL5Uo5BQT-1" vertex="1" connectable="0">
           <mxGeometry x="0.2274" y="3" relative="1" as="geometry">
             <mxPoint x="-1" y="-44" as="offset" />
           </mxGeometry>
@@ -562,7 +562,7 @@
         <mxCell id="IPknPwYpwGhpL5Uo5BQT-26" value="Budapest Centre&amp;nbsp;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="Pubf-G392jjU1klfQDG4-1" vertex="1">
           <mxGeometry x="331" y="20" width="128" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IPknPwYpwGhpL5Uo5BQT-27" value="Gaydon JPC&amp;nbsp;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="Pubf-G392jjU1klfQDG4-1" vertex="1">
+        <mxCell id="IPknPwYpwGhpL5Uo5BQT-27" value="Budapest Centre" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="Pubf-G392jjU1klfQDG4-1" vertex="1">
           <mxGeometry x="144.1" y="456.00000000000006" width="128" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IPknPwYpwGhpL5Uo5BQT-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=classic;startFill=1;" parent="Pubf-G392jjU1klfQDG4-1" source="IPknPwYpwGhpL5Uo5BQT-34" target="IPknPwYpwGhpL5Uo5BQT-32" edge="1">
