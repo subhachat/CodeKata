@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-28T20:38:25.341Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="6BtoU9U1w-JPYbiivSaa" version="14.4.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-28T20:56:25.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.57" etag="VgqwdtSpFExzNigTY4Cg" version="14.4.7" type="github" pages="2">
   <diagram id="uHg2M62qo6NZoDfr9aK8" name="Site Connectivity">
-    <mxGraphModel dx="766" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="766" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,6 +51,31 @@
         </mxCell>
         <mxCell id="pht8xzdm1uelEmTHXrsV-5" value="Cellular comms for OTA Updates; Device Registration etc." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="390" y="199" width="90" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pht8xzdm1uelEmTHXrsV-6" value="" style="endArrow=classic;html=1;exitX=0.998;exitY=0.099;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0S-HL5mt22aXcAo0I6y7-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="180" as="sourcePoint" />
+            <mxPoint x="450" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pht8xzdm1uelEmTHXrsV-7" value="Telemetry Data (Usage, Measurement etc.)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pht8xzdm1uelEmTHXrsV-6">
+          <mxGeometry x="0.4996" y="4" relative="1" as="geometry">
+            <mxPoint x="12.59" y="-6.93" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pht8xzdm1uelEmTHXrsV-8" value="" style="endArrow=classic;html=1;exitX=0.998;exitY=0.099;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320.0000000000001" y="370.00000000000006" as="sourcePoint" />
+            <mxPoint x="450.6" y="370.3" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pht8xzdm1uelEmTHXrsV-9" value="Defined Lifecycle Events" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pht8xzdm1uelEmTHXrsV-8">
+          <mxGeometry x="0.4996" y="4" relative="1" as="geometry">
+            <mxPoint x="12.59" y="-6.93" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pht8xzdm1uelEmTHXrsV-10" value="Data OUT" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="70" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
