@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-30T09:35:52.294Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="-rJERteyq1Po_H3O8kw2" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-30T09:36:09.910Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="rESPPMRsOpFF-Yc3CqsW" version="14.5.3" type="github">
   <diagram id="ceprUiyGEml_yHLul9-K" name="Page-1">
     <mxGraphModel dx="720" dy="1599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -112,7 +112,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="287tNrZyWG9NeqH0reyR-10" value="Russia GLONASS scenario" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0000FF;" parent="1" vertex="1">
-          <mxGeometry x="370" y="140" width="40" height="20" as="geometry" />
+          <mxGeometry x="361" y="140" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="287tNrZyWG9NeqH0reyR-11" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
