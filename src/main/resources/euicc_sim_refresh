@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-30T14:04:58.380Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="H-E4F8grzE-uzBZCGN-M" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-30T14:19:39.009Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="k9ikxSVYKv5fAR_gqDWh" version="14.5.3" type="github">
   <diagram id="ceprUiyGEml_yHLul9-K" name="Page-1">
     <mxGraphModel dx="720" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,7 +67,7 @@
           <mxGeometry x="-61" y="101" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="287tNrZyWG9NeqH0reyR-3" value="qComm NAD" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;lifelineDashed=0;" parent="1" vertex="1">
-          <mxGeometry x="330" y="39" width="100" height="1000" as="geometry" />
+          <mxGeometry x="330" y="39" width="100" height="951" as="geometry" />
         </mxCell>
         <mxCell id="287tNrZyWG9NeqH0reyR-18" value="" style="endArrow=classic;html=1;" parent="287tNrZyWG9NeqH0reyR-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -263,6 +263,12 @@
         </mxCell>
         <mxCell id="ZVxGhtTFbXnyXL3Z85gR-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/gradient-ui-1/512/success-128.png;fillColor=#E6E6E6;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="420" y="840" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVxGhtTFbXnyXL3Z85gR-9" value="&lt;h1&gt;ERA-GLONASS&lt;/h1&gt;&lt;p&gt;In this case, device initiates the local swap to Emergency SIM Profile.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Device has to wait, till EUICC responds back with &quot;UICC RESET&quot; command.&lt;/p&gt;&lt;p&gt;Device shouldn&#39;t consider any other handler/voting-app, at this point. It should disconnect from the network, let the SIM REFRESH happen and reconnect with new Profile IMSI.&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;However, as LGE has implemented generically, the device always checks the handler/voting-app status (e.g. ECALL active) upon receiving a &quot;UICC RESET&quot; instruction from eSIM. This is &lt;b&gt;counter-intuitive&lt;/b&gt; and is blocking the local swap as well.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=#FF6666;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="834" y="209" width="190" height="385" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVxGhtTFbXnyXL3Z85gR-10" value="&lt;h1&gt;Remote SIM Provisioning (eUICC) - PCR084&lt;/h1&gt;&lt;p&gt;In this case, network operator initiates the download and activation of a new SIM profile.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Once new profile is downloaded and setup, the network operator triggers activation of new profile, EUICC instructs Device with &quot;UICC RESET&quot; command.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;Device MUST check the handler/voting-app status (e.g. ECALL active) upon receiving a &quot;UICC RESET&quot; instruction from eSIM." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=#B9E0A5;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="834" y="650" width="190" height="385" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
