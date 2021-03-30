@@ -1,1 +1,124 @@
-<mxfile host="app.diagrams.net" modified="2021-03-30T08:58:43.545Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" version="14.5.3" etag="L_2WYuaKuZd0lN3SBROT" type="github"><diagram id="ceprUiyGEml_yHLul9-K">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-30T09:09:37.411Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="bP0Rc44lYkwSCs0J1Zjr" version="14.5.3" type="github">
+  <diagram id="ceprUiyGEml_yHLul9-K" name="Page-1">
+    <mxGraphModel dx="720" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="287tNrZyWG9NeqH0reyR-1" value="Backend(TCL)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-2" value="eUICC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;lifelineDashed=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="100" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-3" value="qComm NAD" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;lifelineDashed=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-30" width="100" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-18" value="" style="endArrow=classic;html=1;" edge="1" parent="287tNrZyWG9NeqH0reyR-3" target="287tNrZyWG9NeqH0reyR-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="570" as="sourcePoint" />
+            <mxPoint x="100" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-19" value="SIM REFRESH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="287tNrZyWG9NeqH0reyR-18">
+          <mxGeometry x="0.5099" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-4" value="qComm RIL" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;lifelineDashed=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="100" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-5" value="LGE Telephony" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;lifelineDashed=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="100" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-6" value="LGE Telematics eCALL app" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;lifelineDashed=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="40" width="100" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-8" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="287tNrZyWG9NeqH0reyR-5" target="287tNrZyWG9NeqH0reyR-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="270" as="sourcePoint" />
+            <mxPoint x="610" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-9" value="initiate local swap" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="287tNrZyWG9NeqH0reyR-8">
+          <mxGeometry x="-0.1542" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-10" value="Russia GLONASS scenario" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="220" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-11" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="369.5" y="260" as="sourcePoint" />
+            <mxPoint x="249.5" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-12" value="localSwapToEmergencySubscription()&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="287tNrZyWG9NeqH0reyR-11">
+          <mxGeometry x="-0.1861" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-14" value="self check on emergency attribute setting" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;" edge="1" parent="1" source="287tNrZyWG9NeqH0reyR-2" target="287tNrZyWG9NeqH0reyR-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="330" as="sourcePoint" />
+            <mxPoint x="300" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="280" />
+              <mxPoint x="320" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-15" value="active emrgency profile pointer changes" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="249.5" y="340" as="sourcePoint" />
+            <mxPoint x="249.5" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="340" />
+              <mxPoint x="320" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-16" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="287tNrZyWG9NeqH0reyR-2" target="287tNrZyWG9NeqH0reyR-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="520" as="sourcePoint" />
+            <mxPoint x="340" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-17" value="UICC RESET" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="287tNrZyWG9NeqH0reyR-16">
+          <mxGeometry x="0.0795" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-20" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="287tNrZyWG9NeqH0reyR-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="200" as="sourcePoint" />
+            <mxPoint x="740" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-21" value="ecall active; registers as handler" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="287tNrZyWG9NeqH0reyR-20">
+          <mxGeometry x="-0.6356" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-22" value="SIM REFRESH" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="489.5" y="559" as="sourcePoint" />
+            <mxPoint x="609.5" y="559" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="287tNrZyWG9NeqH0reyR-23" value="REJECT REFRESH" style="endArrow=none;html=1;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="609.5" y="582" as="sourcePoint" />
+            <mxPoint x="749.5" y="582" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
