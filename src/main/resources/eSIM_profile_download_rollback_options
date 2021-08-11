@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T17:07:41.171Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.67" etag="FBQnXsJp77vwGGepj9P3" version="14.9.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-11T17:08:07.376Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.67" etag="UIpgFJxYRQikucwmLguB" version="14.9.6" type="github" pages="3">
   <diagram id="o14QBn56q6MLoyCRFcxh" name="Page-1">
     <mxGraphModel dx="782" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -336,9 +336,6 @@
         <mxCell id="_8-L_BAsHSghYgfN5HeI-1" parent="_8-L_BAsHSghYgfN5HeI-0" />
         <mxCell id="tpPSBTTPRGUjNM8SxLIQ-0" value="Service State IDLE" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;align=center;fillColor=#9999FF;" vertex="1" parent="_8-L_BAsHSghYgfN5HeI-1">
           <mxGeometry y="443" width="600" height="480" as="geometry" />
-        </mxCell>
-        <mxCell id="tpPSBTTPRGUjNM8SxLIQ-1" value="Mitigation" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=#2D7600;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="_8-L_BAsHSghYgfN5HeI-1">
-          <mxGeometry x="40" y="10" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tpPSBTTPRGUjNM8SxLIQ-2" value="WirelessCar eSIM LCM" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontSize=11;fontColor=#000000;fillColor=#E6E6E6;" vertex="1" parent="_8-L_BAsHSghYgfN5HeI-1">
           <mxGeometry x="180" y="80" width="40" height="1060" as="geometry" />
