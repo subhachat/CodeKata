@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-11T15:13:36.236Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.67" etag="ElETvmP9xqYBopCKJdl0" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-11T15:45:59.013Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.67" etag="VfsCj7v_IlfKlJFczqni" version="14.9.6" type="github">
   <diagram id="o14QBn56q6MLoyCRFcxh" name="Page-1">
     <mxGraphModel dx="782" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,89 +6,170 @@
         <mxCell id="1" parent="0" />
         <mxCell id="B7AVENNR_EoEJClaGK2q-1" value="" style="endArrow=none;html=1;startArrow=none;" edge="1" parent="1" source="B7AVENNR_EoEJClaGK2q-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="80" y="80" as="sourcePoint" />
-            <mxPoint x="640" y="80" as="targetPoint" />
+            <mxPoint x="80" y="138" as="sourcePoint" />
+            <mxPoint x="640" y="138" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-2" value="T0" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#9999FF;" vertex="1" parent="1">
-          <mxGeometry x="160" y="64" width="30" height="30" as="geometry" />
+          <mxGeometry x="160" y="122" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-3" value="" style="endArrow=none;html=1;" edge="1" parent="1" target="B7AVENNR_EoEJClaGK2q-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="80" y="80" as="sourcePoint" />
-            <mxPoint x="640" y="80" as="targetPoint" />
+            <mxPoint x="80" y="138" as="sourcePoint" />
+            <mxPoint x="640" y="138" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-4" value="T1" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#9999FF;" vertex="1" parent="1">
-          <mxGeometry x="320" y="64" width="30" height="30" as="geometry" />
+          <mxGeometry x="320" y="122" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-5" value="T2" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#00CC00;" vertex="1" parent="1">
-          <mxGeometry x="480" y="64" width="30" height="30" as="geometry" />
+          <mxGeometry x="480" y="122" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-6" value="T3" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#00CC00;" vertex="1" parent="1">
-          <mxGeometry x="640" y="64" width="30" height="30" as="geometry" />
+          <mxGeometry x="640" y="122" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-7" value="" style="endArrow=none;html=1;startArrow=none;" edge="1" parent="1" source="B7AVENNR_EoEJClaGK2q-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="160" as="sourcePoint" />
-            <mxPoint x="660" y="160" as="targetPoint" />
+            <mxPoint x="440" y="218" as="sourcePoint" />
+            <mxPoint x="660" y="218" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-8" value="T2A" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="480" y="145" width="30" height="30" as="geometry" />
+          <mxGeometry x="480" y="203" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-9" value="" style="endArrow=none;html=1;" edge="1" parent="1" target="B7AVENNR_EoEJClaGK2q-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="160" as="sourcePoint" />
-            <mxPoint x="660" y="160" as="targetPoint" />
+            <mxPoint x="440" y="218" as="sourcePoint" />
+            <mxPoint x="660" y="218" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-10" value="T3A" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="650" y="145" width="30" height="30" as="geometry" />
+          <mxGeometry x="650" y="203" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-11" value="" style="curved=1;endArrow=classic;html=1;startArrow=none;" edge="1" parent="1" source="B7AVENNR_EoEJClaGK2q-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="430" y="80" as="sourcePoint" />
-            <mxPoint x="440" y="160" as="targetPoint" />
+            <mxPoint x="430" y="138" as="sourcePoint" />
+            <mxPoint x="440" y="218" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-12" value="Pre-Download Activity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="99" width="110" height="21" as="geometry" />
+          <mxGeometry x="120" y="157" width="110" height="21" as="geometry" />
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-13" value="Download &amp;amp; Enable Begins" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="99" width="110" height="20" as="geometry" />
+          <mxGeometry x="280" y="157" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-14" value="Failure" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="410" y="115" width="30" height="20" as="geometry" />
+          <mxGeometry x="410" y="173" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-15" value="" style="curved=1;endArrow=none;html=1;" edge="1" parent="1" target="B7AVENNR_EoEJClaGK2q-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="430" y="80" as="sourcePoint" />
-            <mxPoint x="440" y="160" as="targetPoint" />
+            <mxPoint x="430" y="138" as="sourcePoint" />
+            <mxPoint x="440" y="218" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="440" y="110" />
-              <mxPoint x="420" y="100" />
+              <mxPoint x="440" y="168" />
+              <mxPoint x="420" y="158" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-16" value="Success" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#00CC00;" vertex="1" parent="1">
-          <mxGeometry x="440" y="60" width="30" height="20" as="geometry" />
+          <mxGeometry x="440" y="118" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-17" value="Download &amp;amp; Enable Ends" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="99" width="110" height="20" as="geometry" />
+          <mxGeometry x="440" y="157" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-18" value="Post Download Activity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="600" y="99" width="110" height="20" as="geometry" />
+          <mxGeometry x="600" y="157" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-19" value="RETRY: TCL CR#27" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="180" width="110" height="20" as="geometry" />
+          <mxGeometry x="440" y="238" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-20" value="Post RETRY Activity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="610" y="180" width="110" height="20" as="geometry" />
+          <mxGeometry x="610" y="238" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B7AVENNR_EoEJClaGK2q-23" value="FIG 1: Stages of SIM profile download" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="160" width="210" height="20" as="geometry" />
+          <mxGeometry x="90" y="198" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-24" value="FIG 2: TCU Critical Service State" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="654" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-25" value="IDLE" style="triangle;whiteSpace=wrap;html=1;fontColor=#00CC00;align=center;fillColor=#FFFFFF;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="120" y="564" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-26" value="INITIATED" style="triangle;whiteSpace=wrap;html=1;fontColor=#00CC00;align=center;fillColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="564" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-28" value="ACTIVE" style="triangle;whiteSpace=wrap;html=1;fontColor=#00CC00;align=center;fillColor=#FFFFFF;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="440" y="564" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-31" value="" style="endArrow=classic;html=1;fontSize=11;fontColor=#00CC00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B7AVENNR_EoEJClaGK2q-25" target="B7AVENNR_EoEJClaGK2q-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="624" as="sourcePoint" />
+            <mxPoint x="240" y="574" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-32" value="" style="endArrow=classic;html=1;fontSize=11;fontColor=#00CC00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B7AVENNR_EoEJClaGK2q-26" target="B7AVENNR_EoEJClaGK2q-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="624" as="sourcePoint" />
+            <mxPoint x="420" y="574" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-35" value="" style="endArrow=none;html=1;fontSize=11;fontColor=#00CC00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;" edge="1" parent="1" source="B7AVENNR_EoEJClaGK2q-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="604" as="sourcePoint" />
+            <mxPoint x="560" y="604" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-36" value="" style="endArrow=none;html=1;fontSize=11;fontColor=#00CC00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="684" as="sourcePoint" />
+            <mxPoint x="560" y="604" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-37" value="" style="endArrow=none;html=1;fontSize=11;fontColor=#00CC00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="684" as="sourcePoint" />
+            <mxPoint x="560" y="684" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-38" value="" style="endArrow=none;html=1;fontSize=11;fontColor=#00CC00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="684" as="sourcePoint" />
+            <mxPoint x="80" y="604" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-39" value="" style="endArrow=classic;html=1;fontSize=11;fontColor=#00CC00;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="B7AVENNR_EoEJClaGK2q-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="604" as="sourcePoint" />
+            <mxPoint x="120" y="564" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-42" value="TCL runs &lt;b&gt;POST /eSimProfile/ &lt;/b&gt;with data { &lt;b&gt;eUICCID&lt;/b&gt;, new-imsi, new-&lt;b&gt;msisdn&lt;/b&gt;, new-iccid, new-&lt;b&gt;ipv4&lt;/b&gt; }" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;align=left;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="120" y="38" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-43" value="NW Backend initiates Profile { Download - install - enabling } for the eUICC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;align=left;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="38" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-44" value="NW Backend&amp;nbsp;receives Profile switch confirmation from eUICC" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;align=left;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="440" y="38" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-45" value="# TCL OSS/BSS activity completes. &lt;br&gt;## No interaction with WCar at this stage (AS-IS)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;align=left;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="600" y="38" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-46" value="&lt;font color=&quot;#3333ff&quot;&gt;To Be state: NW Backend automatically retries to enable the new profile. This could have a limit in number of retries or in duration of retry period.&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;align=left;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="420" y="278" width="135" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-47" value="&lt;span&gt;&lt;font color=&quot;#3333ff&quot;&gt;To Be state: Update WCar system to sync up active SIM profile&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;align=left;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="610" y="278" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-48" value="&lt;font&gt;READY for accepting any change in SIM profile (TCU &amp;amp; WCar)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;align=left;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="60" y="454" width="135" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-49" value="&lt;font&gt;TCU-initiated (eCall, bCall, Theft Notif. etc.) =&amp;gt; WCar receives event from TCU&amp;nbsp;&lt;br&gt;&lt;br&gt;Telematics Service Provider initiated =&amp;gt; (SVT, RVI etc.)&lt;br&gt;&lt;br&gt;Both TCU and WCar system don&#39;t accept any SIM profile change&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;align=left;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="220" y="390" width="135" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AVENNR_EoEJClaGK2q-50" value="Both TCU and WCar system don&#39;t accept any SIM profile change" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;align=left;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="380" y="454" width="135" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
