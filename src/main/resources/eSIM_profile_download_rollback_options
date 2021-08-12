@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T12:19:42.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.67" etag="YnzlRlwn3fvCo5unEi3M" version="14.9.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-12T12:21:44.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.67" etag="bLadUAvdgYzQFCApwqgu" version="14.9.6" type="github" pages="4">
   <diagram id="o14QBn56q6MLoyCRFcxh" name="INFO">
     <mxGraphModel dx="782" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -443,7 +443,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tpPSBTTPRGUjNM8SxLIQ-27" value="Blocking Service ACTIVE" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;align=center;fillColor=#fa6800;width=80;height=40;strokeColor=#FF8000;" parent="_8-L_BAsHSghYgfN5HeI-1" vertex="1">
-          <mxGeometry y="940" width="600" height="210" as="geometry" />
+          <mxGeometry y="940" width="600" height="220" as="geometry" />
         </mxCell>
         <mxCell id="tpPSBTTPRGUjNM8SxLIQ-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;fontColor=#000000;align=center;fillColor=#E6E6E6;" parent="_8-L_BAsHSghYgfN5HeI-1" vertex="1">
           <mxGeometry x="200" y="940" width="10" height="80" as="geometry" />
@@ -481,7 +481,7 @@
             <mxPoint x="197" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="49hoXovfeM2dsLZ9jR94-0" value="Repeat Step 1.1 to 3.0" style="text;html=1;strokeColor=#BD7000;fillColor=#f0a30a;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#000000;" parent="_8-L_BAsHSghYgfN5HeI-1" vertex="1">
+        <mxCell id="49hoXovfeM2dsLZ9jR94-0" value="Repeat Step 1.1 onwards" style="text;html=1;strokeColor=#BD7000;fillColor=#f0a30a;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#000000;" parent="_8-L_BAsHSghYgfN5HeI-1" vertex="1">
           <mxGeometry x="210" y="860" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yFciE8RWFtjZgq6-Zx6j-0" value="RISK - &#xa;Customer &#xa;service disruption, &#xa;till in-sync status " style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=#B20000;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;fontColor=#ffffff;fillColor=#e51400;" parent="_8-L_BAsHSghYgfN5HeI-1" vertex="1">
@@ -493,7 +493,7 @@
             <mxPoint x="440" y="870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2y_tN84fqWeZ9CLYVAZk-0" value="Repeat Step 1.0 to 3.0" style="text;html=1;strokeColor=#BD7000;fillColor=#f0a30a;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#000000;" parent="_8-L_BAsHSghYgfN5HeI-1" vertex="1">
+        <mxCell id="2y_tN84fqWeZ9CLYVAZk-0" value="Repeat Step 3.0 onwards" style="text;html=1;strokeColor=#BD7000;fillColor=#f0a30a;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#000000;" parent="_8-L_BAsHSghYgfN5HeI-1" vertex="1">
           <mxGeometry x="387" y="1130" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2y_tN84fqWeZ9CLYVAZk-1" value="RISK - &#xa;Customer &#xa;service disruption, &#xa;till in-sync status " style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=#B20000;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;fontColor=#ffffff;fillColor=#e51400;" parent="_8-L_BAsHSghYgfN5HeI-1" vertex="1">
