@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T10:59:19.468Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.67" etag="MKwqpxy33TquJmpG8fP-" version="14.9.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-12T10:59:56.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.67" etag="ILncFNrj3MIhJ9NNR3fw" version="14.9.6" type="github" pages="4">
   <diagram id="o14QBn56q6MLoyCRFcxh" name="INFO">
     <mxGraphModel dx="782" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -485,7 +485,7 @@
           <mxGeometry x="210" y="860" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yFciE8RWFtjZgq6-Zx6j-0" value="RISK - &#xa;Customer &#xa;service disruption, &#xa;till in-sync status " style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=#B20000;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;fontColor=#ffffff;fillColor=#e51400;" parent="_8-L_BAsHSghYgfN5HeI-1" vertex="1">
-          <mxGeometry x="447" y="830" width="110" height="68" as="geometry" />
+          <mxGeometry x="447" y="840" width="110" height="58" as="geometry" />
         </mxCell>
         <mxCell id="yFciE8RWFtjZgq6-Zx6j-1" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=11;fontColor=#000000;strokeColor=#BD7000;strokeWidth=1;fillColor=#f0a30a;" parent="_8-L_BAsHSghYgfN5HeI-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -497,7 +497,7 @@
           <mxGeometry x="387" y="1130" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2y_tN84fqWeZ9CLYVAZk-1" value="RISK - &#xa;Customer &#xa;service disruption, &#xa;till in-sync status " style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=#B20000;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;fontColor=#ffffff;fillColor=#e51400;" parent="_8-L_BAsHSghYgfN5HeI-1" vertex="1">
-          <mxGeometry x="624" y="1100" width="110" height="68" as="geometry" />
+          <mxGeometry x="624" y="1110" width="110" height="58" as="geometry" />
         </mxCell>
         <mxCell id="2y_tN84fqWeZ9CLYVAZk-2" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=11;fontColor=#000000;strokeColor=#BD7000;strokeWidth=1;fillColor=#f0a30a;" parent="_8-L_BAsHSghYgfN5HeI-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
