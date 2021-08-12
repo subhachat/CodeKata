@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T13:02:09.502Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.67" etag="6iMLIXcCtoHtrxbs6cay" version="14.9.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-12T13:03:12.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.67" etag="eh1jAeY9zMuAKalclEh8" version="14.9.6" type="github" pages="4">
   <diagram id="o14QBn56q6MLoyCRFcxh" name="01.INFO">
     <mxGraphModel dx="782" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -753,7 +753,7 @@
         <mxCell id="V_Rnjn_sP-tZv9qRz2bo-11" value="RISK - &#xa;Customer &#xa;service disruption, &#xa;till in-sync status " style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=#B20000;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;fontColor=#ffffff;fillColor=#e51400;" vertex="1" parent="fXq8XKeofWFxGEMWpnGH-1">
           <mxGeometry x="683.5" y="954" width="110" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="foU9yYA-tUBjpB8RqB85-0" value="active SIM profile still is in-sync between VDC and WCar routing data, till successful&lt;br&gt;D &amp;amp; E" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=11;fillColor=#d5e8d4;align=center;strokeColor=#82b366;size=34;" vertex="1" parent="fXq8XKeofWFxGEMWpnGH-1">
+        <mxCell id="foU9yYA-tUBjpB8RqB85-0" value="active SIM profile still is in-sync between VDC and WCar routing data, &lt;font color=&quot;#3333ff&quot;&gt;till successful&lt;br&gt;D &amp;amp; E&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=11;fillColor=#d5e8d4;align=center;strokeColor=#82b366;size=31;" vertex="1" parent="fXq8XKeofWFxGEMWpnGH-1">
           <mxGeometry x="520" y="1053" width="140" height="67" as="geometry" />
         </mxCell>
       </root>
