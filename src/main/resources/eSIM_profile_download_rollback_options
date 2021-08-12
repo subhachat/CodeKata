@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T11:00:29.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.67" etag="IjB0y-_frdq7Xj8I8RXM" version="14.9.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-12T12:08:44.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.67" etag="cT8Mgbd6o8fhSB-XF_At" version="14.9.6" type="github" pages="4">
   <diagram id="o14QBn56q6MLoyCRFcxh" name="INFO">
     <mxGraphModel dx="782" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -511,6 +511,15 @@
         <mxCell id="7rcnteAaRWbTRXsbodVF-1" value="Watch the &quot;ENABLED&quot; tag" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;size=50;position=0;base=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="_8-L_BAsHSghYgfN5HeI-1">
           <mxGeometry x="300" y="750" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="IFWbj6OqcKSmz3eF8-sX-0" value="RETRY D &amp;amp; E (CR#27)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="_8-L_BAsHSghYgfN5HeI-1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="380" y="808" as="sourcePoint" />
+            <mxPoint x="580" y="808" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IFWbj6OqcKSmz3eF8-sX-1" value="Not yet implemented" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.08;size=50;position=0;base=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="_8-L_BAsHSghYgfN5HeI-1">
+          <mxGeometry x="460" y="700" width="120" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -519,14 +528,14 @@
       <root>
         <mxCell id="fXq8XKeofWFxGEMWpnGH-0" />
         <mxCell id="fXq8XKeofWFxGEMWpnGH-1" parent="fXq8XKeofWFxGEMWpnGH-0" />
-        <mxCell id="fXq8XKeofWFxGEMWpnGH-24" value="D &amp;amp; E SUCCESS" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=11;align=center;strokeColor=#82b366;fillColor=#D5E8D4;" vertex="1" parent="fXq8XKeofWFxGEMWpnGH-1">
-          <mxGeometry x="120" y="650" width="590" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="fXq8XKeofWFxGEMWpnGH-26" value="D &amp;amp; E FAILURE" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;align=center;strokeColor=#b85450;" vertex="1" parent="fXq8XKeofWFxGEMWpnGH-1">
-          <mxGeometry x="120" y="926" width="590" height="110" as="geometry" />
-        </mxCell>
         <mxCell id="fXq8XKeofWFxGEMWpnGH-2" value="Blocking Service IDLE" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;align=center;fillColor=#9999FF;width=70;height=47;" vertex="1" parent="fXq8XKeofWFxGEMWpnGH-1">
           <mxGeometry y="443" width="600" height="637" as="geometry" />
+        </mxCell>
+        <mxCell id="fXq8XKeofWFxGEMWpnGH-24" value="D &amp;amp; E SUCCESS" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=11;align=center;strokeColor=#82b366;fillColor=#D5E8D4;" vertex="1" parent="fXq8XKeofWFxGEMWpnGH-1">
+          <mxGeometry x="20" y="650" width="730" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="fXq8XKeofWFxGEMWpnGH-26" value="D &amp;amp; E FAILURE" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=11;fillColor=#f8cecc;align=center;strokeColor=#b85450;" vertex="1" parent="fXq8XKeofWFxGEMWpnGH-1">
+          <mxGeometry x="20" y="926" width="730" height="110" as="geometry" />
         </mxCell>
         <mxCell id="fXq8XKeofWFxGEMWpnGH-3" value="WirelessCar eSIM LCM" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontSize=11;fontColor=#000000;fillColor=#E6E6E6;" vertex="1" parent="fXq8XKeofWFxGEMWpnGH-1">
           <mxGeometry x="180" y="80" width="40" height="1280" as="geometry" />
@@ -701,6 +710,12 @@
         </mxCell>
         <mxCell id="7HcZySFXqjhX7cjqoGO6-1" value="active SIM profile is still in-sync between VDC and WCar entities" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=11;fillColor=#d5e8d4;align=center;strokeColor=#82b366;" vertex="1" parent="fXq8XKeofWFxGEMWpnGH-1">
           <mxGeometry x="610" y="931" width="110" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="zYS_qRREku3wmggaUInc-0" value="RETRY D &amp;amp; E (CR#27)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="fXq8XKeofWFxGEMWpnGH-1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="387" y="950" as="sourcePoint" />
+            <mxPoint x="580" y="950" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
