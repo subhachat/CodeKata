@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-16T14:32:00.512Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="lCqpLLZvCOXB0A5vhXuZ" version="15.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-09-16T14:42:16.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="pi9hDsgdSgVxtA0o-2Lu" version="15.2.7" type="github" pages="2">
   <diagram id="jfO5CLniZMyKQM9zCkW0" name="Actors &amp; Actions">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -290,6 +290,9 @@
         <mxCell id="BvLElNfMKfl7wfoSJ0i3-43" value="Insights Service" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;sketch=0;strokeColor=#d6b656;gradientColor=#ffd966;fillColor=#fff2cc;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
           <mxGeometry x="970" y="700" width="70" height="43" as="geometry" />
         </mxCell>
+        <mxCell id="BvLElNfMKfl7wfoSJ0i3-67" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;fontSize=10;" edge="1" parent="gSZaSDeZ033LwvpgoLtM-1" source="BvLElNfMKfl7wfoSJ0i3-44" target="BvLElNfMKfl7wfoSJ0i3-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BvLElNfMKfl7wfoSJ0i3-44" value="data logger" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;sketch=0;strokeColor=#d6b656;gradientColor=#ffd966;fillColor=#fff2cc;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
           <mxGeometry x="975.5" y="795" width="59" height="40" as="geometry" />
         </mxCell>
@@ -307,11 +310,11 @@
         </mxCell>
         <mxCell id="BvLElNfMKfl7wfoSJ0i3-49" value="" style="curved=1;endArrow=classic;html=1;dashed=1;dashPattern=1 1;" edge="1" parent="gSZaSDeZ033LwvpgoLtM-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="930" y="730" as="sourcePoint" />
-            <mxPoint x="1000" y="630" as="targetPoint" />
+            <mxPoint x="930" y="729" as="sourcePoint" />
+            <mxPoint x="1000" y="629" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="960" y="690" />
-              <mxPoint x="980" y="630" />
+              <mxPoint x="960" y="689" />
+              <mxPoint x="980" y="629" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -327,6 +330,33 @@
               <mxPoint x="1010" y="740" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="BvLElNfMKfl7wfoSJ0i3-53" value="Over Discharging Trend &amp;amp; Protection" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;sketch=0;strokeColor=#36393d;fontSize=10;fillColor=#ffcccc;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
+          <mxGeometry x="1080" y="722" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BvLElNfMKfl7wfoSJ0i3-54" value="Battery Overload Trend &amp;amp; failsafe" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;sketch=0;strokeColor=#36393d;fontSize=10;fillColor=#ffcccc;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
+          <mxGeometry x="1170" y="722" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BvLElNfMKfl7wfoSJ0i3-56" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;sketch=0;strokeColor=#36393d;fillColor=#ffcccc;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
+          <mxGeometry x="1040" y="658" width="30" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BvLElNfMKfl7wfoSJ0i3-57" value="Over Charging Trend &amp;amp; Protection" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;sketch=0;strokeColor=#36393d;fontSize=10;fillColor=#ffcccc;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
+          <mxGeometry x="1080" y="634" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BvLElNfMKfl7wfoSJ0i3-58" value="Vehicle Vibration Trend and actuation" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;sketch=0;strokeColor=#36393d;fontSize=10;fillColor=#ffcccc;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
+          <mxGeometry x="1170" y="634" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BvLElNfMKfl7wfoSJ0i3-62" value="Over Charging Trend &amp;amp; Protection" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;sketch=0;strokeColor=#36393d;fontSize=10;fillColor=#ffcccc;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
+          <mxGeometry x="1080" y="634" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BvLElNfMKfl7wfoSJ0i3-63" value="Vehicle Vibration Trend and actuation" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;sketch=0;strokeColor=#36393d;fontSize=10;fillColor=#ffcccc;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
+          <mxGeometry x="1170" y="634" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BvLElNfMKfl7wfoSJ0i3-64" value="Over Discharging Trend &amp;amp; Protection" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;sketch=0;strokeColor=#36393d;fontSize=10;fillColor=#ffcccc;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
+          <mxGeometry x="1080" y="722" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BvLElNfMKfl7wfoSJ0i3-66" value="Connected Diagnostics" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
+          <mxGeometry x="1120" y="820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
