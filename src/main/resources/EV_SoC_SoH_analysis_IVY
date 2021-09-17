@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-17T09:26:04.588Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="dwn8zm6KGT57h6eTPTIa" version="15.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-09-17T09:49:18.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="V3LM0iR0pif9McUuEbzy" version="15.2.7" type="github" pages="2">
   <diagram id="jfO5CLniZMyKQM9zCkW0" name="Actors &amp; Actions">
     <mxGraphModel dx="1362" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -204,10 +204,12 @@
             <mxPoint x="574" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BN8z7kmjp0GXOiwoUlB0-12" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;fontSize=12;startArrow=classic;startFill=1;strokeColor=#000000;" edge="1" parent="gSZaSDeZ033LwvpgoLtM-1" source="BvLElNfMKfl7wfoSJ0i3-18" target="BN8z7kmjp0GXOiwoUlB0-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="BN8z7kmjp0GXOiwoUlB0-12" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;fontSize=12;startArrow=classic;startFill=1;strokeColor=#000000;" edge="1" parent="gSZaSDeZ033LwvpgoLtM-1" source="BvLElNfMKfl7wfoSJ0i3-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="641" y="570" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="BvLElNfMKfl7wfoSJ0i3-18" value="VSS Transcoder" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
+        <mxCell id="BvLElNfMKfl7wfoSJ0i3-18" value="VSS Transcoder" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=#9999FF;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
           <mxGeometry x="590" y="617" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BvLElNfMKfl7wfoSJ0i3-22" value="SoC (Available vs Rated)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
@@ -391,6 +393,18 @@
         </mxCell>
         <mxCell id="BN8z7kmjp0GXOiwoUlB0-11" value="AMQP/MQTT/Websocket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="gSZaSDeZ033LwvpgoLtM-1">
           <mxGeometry x="1120" y="831" as="geometry" />
+        </mxCell>
+        <mxCell id="BN8z7kmjp0GXOiwoUlB0-13" value="SensorIS Transcoder" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
+          <mxGeometry x="690" y="617" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BN8z7kmjp0GXOiwoUlB0-14" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;dashed=1;dashPattern=1 1;fontSize=12;strokeColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="gSZaSDeZ033LwvpgoLtM-1" source="BN8z7kmjp0GXOiwoUlB0-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="617" as="sourcePoint" />
+            <mxPoint x="740" y="567" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BN8z7kmjp0GXOiwoUlB0-15" value="Android VHAL" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
+          <mxGeometry x="640" y="667" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
