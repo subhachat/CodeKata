@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-16T14:50:11.785Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="C97Zw1wNDwXkJG2HIEWx" version="15.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-09-17T08:43:57.170Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="iHfca26-TpZqd05kEzEp" version="15.2.7" type="github" pages="2">
   <diagram id="jfO5CLniZMyKQM9zCkW0" name="Actors &amp; Actions">
-    <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1362" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,7 +98,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yeFs1QwPe08ECfQbZ9Je" name="IVY - Data Acquisition &amp; Integration">
-    <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="867" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="gSZaSDeZ033LwvpgoLtM-0" />
         <mxCell id="gSZaSDeZ033LwvpgoLtM-1" parent="gSZaSDeZ033LwvpgoLtM-0" />
@@ -186,7 +186,7 @@
         <mxCell id="BvLElNfMKfl7wfoSJ0i3-6" value="EV HAL Services Container" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
           <mxGeometry x="590" y="440" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BvLElNfMKfl7wfoSJ0i3-19" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="gSZaSDeZ033LwvpgoLtM-1" source="BvLElNfMKfl7wfoSJ0i3-6" target="BvLElNfMKfl7wfoSJ0i3-18">
+        <mxCell id="BvLElNfMKfl7wfoSJ0i3-19" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="gSZaSDeZ033LwvpgoLtM-1" source="BvLElNfMKfl7wfoSJ0i3-6" target="BvLElNfMKfl7wfoSJ0i3-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BvLElNfMKfl7wfoSJ0i3-7" value="EV VAL Services Container" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
@@ -210,8 +210,8 @@
         <mxCell id="BvLElNfMKfl7wfoSJ0i3-18" value="VSS Transcoder" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
           <mxGeometry x="694" y="540" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BvLElNfMKfl7wfoSJ0i3-22" value="SoC (Available vs Rated" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
-          <mxGeometry x="795" y="522" width="70" height="40" as="geometry" />
+        <mxCell id="BvLElNfMKfl7wfoSJ0i3-22" value="SoC (Available vs Rated)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
+          <mxGeometry x="790" y="521" width="75" height="41" as="geometry" />
         </mxCell>
         <mxCell id="BvLElNfMKfl7wfoSJ0i3-23" value="Range" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;sketch=0;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
           <mxGeometry x="795" y="572" width="70" height="40" as="geometry" />
@@ -245,7 +245,7 @@
         <mxCell id="BvLElNfMKfl7wfoSJ0i3-29" value="Velocity" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;sketch=0;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
           <mxGeometry x="871" y="522" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BvLElNfMKfl7wfoSJ0i3-30" value="laden weight" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;sketch=0;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
+        <mxCell id="BvLElNfMKfl7wfoSJ0i3-30" value="Laden weight" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;sketch=0;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
           <mxGeometry x="871" y="572" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BvLElNfMKfl7wfoSJ0i3-31" value="Tyre Pressure" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;sketch=0;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
@@ -337,7 +337,7 @@
         <mxCell id="BvLElNfMKfl7wfoSJ0i3-54" value="Battery Overload Trend &amp;amp; failsafe" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;sketch=0;strokeColor=#36393d;fontSize=10;fillColor=#ffcccc;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
           <mxGeometry x="1170" y="722" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BvLElNfMKfl7wfoSJ0i3-56" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;sketch=0;strokeColor=#36393d;fillColor=#ffcccc;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
+        <mxCell id="BvLElNfMKfl7wfoSJ0i3-56" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;sketch=0;strokeColor=#FFCCCC;fillColor=#FFFFFF;strokeWidth=3;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
           <mxGeometry x="1045" y="658" width="30" height="120" as="geometry" />
         </mxCell>
         <mxCell id="BvLElNfMKfl7wfoSJ0i3-57" value="Over Charging Trend &amp;amp; Protection" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;sketch=0;strokeColor=#36393d;fontSize=10;fillColor=#ffcccc;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
@@ -370,6 +370,9 @@
               <mxPoint x="1070" y="507" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="BN8z7kmjp0GXOiwoUlB0-0" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;sketch=0;fontSize=14;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="gSZaSDeZ033LwvpgoLtM-1">
+          <mxGeometry x="618.21" y="431" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
