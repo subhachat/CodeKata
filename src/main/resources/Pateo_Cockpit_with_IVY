@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T14:53:47.852Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="J9ysDQyiZFNmVckeWBiD" version="15.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-28T14:54:27.732Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="CbBGqJ9Bg_zycxu7-H9K" version="15.6.1" type="github" pages="2">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -522,11 +522,8 @@
         <mxCell id="FNWe_9ZiqU_HOGBHyFtE-7" value="User Behaviour Detection" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;fillColor=#E5CCFF;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="784" y="100" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FNWe_9ZiqU_HOGBHyFtE-8" value="User Behaviour Detection" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;fillColor=#E5CCFF;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
-          <mxGeometry x="894" y="100" width="100" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="FNWe_9ZiqU_HOGBHyFtE-9" value="Multi-profile Management" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;fillColor=#E5CCFF;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
-          <mxGeometry x="1003.2" y="100" width="100" height="60" as="geometry" />
+          <mxGeometry x="894" y="100" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Bdwligb0pXDgn2tK_OXt-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="139" y="10" width="1691" height="80" as="geometry" />
