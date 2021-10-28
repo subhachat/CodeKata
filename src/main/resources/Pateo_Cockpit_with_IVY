@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T14:37:14.007Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="TTyBTcz62ksRJWilb1CX" version="15.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-28T14:37:30.357Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="REhgKBdhSwOj80qWHpJj" version="15.6.1" type="github" pages="2">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -125,7 +125,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7pm0nFJ50GXA8wNenBY3-1" value="IVI partition" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=1;sketch=1;fontSize=22;fontColor=#000000;fillColor=#6666FF;" vertex="1" parent="1">
-          <mxGeometry x="940" y="320" width="120" height="160" as="geometry" />
+          <mxGeometry x="940" y="320" width="140" height="160" as="geometry" />
         </mxCell>
         <mxCell id="7pm0nFJ50GXA8wNenBY3-2" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;strokeColor=#999999;glass=1;sketch=0;fontSize=22;fontColor=#000000;fillColor=#6666FF;" vertex="1" parent="1">
           <mxGeometry x="40" y="280" width="860" height="20" as="geometry" />
