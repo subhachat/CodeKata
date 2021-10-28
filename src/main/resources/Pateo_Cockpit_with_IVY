@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T14:56:05.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="vbRyuMkRmcR5HQvj8Sfb" version="15.6.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-28T15:17:34.230Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="lWG78tZibeBm5Tq9EY-K" version="15.6.1" type="github" pages="3">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -570,11 +570,137 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="-XxoJRop-3YplUWLuVRe" name="Page-3">
-    <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="-XxoJRop-3YplUWLuVRe" name="To-Be: Pateo Cockpit with IVY">
+    <mxGraphModel dx="1384" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="k2hBPGqz1qkB_4R7GS0w-0" />
         <mxCell id="k2hBPGqz1qkB_4R7GS0w-1" parent="k2hBPGqz1qkB_4R7GS0w-0" />
+        <mxCell id="izyBE_bu8QMVawkYUiv8-0" value="QNX Hypervisor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=3;shadow=1;glass=1;sketch=1;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="40" y="560" width="1320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="izyBE_bu8QMVawkYUiv8-1" value="Qualcomm SA8155" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=3;shadow=1;sketch=1;glass=1;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="40" y="600" width="1320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="izyBE_bu8QMVawkYUiv8-2" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=1;fontColor=#000000;fillColor=#FFB366;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="40" y="480" width="1320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="izyBE_bu8QMVawkYUiv8-3" value="&lt;b&gt;SOA Management Layer&lt;/b&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#97D077;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="40" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="izyBE_bu8QMVawkYUiv8-4" value="RPC/Message/Events Encapsulation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="475" y="525" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="izyBE_bu8QMVawkYUiv8-5" value="Transport (IP Layer, CAN etc.)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="645" y="525" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="izyBE_bu8QMVawkYUiv8-6" value="FuSa Framework Libs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="245" y="485" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="izyBE_bu8QMVawkYUiv8-7" value="Security Monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="575" y="485" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="izyBE_bu8QMVawkYUiv8-8" value="Service Runtime Libs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="135" y="485" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="izyBE_bu8QMVawkYUiv8-9" value="API Tools" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="465" y="485" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="izyBE_bu8QMVawkYUiv8-10" value="Crypto Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="685" y="485" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="izyBE_bu8QMVawkYUiv8-11" value="IDL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="355" y="485" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="izyBE_bu8QMVawkYUiv8-12" value="Service Discovery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="135" y="525" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="izyBE_bu8QMVawkYUiv8-13" value="Serialization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="305" y="525" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="izyBE_bu8QMVawkYUiv8-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="k2hBPGqz1qkB_4R7GS0w-1" target="izyBE_bu8QMVawkYUiv8-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="520" as="sourcePoint" />
+            <mxPoint x="910" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mq6UHro1-x7AKX_lDszQ-0" value="Cluster Partition" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=1;sketch=1;fontSize=22;fontColor=#000000;fillColor=#6666FF;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="40" y="10" width="90" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="1UtqtMlp4alaX8rFO7dn-0" value="Infotainment Partition" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=1;sketch=1;fontSize=22;fontColor=#000000;fillColor=#6666FF;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="160" y="10" width="120" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="zSQSg0GrbXXp-vMHCWKS-0" value="OS kernel (QNX RTOS/ Linux)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;fillColor=#3333FF;shadow=1;sketch=1;glass=1;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="320" y="440" width="1040" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-1" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=1;fontSize=22;fillColor=#FF99CC;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="320" y="90" width="160" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-2" value="Lifecycle Service" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=14;strokeColor=#36393d;fillColor=#E5CCFF;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="341" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-3" value="Install Service" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=14;strokeColor=#36393d;fillColor=#E5CCFF;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="341" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-4" value="Permission &amp;amp; Policy Service" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=14;strokeColor=#36393d;fillColor=#E5CCFF;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="340" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-5" value="Process Service" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=14;strokeColor=#36393d;fillColor=#E5CCFF;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="341" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-6" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fontSize=22;fillColor=#CCCCFF;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="490" y="320" width="510" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-7" value="PAL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=1;fontSize=18;fontColor=#000000;fontStyle=1" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="371" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-8" value="HAL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=1;fontSize=18;fontColor=#000000;fontStyle=1" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="490" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-9" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=1;fontSize=22;fillColor=#FF0000;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="490" y="200" width="510" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-10" value="VAL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=1;fontSize=18;fontColor=#000000;fontStyle=1" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="490" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-11" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=18;strokeColor=#36393d;fillColor=#f9f7ed;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="1000" y="200" width="190" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-12" value="ML Service" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="1010" y="330" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-13" value="Metric Service" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="1100" y="330" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-14" value="Logging Service" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="1010" y="380" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-15" value="Debugging Service" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="1100" y="380" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-16" value="Sensor Foundation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=1;fontSize=18;fontColor=#000000;fontStyle=1" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="1000" y="200" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-17" value="Sensor Runtime Libraries" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="1010" y="270" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-18" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=1;fontSize=22;fillColor=#FF99CC;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="1190" y="90" width="170" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-19" value="Deployment Agent" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="1220" y="170" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-20" value="Sensor Package Manager" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="1220" y="235" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-21" value="Lifecycle Service" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="1220" y="300" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-22" value="Trigger Service" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="1220" y="370" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8_fdxyAd7snSENE_ybBl-23" value="Sensor Foundation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=1;fontSize=18;fontColor=#000000;fontStyle=1" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="1185" y="90" width="180" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
