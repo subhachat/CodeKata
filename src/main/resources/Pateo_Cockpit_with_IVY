@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T14:54:44.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="-Y6mHqwOREs4r5dTigYH" version="15.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-28T14:54:50.296Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="yd7NzPu-aEUQElTU-NNF" version="15.6.1" type="github" pages="2">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -373,7 +373,7 @@
           <mxGeometry x="144" y="59" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Drk-UUYT136IP4NyrV_7-0" value="Cluster Partition" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=1;sketch=1;fontSize=22;fontColor=#000000;fillColor=#6666FF;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
-          <mxGeometry x="40" y="170" width="90" height="310" as="geometry" />
+          <mxGeometry x="40" y="10" width="90" height="470" as="geometry" />
         </mxCell>
         <mxCell id="N8sd2itRV-tH2rZpcsEZ-38" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;glass=0;sketch=0;fontColor=#000000;fillColor=#6666FF;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="705" y="260" width="230" height="90" as="geometry" />
