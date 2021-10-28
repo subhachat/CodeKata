@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T15:17:34.230Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="lWG78tZibeBm5Tq9EY-K" version="15.6.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-28T15:18:05.661Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="YOm9qJ_54C0QMA6amLwT" version="15.6.1" type="github" pages="3">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -698,8 +698,8 @@
         <mxCell id="8_fdxyAd7snSENE_ybBl-22" value="Trigger Service" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=default;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
           <mxGeometry x="1220" y="370" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8_fdxyAd7snSENE_ybBl-23" value="Sensor Foundation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=1;fontSize=18;fontColor=#000000;fontStyle=1" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
-          <mxGeometry x="1185" y="90" width="180" height="30" as="geometry" />
+        <mxCell id="8_fdxyAd7snSENE_ybBl-23" value="Sensor Control Plane" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=1;fontSize=18;fontColor=#000000;fontStyle=1" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="1178" y="93" width="182" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
