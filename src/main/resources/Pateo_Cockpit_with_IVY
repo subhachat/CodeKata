@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T15:27:40.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="z-SdldmIJMuhvjZ8pHNd" version="15.6.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-28T15:28:20.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Yofge3iKlzK-m7NwxRL5" version="15.6.1" type="github" pages="3">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -636,22 +636,22 @@
           <mxGeometry x="320" y="90" width="160" height="350" as="geometry" />
         </mxCell>
         <mxCell id="8_fdxyAd7snSENE_ybBl-2" value="Lifecycle Service" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=14;strokeColor=#36393d;fillColor=#E5CCFF;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
-          <mxGeometry x="341" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="341" y="135" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8_fdxyAd7snSENE_ybBl-3" value="Install Service" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=14;strokeColor=#36393d;fillColor=#E5CCFF;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
-          <mxGeometry x="341" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="341" y="215" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8_fdxyAd7snSENE_ybBl-4" value="Permission &amp;amp; Policy Service" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=14;strokeColor=#36393d;fillColor=#E5CCFF;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
-          <mxGeometry x="340" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="295" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8_fdxyAd7snSENE_ybBl-5" value="Process Service" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=14;strokeColor=#36393d;fillColor=#E5CCFF;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
-          <mxGeometry x="341" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="341" y="375" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8_fdxyAd7snSENE_ybBl-6" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=1;fontSize=22;fillColor=#CCCCFF;" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
           <mxGeometry x="490" y="320" width="510" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="8_fdxyAd7snSENE_ybBl-7" value="PAL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=1;fontSize=18;fontColor=#000000;fontStyle=1" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
-          <mxGeometry x="371" y="90" width="60" height="30" as="geometry" />
+        <mxCell id="8_fdxyAd7snSENE_ybBl-7" value="PAL (Control Plane)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=1;fontSize=18;fontColor=#000000;fontStyle=1" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
+          <mxGeometry x="320" y="98" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8_fdxyAd7snSENE_ybBl-8" value="HAL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=1;fontSize=18;fontColor=#000000;fontStyle=1" vertex="1" parent="k2hBPGqz1qkB_4R7GS0w-1">
           <mxGeometry x="490" y="330" width="60" height="30" as="geometry" />
