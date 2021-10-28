@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T15:58:23.090Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="WJ1h1pcP_HgWbg4fzsyX" version="15.6.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-28T15:58:39.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="AZhj2mZuqZP5A2Aa-lo7" version="15.6.1" type="github" pages="3">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1991" dy="1029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -683,6 +683,9 @@
         </mxCell>
         <mxCell id="8pf3AWGCUl8ulI5Hjoic-1" value="CAN-FD" style="text;html=1;strokeColor=#36393d;fillColor=#ffff88;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=1;fontSize=14;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="2130" y="671" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nrk0yPGqIQBvMbeKANTH-0" value="&lt;h1&gt;Setup based on Dongfeng i-Space Demo Vehicle setup&amp;nbsp;&lt;/h1&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#cdeb8b;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;glass=0;sketch=0;fontSize=14;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+          <mxGeometry x="360" y="720" width="466" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
