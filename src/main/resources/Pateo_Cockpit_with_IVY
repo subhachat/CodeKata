@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T10:38:39.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" version="15.6.1" etag="wvAXUNDbg9nfbcsCcV1-" type="github"><diagram id="_ruIjN_mGAACn8g19wrl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-28T11:09:28.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="pGwT5Dfcq-G9VvnCMETf" version="15.6.1" type="github">
+  <diagram id="_ruIjN_mGAACn8g19wrl" name="Pateo_Cluster_HUD_Module">
+    <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-1" value="QNX Kernel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="760" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-16" value="SOA Management Layer" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="40" y="480" width="760" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7hkkIOH5Jv0Fa8TQ72wp-17">
+          <mxGeometry width="760" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-3" value="SOA Management Layer" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7hkkIOH5Jv0Fa8TQ72wp-17">
+          <mxGeometry width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-4" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7hkkIOH5Jv0Fa8TQ72wp-17" source="7hkkIOH5Jv0Fa8TQ72wp-3" target="7hkkIOH5Jv0Fa8TQ72wp-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="-60" as="sourcePoint" />
+            <mxPoint x="410" y="-110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-5" value="Service Discovery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7hkkIOH5Jv0Fa8TQ72wp-17">
+          <mxGeometry x="110" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-6" value="Serialization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7hkkIOH5Jv0Fa8TQ72wp-17">
+          <mxGeometry x="265" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-7" value="RPC/Message/Events" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7hkkIOH5Jv0Fa8TQ72wp-17">
+          <mxGeometry x="440" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-9" value="Transport (IP Layer, CAN etc.)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7hkkIOH5Jv0Fa8TQ72wp-17">
+          <mxGeometry x="610" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-10" value="Service Runtime Libs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7hkkIOH5Jv0Fa8TQ72wp-17">
+          <mxGeometry x="170" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-11" value="IDL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7hkkIOH5Jv0Fa8TQ72wp-17">
+          <mxGeometry x="260" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-12" value="API Tools" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7hkkIOH5Jv0Fa8TQ72wp-17">
+          <mxGeometry x="350" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-13" value="Security Monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7hkkIOH5Jv0Fa8TQ72wp-17">
+          <mxGeometry x="440" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-14" value="Crypto Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7hkkIOH5Jv0Fa8TQ72wp-17">
+          <mxGeometry x="530" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-18" value="QNX Hypervisor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-20" value="μC/SoC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="760" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
