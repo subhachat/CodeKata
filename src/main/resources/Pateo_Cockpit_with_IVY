@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T14:25:20.557Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="P6oB08eisBakhWPq5DZy" version="15.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-28T14:35:59.217Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="cjYotot9-d7g6jpJZHG4" version="15.6.1" type="github" pages="2">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,16 +22,16 @@
         <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-24" value="File System Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
           <mxGeometry x="525" y="445" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-2" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=1;sketch=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-2" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=1;sketch=1;fontColor=#000000;fillColor=#FFB366;" vertex="1" parent="1">
           <mxGeometry x="40" y="480" width="1040" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-3" value="&lt;b&gt;SOA Management Layer&lt;/b&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#97D077;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;shadow=1;glass=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="480" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-7" value="RPC/Message/Events Encapsulation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#6c8ebf;fontColor=#000000;shadow=1;glass=1;sketch=1;" vertex="1" parent="1">
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-7" value="RPC/Message/Events Encapsulation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="475" y="525" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-9" value="Transport (IP Layer, CAN etc.)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#6c8ebf;fontColor=#000000;shadow=1;glass=1;sketch=1;" vertex="1" parent="1">
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-9" value="Transport (IP Layer, CAN etc.)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="645" y="525" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-43" value="FuSa" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6666FF;fontColor=#FFFFFF;" vertex="1" parent="1">
@@ -70,7 +70,7 @@
         <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-85" value="Service Discovery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="135" y="525" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-86" value="Serialization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#6c8ebf;fontColor=#000000;shadow=1;glass=1;sketch=1;" vertex="1" parent="1">
+        <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-86" value="Serialization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="305" y="525" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7hkkIOH5Jv0Fa8TQ72wp-91" value="Interfaces" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
@@ -133,6 +133,21 @@
         <mxCell id="7pm0nFJ50GXA8wNenBY3-3" value="Partition - Cluster/Copilot/A-Pillar/AR-HUD" style="text;html=1;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=1;sketch=0;fontSize=22;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="310" y="240" width="430" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="86Oke1WgFpZlR8HP8qC8-1" value="Service Runtime Libs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="485" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="86Oke1WgFpZlR8HP8qC8-2" value="FuSa Framework Libs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="485" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="86Oke1WgFpZlR8HP8qC8-3" value="IDL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="485" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="86Oke1WgFpZlR8HP8qC8-4" value="API Tools" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="485" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="86Oke1WgFpZlR8HP8qC8-5" value="Security Monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="485" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -162,64 +177,64 @@
         <mxCell id="YNFD5KG___kSNUBMmfxp-9" value="&lt;b&gt;SOA Management Layer&lt;/b&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#97D077;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="40" y="480" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YNFD5KG___kSNUBMmfxp-10" value="RPC/Message/Events Encapsulation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#6c8ebf;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+        <mxCell id="YNFD5KG___kSNUBMmfxp-10" value="RPC/Message/Events Encapsulation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="475" y="525" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YNFD5KG___kSNUBMmfxp-11" value="Transport (IP Layer, CAN etc.)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#6c8ebf;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+        <mxCell id="YNFD5KG___kSNUBMmfxp-11" value="Transport (IP Layer, CAN etc.)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="645" y="525" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YNFD5KG___kSNUBMmfxp-14" value="FuSa Framework Libs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#3A5431;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+        <mxCell id="YNFD5KG___kSNUBMmfxp-14" value="FuSa Framework Libs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="245" y="485" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YNFD5KG___kSNUBMmfxp-15" value="Security Monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#3A5431;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+        <mxCell id="YNFD5KG___kSNUBMmfxp-15" value="Security Monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="575" y="485" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YNFD5KG___kSNUBMmfxp-16" value="Service Runtime Libs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#3A5431;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+        <mxCell id="YNFD5KG___kSNUBMmfxp-16" value="Service Runtime Libs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="135" y="485" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YNFD5KG___kSNUBMmfxp-17" value="API Tools" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#3A5431;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+        <mxCell id="YNFD5KG___kSNUBMmfxp-17" value="API Tools" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="465" y="485" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YNFD5KG___kSNUBMmfxp-18" value="Crypto Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#3A5431;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+        <mxCell id="YNFD5KG___kSNUBMmfxp-18" value="Crypto Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="685" y="485" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YNFD5KG___kSNUBMmfxp-22" value="IDL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#3A5431;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+        <mxCell id="YNFD5KG___kSNUBMmfxp-22" value="IDL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="355" y="485" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YNFD5KG___kSNUBMmfxp-23" value="Service Discovery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="135" y="525" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YNFD5KG___kSNUBMmfxp-24" value="Serialization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#6c8ebf;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+        <mxCell id="YNFD5KG___kSNUBMmfxp-24" value="Serialization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#B09500;fontColor=#000000;shadow=1;glass=0;sketch=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="305" y="525" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YNFD5KG___kSNUBMmfxp-28" value="&lt;b&gt;Android Kernel&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#FF9933;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="140" y="400" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YNFD5KG___kSNUBMmfxp-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
-          <mxGeometry x="139" y="170" width="870" height="80" as="geometry" />
+          <mxGeometry x="139" y="170" width="1061" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YNFD5KG___kSNUBMmfxp-30" value="App Layer" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#F19C99;strokeColor=#ae4132;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+        <mxCell id="YNFD5KG___kSNUBMmfxp-30" value="IVI System Apps" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#F19C99;strokeColor=#ae4132;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="139" y="170" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YNFD5KG___kSNUBMmfxp-31" value="Speed Info" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;fillColor=#FFCCCC;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+        <mxCell id="YNFD5KG___kSNUBMmfxp-31" value="Text2Speech" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;fillColor=#F19C99;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="234" y="180" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YNFD5KG___kSNUBMmfxp-32" value="Navigation Info" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;fillColor=#FFCCCC;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+        <mxCell id="YNFD5KG___kSNUBMmfxp-32" value="Diagnostic" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;fillColor=#F19C99;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="344" y="180" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YNFD5KG___kSNUBMmfxp-33" value="Drive Info" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;fillColor=#FFCCCC;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+        <mxCell id="YNFD5KG___kSNUBMmfxp-33" value="Position" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;fillColor=#F19C99;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="454" y="180" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YNFD5KG___kSNUBMmfxp-35" value="HVAC Info" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;fillColor=#FFCCCC;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+        <mxCell id="YNFD5KG___kSNUBMmfxp-35" value="Vehicle" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;fillColor=#F19C99;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="564" y="180" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YNFD5KG___kSNUBMmfxp-37" value="ADAS Info" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;fillColor=#FFCCCC;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+        <mxCell id="YNFD5KG___kSNUBMmfxp-37" value="Perception" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;fillColor=#F19C99;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="674" y="180" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YNFD5KG___kSNUBMmfxp-38" value="Dashboard Alarms &amp;amp; Warning View" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;fillColor=#FFCCCC;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+        <mxCell id="YNFD5KG___kSNUBMmfxp-38" value="SW Update (OTA)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;fillColor=#F19C99;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="784" y="180" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YNFD5KG___kSNUBMmfxp-39" value="Skin/Theme Select" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;fillColor=#FFCCCC;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+        <mxCell id="YNFD5KG___kSNUBMmfxp-39" value="FaceID Detection" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;fillColor=#F19C99;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="894" y="180" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xKA5lRjZGPShn9nfGmRJ-0" value="HAL, HIDL" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;fillColor=#FFB366;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
@@ -309,7 +324,7 @@
         <mxCell id="N8sd2itRV-tH2rZpcsEZ-75" value="Secure Boot" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=10;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="471.5" y="287" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="N8sd2itRV-tH2rZpcsEZ-76" value="Auth services" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=10;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+        <mxCell id="N8sd2itRV-tH2rZpcsEZ-76" value="Auth Mgmt" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=10;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="471.5" y="317" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N8sd2itRV-tH2rZpcsEZ-77" value="" style="group" vertex="1" connectable="0" parent="YNFD5KG___kSNUBMmfxp-1">
@@ -463,10 +478,25 @@
           <mxGeometry x="955.5619469026549" y="288.1159574468085" width="71.23893805309734" height="28.72340425531915" as="geometry" />
         </mxCell>
         <mxCell id="02oPSy4mkkm5zHNuhtYl-0" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;strokeColor=#999999;glass=1;sketch=0;fontSize=22;fontColor=#000000;fillColor=#6666FF;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
-          <mxGeometry x="142" y="122" width="860" height="20" as="geometry" />
+          <mxGeometry x="142" y="122" width="1688" height="20" as="geometry" />
         </mxCell>
         <mxCell id="02oPSy4mkkm5zHNuhtYl-1" value="Partition - Infotainment" style="text;html=1;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=1;sketch=0;fontSize=22;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
           <mxGeometry x="412" y="82" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="02oPSy4mkkm5zHNuhtYl-2" value="Reinforcement Learning" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=10;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+          <mxGeometry x="541.5" y="287.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="02oPSy4mkkm5zHNuhtYl-3" value="Privilege management" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=10;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+          <mxGeometry x="541.5" y="317.79" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="02oPSy4mkkm5zHNuhtYl-4" value="Cybersec toolkit" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=10;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+          <mxGeometry x="611.5" y="317" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="02oPSy4mkkm5zHNuhtYl-5" value="OTA HMAC" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=10;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+          <mxGeometry x="611.5" y="287.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="02oPSy4mkkm5zHNuhtYl-6" value="Digital Media Streaming" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;fillColor=#F19C99;" vertex="1" parent="YNFD5KG___kSNUBMmfxp-1">
+          <mxGeometry x="1000.2" y="180" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
