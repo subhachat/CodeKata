@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-29T12:54:00.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="HQFCusFhxAXQHoDs6EQU" version="15.6.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-29T12:54:28.289Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="KOQ_FCjAYMBqCbHlpKC4" version="15.6.2" type="github" pages="4">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="01.As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1011,7 +1011,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qBAr0SMBtuvCYWv_RktY" name="04.Pateo SoA &amp; IVY">
-    <mxGraphModel dx="1278" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1490" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ROoeOtMSebMnKDqyICLQ-0" />
         <mxCell id="ROoeOtMSebMnKDqyICLQ-1" parent="ROoeOtMSebMnKDqyICLQ-0" />
@@ -1151,7 +1151,7 @@
         <mxCell id="ROoeOtMSebMnKDqyICLQ-43" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/super-mono-reflection/red/button-cross_red.png;fontSize=10;fontColor=#000000;fillColor=#66FF66;gradientColor=#ffffff;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
           <mxGeometry x="530" y="192" width="64" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="Gnwxp1A1rJTjhe5r4hFQ-0" value="&lt;h1 style=&quot;font-size: 20px&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;font-size: 20px&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;font-size: 20px&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;To reduce time to produce HALs, for PoC, we need a consistent &amp;amp; Common IDL for IVY to be Interoperable between Pateo&#39;s existing FIDL and Service Interface&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;glass=0;sketch=0;fontSize=14;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
+        <mxCell id="Gnwxp1A1rJTjhe5r4hFQ-0" value="&lt;h1 style=&quot;font-size: 20px&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;font-size: 20px&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style=&quot;font-size: 20px&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;To reduce the time to produce HALs for PoC, we need a consistent &amp;amp; Common IDL for IVY to be Interoperable with Pateo&#39;s existing FIDL and Service Interface&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;glass=0;sketch=0;fontSize=14;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
           <mxGeometry x="880" y="80" width="300" height="240" as="geometry" />
         </mxCell>
         <mxCell id="0Ue-_y3IN0ntznIDQboC-0" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/free-mix/128/business_office_seo_finance_work_coffee_pause_management-05-128.png;shadow=1;glass=0;sketch=0;fontSize=24;fontColor=#00FF80;strokeColor=#000000;fillColor=#CC0066;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
