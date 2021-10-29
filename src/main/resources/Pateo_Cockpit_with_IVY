@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-29T12:36:11.311Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="yxkb1j3NH6ph946SUYtB" version="15.6.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-29T12:42:07.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="H6zO4gJMTdvqkfb1h8M_" version="15.6.2" type="github" pages="4">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="01.As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1111,11 +1111,42 @@
         <mxCell id="ROoeOtMSebMnKDqyICLQ-33" value="Application" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fillColor=#66FF66;strokeColor=#d79b00;gradientColor=#ffffff;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
           <mxGeometry x="620" y="170" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ROoeOtMSebMnKDqyICLQ-34" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=16;fontColor=#FF0000;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ROoeOtMSebMnKDqyICLQ-1" source="ROoeOtMSebMnKDqyICLQ-7" target="ROoeOtMSebMnKDqyICLQ-20">
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-34" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=16;fontColor=#FF0000;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;width=32;startSize=7.27;" edge="1" parent="ROoeOtMSebMnKDqyICLQ-1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="310" y="350" as="sourcePoint" />
-            <mxPoint x="410" y="250" as="targetPoint" />
+            <mxPoint x="300" y="264.5" as="sourcePoint" />
+            <mxPoint x="410" y="265" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="264.5" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-35" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 10px&quot;&gt;Interoperability&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#FF0000;" vertex="1" connectable="0" parent="ROoeOtMSebMnKDqyICLQ-34">
+          <mxGeometry x="-0.2367" relative="1" as="geometry">
+            <mxPoint x="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-38" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678134-sign-check-128.png;fontSize=10;fontColor=#000000;fillColor=#66FF66;gradientColor=#ffffff;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
+          <mxGeometry x="330" y="192" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-40" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=16;fontColor=#FF0000;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;width=32;startSize=7.27;" edge="1" parent="ROoeOtMSebMnKDqyICLQ-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="510" y="264.5" as="sourcePoint" />
+            <mxPoint x="620" y="265" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="264.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-41" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 10px&quot;&gt;Interoperability&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#FF0000;" vertex="1" connectable="0" parent="ROoeOtMSebMnKDqyICLQ-40">
+          <mxGeometry x="-0.2367" relative="1" as="geometry">
+            <mxPoint x="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-43" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/super-mono-reflection/red/button-cross_red.png;fontSize=10;fontColor=#000000;fillColor=#66FF66;gradientColor=#ffffff;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
+          <mxGeometry x="530" y="192" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-44" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;Service Interdependent Communication between&amp;nbsp;&lt;span style=&quot;font-size: 16px;&quot;&gt;the ECU partitions&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
+          <mxGeometry x="220" y="10" width="490" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
