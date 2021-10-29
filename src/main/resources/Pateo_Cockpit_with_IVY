@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-29T12:42:07.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="H6zO4gJMTdvqkfb1h8M_" version="15.6.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-29T12:46:32.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="oZarcuPadx7q7q1PHZaJ" version="15.6.2" type="github" pages="4">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="01.As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1018,8 +1018,46 @@
         <mxCell id="ROoeOtMSebMnKDqyICLQ-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
           <mxGeometry x="120" y="80" width="690" height="400" as="geometry" />
         </mxCell>
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-14" value="Virtualisation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;fontSize=22;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
+          <mxGeometry x="140" y="430" width="650" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-15" value="Cockpit ECU Software Platform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
+          <mxGeometry x="330" y="80" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-25" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
+          <mxGeometry x="580" y="140" width="180" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-26" value="IVY Partition" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=#97d077;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
+          <mxGeometry x="610" y="120" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-27" value="O/S 3" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fillColor=#CCFFCC;strokeColor=#d6b656;gradientColor=#ffffff;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
+          <mxGeometry x="620" y="360" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ROoeOtMSebMnKDqyICLQ-1" source="ROoeOtMSebMnKDqyICLQ-29" target="ROoeOtMSebMnKDqyICLQ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-29" value="IDL 2 API" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fillColor=#99FF99;strokeColor=#d6b656;fontStyle=2;gradientColor=#FFFFFF;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
+          <mxGeometry x="620" y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ROoeOtMSebMnKDqyICLQ-1" source="ROoeOtMSebMnKDqyICLQ-31" target="ROoeOtMSebMnKDqyICLQ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-31" value="Communication Stack" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
+          <mxGeometry x="610" y="310" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ROoeOtMSebMnKDqyICLQ-1" source="ROoeOtMSebMnKDqyICLQ-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-33" value="Application" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fillColor=#66FF66;strokeColor=#d79b00;gradientColor=#ffffff;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
+          <mxGeometry x="620" y="170" width="100" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="ROoeOtMSebMnKDqyICLQ-3" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
           <mxGeometry x="160" y="140" width="180" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-44" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;Service Interdependent Communication between&amp;nbsp;&lt;span style=&quot;font-size: 16px;&quot;&gt;the ECU partitions&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
+          <mxGeometry x="220" y="10" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ROoeOtMSebMnKDqyICLQ-4" value="Cluster Partition" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
           <mxGeometry x="190" y="120" width="120" height="30" as="geometry" />
@@ -1046,12 +1084,6 @@
         </mxCell>
         <mxCell id="ROoeOtMSebMnKDqyICLQ-10" value="Application" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fillColor=#FFB366;strokeColor=#d6b656;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
           <mxGeometry x="200" y="170" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ROoeOtMSebMnKDqyICLQ-14" value="Virtualisation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;fontSize=22;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
-          <mxGeometry x="140" y="430" width="650" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ROoeOtMSebMnKDqyICLQ-15" value="Cockpit ECU Software Platform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
-          <mxGeometry x="330" y="80" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ROoeOtMSebMnKDqyICLQ-16" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
           <mxGeometry x="370" y="140" width="180" height="280" as="geometry" />
@@ -1082,35 +1114,6 @@
         <mxCell id="ROoeOtMSebMnKDqyICLQ-24" value="Application" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fillColor=#6666FF;strokeColor=#d6b656;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
           <mxGeometry x="410" y="170" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ROoeOtMSebMnKDqyICLQ-25" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
-          <mxGeometry x="580" y="140" width="180" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="ROoeOtMSebMnKDqyICLQ-26" value="IVY Partition" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=#97d077;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
-          <mxGeometry x="610" y="120" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ROoeOtMSebMnKDqyICLQ-27" value="O/S 3" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fillColor=#CCFFCC;strokeColor=#d6b656;gradientColor=#ffffff;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
-          <mxGeometry x="620" y="360" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ROoeOtMSebMnKDqyICLQ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ROoeOtMSebMnKDqyICLQ-1" source="ROoeOtMSebMnKDqyICLQ-29" target="ROoeOtMSebMnKDqyICLQ-31">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ROoeOtMSebMnKDqyICLQ-29" value="IDL 2 API???" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fillColor=#99FF99;strokeColor=#d6b656;fontStyle=2;gradientColor=#FFFFFF;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
-          <mxGeometry x="620" y="240" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ROoeOtMSebMnKDqyICLQ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ROoeOtMSebMnKDqyICLQ-1" source="ROoeOtMSebMnKDqyICLQ-31" target="ROoeOtMSebMnKDqyICLQ-27">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ROoeOtMSebMnKDqyICLQ-31" value="Communication Stack" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
-          <mxGeometry x="610" y="310" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="ROoeOtMSebMnKDqyICLQ-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ROoeOtMSebMnKDqyICLQ-1" source="ROoeOtMSebMnKDqyICLQ-33">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="670" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ROoeOtMSebMnKDqyICLQ-33" value="Application" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fillColor=#66FF66;strokeColor=#d79b00;gradientColor=#ffffff;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
-          <mxGeometry x="620" y="170" width="100" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="ROoeOtMSebMnKDqyICLQ-34" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=16;fontColor=#FF0000;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;width=32;startSize=7.27;" edge="1" parent="ROoeOtMSebMnKDqyICLQ-1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="300" y="264.5" as="sourcePoint" />
@@ -1128,6 +1131,9 @@
         <mxCell id="ROoeOtMSebMnKDqyICLQ-38" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678134-sign-check-128.png;fontSize=10;fontColor=#000000;fillColor=#66FF66;gradientColor=#ffffff;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
           <mxGeometry x="330" y="192" width="48" height="48" as="geometry" />
         </mxCell>
+        <mxCell id="ROoeOtMSebMnKDqyICLQ-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;fillColor=none;gradientColor=#ffffff;align=left;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
+          <mxGeometry x="170" y="235" width="370" height="115" as="geometry" />
+        </mxCell>
         <mxCell id="ROoeOtMSebMnKDqyICLQ-40" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=16;fontColor=#FF0000;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;width=32;startSize=7.27;" edge="1" parent="ROoeOtMSebMnKDqyICLQ-1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="510" y="264.5" as="sourcePoint" />
@@ -1144,9 +1150,6 @@
         </mxCell>
         <mxCell id="ROoeOtMSebMnKDqyICLQ-43" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/super-mono-reflection/red/button-cross_red.png;fontSize=10;fontColor=#000000;fillColor=#66FF66;gradientColor=#ffffff;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
           <mxGeometry x="530" y="192" width="64" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="ROoeOtMSebMnKDqyICLQ-44" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;Service Interdependent Communication between&amp;nbsp;&lt;span style=&quot;font-size: 16px;&quot;&gt;the ECU partitions&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="ROoeOtMSebMnKDqyICLQ-1">
-          <mxGeometry x="220" y="10" width="490" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
