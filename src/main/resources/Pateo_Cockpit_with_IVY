@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T13:47:01.703Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="0b3zGOI-olQXVuTZP80F" version="15.6.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-11-01T13:47:53.107Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="IOlNWkC6GQoeHesvar34" version="15.6.2" type="github" pages="5">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="01.As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1072" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -703,7 +703,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="03.To-Be Option 1: Pateo Cluster Module" id="7l9-pFcrCw6H6ThN6oOS">
-    <mxGraphModel dx="1072" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1787" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-0" />
         <mxCell id="ALtG-egyAZk3Ne2m57l1-1" parent="ALtG-egyAZk3Ne2m57l1-0" />
@@ -785,7 +785,7 @@
         <mxCell id="ALtG-egyAZk3Ne2m57l1-50" value="QNX RTOS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#FFFFFF;fontStyle=3;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
           <mxGeometry x="1200" y="550" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ALtG-egyAZk3Ne2m57l1-51" value="Body Control Module" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=22;fontColor=#FFFFFF;fillColor=#3da9c2;strokeColor=#FFFFFF;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+        <mxCell id="ALtG-egyAZk3Ne2m57l1-51" value="Body Control Module" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=20;fontColor=#FFFFFF;fillColor=#3da9c2;strokeColor=#FFFFFF;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
           <mxGeometry x="1200" y="480" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-54" value="CAN-FD" style="text;html=1;strokeColor=#36393d;fillColor=#ffff88;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=1;fontSize=14;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
@@ -800,7 +800,7 @@
         <mxCell id="ALtG-egyAZk3Ne2m57l1-58" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;fillColor=#bac8d3;strokeColor=#23445d;" edge="1" parent="ALtG-egyAZk3Ne2m57l1-1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="360" y="800" as="sourcePoint" />
-            <mxPoint x="1400" y="800" as="targetPoint" />
+            <mxPoint x="1660" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8CirKbof1J0SCQdIqjhe-0" value="&lt;font color=&quot;#000000&quot;&gt;Vehicle Network&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;fontColor=#FFFFFF;" vertex="1" connectable="0" parent="ALtG-egyAZk3Ne2m57l1-58">
@@ -981,6 +981,33 @@
             <mxPoint x="41.02999999999997" y="196.8" as="sourcePoint" />
             <mxPoint x="40.99999999999977" y="165.2" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="sgpk1pMPSbKehBDWQm9U-3" value="NXP S32G" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=#FFFFFF;fontStyle=3;shadow=0;sketch=0;glass=0;fontColor=#FFFFFF;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+          <mxGeometry x="1480" y="600" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sgpk1pMPSbKehBDWQm9U-4" value="QNX RTOS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#FFFFFF;fontStyle=3;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+          <mxGeometry x="1480" y="550" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sgpk1pMPSbKehBDWQm9U-5" value="Battery Management System" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontSize=20;fontColor=#FFFFFF;fillColor=#3da9c2;strokeColor=#FFFFFF;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+          <mxGeometry x="1480" y="480" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sgpk1pMPSbKehBDWQm9U-6" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;fillColor=#fad9d5;strokeColor=#ae4132;" edge="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1605" y="800.0000000000002" as="sourcePoint" />
+            <mxPoint x="1605" y="639" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sgpk1pMPSbKehBDWQm9U-7" value="LIN" style="text;html=1;strokeColor=#36393d;fillColor=#ffff88;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=1;fontSize=14;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+          <mxGeometry x="1611" y="700" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sgpk1pMPSbKehBDWQm9U-8" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;fillColor=#fad7ac;strokeColor=#b46504;" edge="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1500" y="800.0000000000002" as="sourcePoint" />
+            <mxPoint x="1500" y="639" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sgpk1pMPSbKehBDWQm9U-9" value="CAN-FD" style="text;html=1;strokeColor=#36393d;fillColor=#ffff88;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=1;fontSize=14;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+          <mxGeometry x="1505" y="700" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
