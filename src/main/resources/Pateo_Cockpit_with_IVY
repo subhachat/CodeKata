@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T13:47:53.107Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="IOlNWkC6GQoeHesvar34" version="15.6.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-11-01T13:48:04.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="KC6j3nx3IHzhEROH3m-6" version="15.6.2" type="github" pages="5">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="01.As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1072" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -982,7 +982,7 @@
             <mxPoint x="40.99999999999977" y="165.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sgpk1pMPSbKehBDWQm9U-3" value="NXP S32G" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=#FFFFFF;fontStyle=3;shadow=0;sketch=0;glass=0;fontColor=#FFFFFF;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+        <mxCell id="sgpk1pMPSbKehBDWQm9U-3" value="SoC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=#FFFFFF;fontStyle=3;shadow=0;sketch=0;glass=0;fontColor=#FFFFFF;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
           <mxGeometry x="1480" y="600" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sgpk1pMPSbKehBDWQm9U-4" value="QNX RTOS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#FFFFFF;fontStyle=3;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
