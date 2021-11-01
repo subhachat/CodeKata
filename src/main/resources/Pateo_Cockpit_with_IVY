@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T14:17:35.833Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="8k6BgHJwKWgY-JeIvCVt" version="15.6.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-11-01T14:18:27.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="k40IfnmygQOPBgM-w-Jt" version="15.6.2" type="github" pages="6">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="01.As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1072" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1133,6 +1133,12 @@
         </mxCell>
         <mxCell id="IYYr0woD_0j1YPTw5ZqI-6" value="IVY-Vehicle Services" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;sketch=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fillColor=#9999FF;gradientColor=none;align=center;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
           <mxGeometry x="530" y="352.5" width="90" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="pxLmXl2qvDqyvKRiVs3C-0" value="Partition - Digital Cluster" style="text;html=1;fillColor=#cce5ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=1;sketch=0;fontSize=16;strokeColor=#36393d;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="275" y="110" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pxLmXl2qvDqyvKRiVs3C-1" value="Partition - Infotainment" style="text;html=1;fillColor=#cce5ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=1;sketch=0;fontSize=16;strokeColor=#36393d;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="801" y="110" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
