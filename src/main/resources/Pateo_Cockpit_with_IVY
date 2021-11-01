@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T13:10:51.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="jqI1fZ4iKAjIrcU4zdcI" version="15.6.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-11-01T13:11:09.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="O7V5bPqLYt37z_aUPSwz" version="15.6.2" type="github" pages="5">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="01.As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1072" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -711,7 +711,7 @@
           <mxGeometry x="120" y="320" width="520" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0F3C4C;shadow=0;sketch=0;glass=0;strokeColor=#FFFFFF;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
-          <mxGeometry x="40" y="440" width="750" height="39" as="geometry" />
+          <mxGeometry x="40" y="440" width="760" height="39" as="geometry" />
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-5" value="QNX Hypervisor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;strokeColor=#FFFFFF;fontStyle=3;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
           <mxGeometry x="40" y="560" width="1040" height="40" as="geometry" />
@@ -756,10 +756,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-41" value="Infotainment partition" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=1;sketch=1;fontSize=22;fontColor=#000000;fillColor=#6666FF;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
-          <mxGeometry x="850" y="200" width="230" height="280" as="geometry" />
+          <mxGeometry x="840" y="200" width="240" height="280" as="geometry" />
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-42" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;strokeColor=#999999;glass=1;sketch=0;fontSize=22;fontColor=#000000;fillColor=#6666FF;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
-          <mxGeometry x="40" y="148" width="860" height="20" as="geometry" />
+          <mxGeometry x="40" y="148" width="760" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-43" value="Partition - Cluster/Copilot/A-Pillar/AR-HUD" style="text;html=1;fillColor=#cce5ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=1;sketch=0;fontSize=22;strokeColor=#36393d;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
           <mxGeometry x="310" y="108" width="430" height="30" as="geometry" />
