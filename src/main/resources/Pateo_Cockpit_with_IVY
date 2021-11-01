@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T14:28:30.272Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="rxMJnBrkDXQH2yPrVzLX" version="15.6.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-11-01T14:31:45.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="PpxVkc6lLkIWI6LnvTjJ" version="15.6.2" type="github" pages="6">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="01.As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1072" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1048,7 +1048,7 @@
           <mxGeometry x="402" y="244" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B1E73X6BxZwertP16eFt-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
-          <mxGeometry x="640" y="200" width="880" height="77" as="geometry" />
+          <mxGeometry x="640" y="200" width="900" height="77" as="geometry" />
         </mxCell>
         <mxCell id="nyiEvCDuKKgFUX9e9nBH-0" value="Vehicle Setting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;fontColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
           <mxGeometry x="650" y="204" width="100" height="30" as="geometry" />
@@ -1211,6 +1211,33 @@
         </mxCell>
         <mxCell id="Iv4_Y51qJkprVbqiqEtI-3" value="app" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;fontColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
           <mxGeometry x="1120" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E9GeYWzYehZ0FzG6UqGE-0" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;strokeColor=#FFFFFF;strokeWidth=1;fillColor=#FF0000;gradientColor=none;entryX=1;entryY=0.443;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="390" as="sourcePoint" />
+            <mxPoint x="1540" y="392.65200000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E9GeYWzYehZ0FzG6UqGE-1" value="Car Common Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="650" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9sxEAGjsHMd4QzG3pqq9-0" value="FuSa Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="760" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FHUqtwyY8FuSEm9lIg65-0" value="Location Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="870" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K0sdxR_uDNVDutkAxa-7-0" value="ADAS Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="980" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QnlSP8UMUAU3UzdkSLU_-0" value="Voice Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="1090" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QnlSP8UMUAU3UzdkSLU_-1" value="Vision Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="1200" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wnp2WruIV4MMspGu7KL9-0" value="SOA Services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="1310" y="400" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
