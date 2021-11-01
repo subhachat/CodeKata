@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T13:11:09.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="O7V5bPqLYt37z_aUPSwz" version="15.6.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-11-01T13:12:08.872Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="tp9hQW0D6AjkyYnvc18V" version="15.6.2" type="github" pages="5">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="01.As-Is: Pateo Cluster Module">
-    <mxGraphModel dx="1072" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1072" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -713,7 +713,7 @@
         <mxCell id="ALtG-egyAZk3Ne2m57l1-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0F3C4C;shadow=0;sketch=0;glass=0;strokeColor=#FFFFFF;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
           <mxGeometry x="40" y="440" width="760" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="ALtG-egyAZk3Ne2m57l1-5" value="QNX Hypervisor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;strokeColor=#FFFFFF;fontStyle=3;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+        <mxCell id="ALtG-egyAZk3Ne2m57l1-5" value="QNX Hypervisor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#FFFFFF;fontStyle=3;shadow=0;glass=0;sketch=0;fontColor=#FFFFFF;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
           <mxGeometry x="40" y="560" width="1040" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-6" value="Qualcomm SA8155" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=#FFFFFF;fontStyle=3;shadow=0;sketch=0;glass=0;fontColor=#FFFFFF;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
