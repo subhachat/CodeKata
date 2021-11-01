@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T14:18:27.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="k40IfnmygQOPBgM-w-Jt" version="15.6.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-11-01T14:27:10.804Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="uoxqk9zUf3-1nfq0F5nF" version="15.6.2" type="github" pages="6">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="01.As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1072" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1018,7 +1018,7 @@
         <mxCell id="F25tvUpivfv4HQ7wr-Qg-0" />
         <mxCell id="F25tvUpivfv4HQ7wr-Qg-1" parent="F25tvUpivfv4HQ7wr-Qg-0" />
         <mxCell id="B1E73X6BxZwertP16eFt-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
-          <mxGeometry x="120" y="201" width="510" height="77" as="geometry" />
+          <mxGeometry x="120" y="200" width="510" height="77" as="geometry" />
         </mxCell>
         <mxCell id="B1E73X6BxZwertP16eFt-1" value="App Layer" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillColor=#b1ddf0;strokeColor=#FFFFFF;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
           <mxGeometry x="40" y="201" width="80" height="77" as="geometry" />
@@ -1048,7 +1048,7 @@
           <mxGeometry x="402" y="244" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B1E73X6BxZwertP16eFt-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
-          <mxGeometry x="640" y="201" width="522" height="77" as="geometry" />
+          <mxGeometry x="640" y="200" width="880" height="77" as="geometry" />
         </mxCell>
         <mxCell id="nyiEvCDuKKgFUX9e9nBH-0" value="Vehicle Setting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;fontColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
           <mxGeometry x="650" y="204" width="100" height="30" as="geometry" />
@@ -1139,6 +1139,69 @@
         </mxCell>
         <mxCell id="pxLmXl2qvDqyvKRiVs3C-1" value="Partition - Infotainment" style="text;html=1;fillColor=#cce5ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=1;sketch=0;fontSize=16;strokeColor=#36393d;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
           <mxGeometry x="801" y="110" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pxLmXl2qvDqyvKRiVs3C-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E7898;strokeColor=#FFFFFF;fontColor=#ffffff;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="640" y="275" width="900" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKG5Wrf4cnwmjY3LJLL-0" value="Scene Detection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="650" y="290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TuKG5Wrf4cnwmjY3LJLL-1" value="Music Player" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="760" y="290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="STwNsiZLDIO7kZwEuaz9-0" value="Radio, Tuner" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="870" y="290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="STwNsiZLDIO7kZwEuaz9-1" value="HVAC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="980" y="290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F6LAMXiilKiSQVTcKgIk-0" value="Cabin Light" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="1090" y="290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F6LAMXiilKiSQVTcKgIk-1" value="User Behaviour" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="1200" y="290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2_cZXNYiSraBYaBhNgAS-0" value="Multi-profile Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="1310" y="290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2_cZXNYiSraBYaBhNgAS-1" value="Text2Speech" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="650" y="352.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2_cZXNYiSraBYaBhNgAS-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="1420" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2_cZXNYiSraBYaBhNgAS-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="1430" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2_cZXNYiSraBYaBhNgAS-4" value="...service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="1440" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2_cZXNYiSraBYaBhNgAS-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;strokeColor=#FFFFFF;strokeWidth=1;fillColor=#FF0000;gradientColor=none;entryX=1;entryY=0.443;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="F25tvUpivfv4HQ7wr-Qg-1" target="pxLmXl2qvDqyvKRiVs3C-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="345" as="sourcePoint" />
+            <mxPoint x="1520" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Imzyxpjr4r4inFEaZkZ-0" value="Diagnostic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="760" y="352.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="60MF6gi7cHYYUcU-kWlZ-0" value="Position" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="870" y="351.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ujxBnXPUQwT96v-9DTZD-0" value="Vehicle Info" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="980" y="351.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tYFtprCjzLvYPqCUL2yA-0" value="Perception" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="1090" y="351.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vGPpSBQcWXR_lfLLlsIy-0" value="OTA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="1200" y="351.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vGPpSBQcWXR_lfLLlsIy-1" value="FaceId Detection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="1310" y="351.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv4_Y51qJkprVbqiqEtI-0" value="Digital Media Streaming" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="1420" y="351.5" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
