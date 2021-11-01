@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T13:10:40.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="udPYP2Y4Dni2965t8p7Q" version="15.6.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-11-01T13:10:51.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="jqI1fZ4iKAjIrcU4zdcI" version="15.6.2" type="github" pages="5">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="01.As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1072" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -756,7 +756,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-41" value="Infotainment partition" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=1;sketch=1;fontSize=22;fontColor=#000000;fillColor=#6666FF;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
-          <mxGeometry x="920" y="320" width="160" height="160" as="geometry" />
+          <mxGeometry x="850" y="200" width="230" height="280" as="geometry" />
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-42" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;strokeColor=#999999;glass=1;sketch=0;fontSize=22;fontColor=#000000;fillColor=#6666FF;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
           <mxGeometry x="40" y="148" width="860" height="20" as="geometry" />
