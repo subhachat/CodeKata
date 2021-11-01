@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T14:14:25.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="5HwzbTTVb9CUmYRsP3dD" version="15.6.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-11-01T14:16:00.045Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="6D7BOlahKwdurX3XYKoX" version="15.6.2" type="github" pages="6">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="01.As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1072" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1115,6 +1115,15 @@
         </mxCell>
         <mxCell id="wvldmHnzjT3bW7cQYm1T-1" value="A-pillar display" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
           <mxGeometry x="155" y="370" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IYYr0woD_0j1YPTw5ZqI-0" value="IVY-Sensor" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;sketch=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fillColor=#9999FF;gradientColor=none;align=center;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="510" y="215" width="90" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="IYYr0woD_0j1YPTw5ZqI-1" value="IVY-Sensor" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;sketch=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fillColor=#9999FF;gradientColor=none;align=center;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="520" y="225" width="90" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="IYYr0woD_0j1YPTw5ZqI-2" value="IVY-Sensor" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;sketch=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;fillColor=#9999FF;gradientColor=none;align=center;" vertex="1" parent="F25tvUpivfv4HQ7wr-Qg-1">
+          <mxGeometry x="530" y="235" width="90" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
