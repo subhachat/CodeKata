@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T13:17:12.864Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="RFFVRznkDK7dNf5e7SIT" version="15.6.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-11-01T13:22:41.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="gqaLZbCRbToAtIvIgPb6" version="15.6.2" type="github" pages="5">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="01.As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1072" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -921,6 +921,15 @@
             <mxPoint x="120" y="520" as="sourcePoint" />
             <mxPoint x="390" y="520" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tU3aa7sFSs-PH8OkUtCf-1" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;sketch=0;fontSize=22;fontColor=#000000;strokeColor=#FFFFFF;fillColor=#0066CC;gradientColor=none;align=left;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+          <mxGeometry x="640" y="320" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tU3aa7sFSs-PH8OkUtCf-2" value="&lt;font style=&quot;font-size: 12px&quot; face=&quot;Verdana&quot;&gt;IVY - VAL&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;sketch=0;fontSize=22;strokeColor=#10739e;fillColor=#b1ddf0;align=center;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+          <mxGeometry x="667" y="329" width="103" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="tU3aa7sFSs-PH8OkUtCf-3" value="&lt;font style=&quot;font-size: 12px&quot; face=&quot;Verdana&quot;&gt;IVY - HAL&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;sketch=0;fontSize=22;strokeColor=#10739e;fillColor=#b1ddf0;align=center;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+          <mxGeometry x="668.5" y="380" width="103" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
