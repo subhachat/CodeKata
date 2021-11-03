@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T17:09:11.041Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="FtbACPoJuCWKF8EaSC3c" version="15.6.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-11-03T17:09:53.608Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="wvDAjxRrgRhHy5Ak9cmc" version="15.6.6" type="github" pages="6">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="01.As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1332,6 +1332,9 @@
         </mxCell>
         <mxCell id="s1tgyOg0TpLIbE89vUBn-11" value="Notification Manager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3da9c2;fontColor=#FFFFFF;strokeColor=default;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
           <mxGeometry x="1790.0002222222222" y="412.0019037656904" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jlt__Bt53T38BuWFuwja-0" value="OpenGL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3da9c2;fontColor=#FFFFFF;strokeColor=default;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+          <mxGeometry x="1880.0002222222222" y="412.0019037656904" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
