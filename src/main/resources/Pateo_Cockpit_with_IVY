@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T17:09:53.608Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="wvDAjxRrgRhHy5Ak9cmc" version="15.6.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-11-03T17:10:49.647Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="8VD9_RASOp8nGW90A3hw" version="15.6.6" type="github" pages="6">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="01.As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -898,8 +898,8 @@
             <mxPoint x="390" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tU3aa7sFSs-PH8OkUtCf-22" value="&lt;font&gt;IVY Stack&lt;/font&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=0;fontFamily=Verdana;fontSize=12;fontColor=#333333;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
-          <mxGeometry x="850" y="84" width="74" height="30" as="geometry" />
+        <mxCell id="tU3aa7sFSs-PH8OkUtCf-22" value="&lt;font&gt;IVY Stack&lt;/font&gt;" style="text;html=1;strokeColor=#666666;fillColor=#3DA9C2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=0;fontFamily=Verdana;fontSize=12;fontColor=#333333;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
+          <mxGeometry x="856.17" y="80" width="74" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-56" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;fillColor=#b0e3e6;strokeColor=#0e8088;labelBackgroundColor=default;" parent="ALtG-egyAZk3Ne2m57l1-1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -1081,7 +1081,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WXaOnjq8FUsHZe7EPtoJ-41" value="" style="group;fontColor=default;aspect=fixed;fillColor=#99CCFF;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1" connectable="0">
+        <mxCell id="WXaOnjq8FUsHZe7EPtoJ-41" value="" style="group;fontColor=#FFFFFF;aspect=fixed;fillColor=#99CCFF;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1" connectable="0">
           <mxGeometry x="1150" y="190" width="868.4200000000001" height="219.11" as="geometry" />
         </mxCell>
         <mxCell id="WXaOnjq8FUsHZe7EPtoJ-42" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#FFFFFF;fontColor=default;" parent="WXaOnjq8FUsHZe7EPtoJ-41" vertex="1">
@@ -1180,7 +1180,7 @@
         <mxCell id="WXaOnjq8FUsHZe7EPtoJ-72" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;fontColor=default;strokeColor=#000000;" parent="WXaOnjq8FUsHZe7EPtoJ-41" vertex="1">
           <mxGeometry x="431.01088888888887" y="22.91945606694561" width="55.02266666666667" height="27.503347280334737" as="geometry" />
         </mxCell>
-        <mxCell id="WXaOnjq8FUsHZe7EPtoJ-73" value="app" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;fontColor=default;strokeColor=#000000;" parent="WXaOnjq8FUsHZe7EPtoJ-41" vertex="1">
+        <mxCell id="WXaOnjq8FUsHZe7EPtoJ-73" value="app" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;fontColor=#FFFFFF;strokeColor=#000000;" parent="WXaOnjq8FUsHZe7EPtoJ-41" vertex="1">
           <mxGeometry x="440.1813333333334" y="32.087238493723845" width="55.02266666666667" height="27.503347280334737" as="geometry" />
         </mxCell>
         <mxCell id="WXaOnjq8FUsHZe7EPtoJ-74" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;strokeColor=#FFFFFF;strokeWidth=1;fillColor=#FF0000;gradientColor=none;entryX=1;entryY=0.443;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" parent="WXaOnjq8FUsHZe7EPtoJ-41" edge="1">
@@ -1288,7 +1288,7 @@
         <mxCell id="Hx8A6cEKXe4vt__6M6iV-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;fontColor=default;strokeColor=#000000;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
           <mxGeometry x="535.810888888889" y="219.1694560669456" width="55.02266666666667" height="27.503347280334737" as="geometry" />
         </mxCell>
-        <mxCell id="Hx8A6cEKXe4vt__6M6iV-3" value="app" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;fontColor=default;strokeColor=#000000;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+        <mxCell id="Hx8A6cEKXe4vt__6M6iV-3" value="app" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;fontColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
           <mxGeometry x="544.9813333333335" y="228.33723849372387" width="55.02266666666667" height="27.503347280334737" as="geometry" />
         </mxCell>
         <mxCell id="Hx8A6cEKXe4vt__6M6iV-4" value="IVY Insights Data will be used to develop new CX apps or enrich existing apps" style="text;html=1;fillColor=#D5E8D4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=default;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
