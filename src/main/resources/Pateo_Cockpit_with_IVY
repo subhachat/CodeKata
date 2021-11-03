@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-03T18:03:31.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Ur5kNMaihAcv3OPL9w1v" version="15.6.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-11-03T18:08:16.714Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="l2MjksfFIVUIRU84w_Im" version="15.6.6" type="github" pages="6">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="01.As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -703,7 +703,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="03.To-Be Option 1: Pateo Cluster Module" id="7l9-pFcrCw6H6ThN6oOS">
-    <mxGraphModel dx="1483" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="865" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-0" />
         <mxCell id="ALtG-egyAZk3Ne2m57l1-1" parent="ALtG-egyAZk3Ne2m57l1-0" />
@@ -726,25 +726,19 @@
           <mxGeometry x="40" y="480" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-10" value="Network Security" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
-          <mxGeometry x="437.65999999999997" y="525" width="140" height="30" as="geometry" />
+          <mxGeometry x="460" y="500" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-11" value="Protocol Stack" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
-          <mxGeometry x="593" y="525" width="140" height="30" as="geometry" />
+          <mxGeometry x="620" y="500" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-23" value="Service Discovery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
-          <mxGeometry x="134" y="525" width="140" height="30" as="geometry" />
+          <mxGeometry x="140" y="500" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-24" value="I/O Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
-          <mxGeometry x="285" y="525" width="140" height="30" as="geometry" />
+          <mxGeometry x="300" y="500" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-28" value="&lt;b style=&quot;&quot;&gt;QNX Kernel&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#0f3c4c;strokeColor=#FFFFFF;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
           <mxGeometry x="40" y="440" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ALtG-egyAZk3Ne2m57l1-40" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontColor=#000000;exitX=0.616;exitY=-0.156;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;exitPerimeter=0;" parent="ALtG-egyAZk3Ne2m57l1-1" source="ALtG-egyAZk3Ne2m57l1-24" target="ALtG-egyAZk3Ne2m57l1-8" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="490" y="480" as="sourcePoint" />
-            <mxPoint x="540" y="430" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-42" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;strokeColor=#000000;glass=1;sketch=0;fontSize=22;fontColor=#000000;fillColor=#6666FF;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
           <mxGeometry x="40" y="54" width="1090" height="20" as="geometry" />
@@ -752,14 +746,8 @@
         <mxCell id="ALtG-egyAZk3Ne2m57l1-43" value="Partition - QNX" style="text;html=1;fillColor=#cce5ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=1;sketch=0;fontSize=22;strokeColor=#36393d;strokeWidth=1;fontColor=default;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
           <mxGeometry x="500" y="14" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ALtG-egyAZk3Ne2m57l1-44" value="Service Security" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
-          <mxGeometry x="134" y="485" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ALtG-egyAZk3Ne2m57l1-45" value="FuSa Framework Libs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
-          <mxGeometry x="245" y="485" width="125" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-47" value="SOA Tool chain" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
-          <mxGeometry x="380" y="485" width="100" height="30" as="geometry" />
+          <mxGeometry x="1100" y="500" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-49" value="NXP S32G" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=#FFFFFF;fontStyle=3;shadow=0;sketch=0;glass=0;fontColor=#FFFFFF;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
           <mxGeometry x="1200" y="800" width="180" height="40" as="geometry" />
@@ -870,12 +858,6 @@
         </mxCell>
         <mxCell id="LNuHdK1B02YcIWoQ7KfK-19" value="Security" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187AB;fontColor=#FFFFFF;strokeColor=default;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
           <mxGeometry x="278" y="390" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LNuHdK1B02YcIWoQ7KfK-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="ALtG-egyAZk3Ne2m57l1-1" source="ALtG-egyAZk3Ne2m57l1-9" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="520" as="sourcePoint" />
-            <mxPoint x="390" y="520" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="tU3aa7sFSs-PH8OkUtCf-22" value="&lt;font&gt;IVY Stack&lt;/font&gt;" style="text;html=1;strokeColor=#666666;fillColor=#3DA9C2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;sketch=0;fontFamily=Verdana;fontSize=12;fontColor=#FFFFFF;fontStyle=1" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
           <mxGeometry x="856.17" y="80" width="74" height="30" as="geometry" />
@@ -1323,6 +1305,12 @@
         </mxCell>
         <mxCell id="Jlt__Bt53T38BuWFuwja-5" value="Display" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;strokeColor=default;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
           <mxGeometry x="160" y="300" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pIMf0nE50Fco8y9pLM6B-0" value="Service Security" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+          <mxGeometry x="780" y="500" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pIMf0nE50Fco8y9pLM6B-1" value="FuSa Framework Libs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+          <mxGeometry x="940" y="500" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
