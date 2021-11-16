@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-16T16:18:27.259Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="ZBM23dbLw0Bsmk87Q0I8" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-16T16:22:50.781Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="eab3ZVvT7F9SmouckG2-" version="15.6.8" type="github">
   <diagram id="xZUEEhlqR2YgX-Inar-z" name="Page-1">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
             <mxPoint x="310" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-1aNArAHK49JRfU5nT5b-20" value="&lt;div&gt;Identity /&lt;/div&gt;&lt;div&gt;Authentication /&lt;/div&gt;&lt;div&gt;Service Validation&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="-1aNArAHK49JRfU5nT5b-20" value="&lt;div&gt;Identity /&lt;/div&gt;&lt;div&gt;Authentication /&lt;/div&gt;&lt;div&gt;Service Validation&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="428" y="130" width="113" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-1aNArAHK49JRfU5nT5b-21" value="&lt;div&gt;Geofence Map&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -49,10 +49,10 @@
         <mxCell id="-1aNArAHK49JRfU5nT5b-22" value="&lt;div&gt;Payment Services&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="549" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-1aNArAHK49JRfU5nT5b-23" value="&lt;div&gt;Merchant Onboarding&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="-1aNArAHK49JRfU5nT5b-23" value="&lt;div&gt;Merchant Onboarding&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="549" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-1aNArAHK49JRfU5nT5b-24" value="&lt;div&gt;Vehicle Onboarding&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="-1aNArAHK49JRfU5nT5b-24" value="&lt;div&gt;(Bulk/Single) Vehicle Onboarding&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="330" y="130" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-1aNArAHK49JRfU5nT5b-26" value="&lt;div&gt;Vehicle Telemetry&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
@@ -75,6 +75,9 @@
             <mxPoint x="160" y="445" as="sourcePoint" />
             <mxPoint x="210" y="410" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-1aNArAHK49JRfU5nT5b-32" value="USE CASES&lt;br&gt;&lt;br&gt;1. Implicit Authentication - authentication using Car IQ algorithm, that uses vehicle static&amp;nbsp;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="220.05" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
