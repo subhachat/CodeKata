@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T16:20:01.521Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="Le7b_OMmC0vSCky-G2so" version="15.8.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-29T17:04:22.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="-Kg-1XAUzq7YUGValaqr" version="15.8.7" type="github" pages="4">
   <diagram id="_ruIjN_mGAACn8g19wrl" name="01.As-Is: Pateo Cluster Module">
     <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -703,7 +703,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="03.To-Be: Pateo Cluster Module" id="7l9-pFcrCw6H6ThN6oOS">
-    <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-0" />
         <mxCell id="ALtG-egyAZk3Ne2m57l1-1" parent="ALtG-egyAZk3Ne2m57l1-0" />
@@ -725,17 +725,8 @@
         <mxCell id="ALtG-egyAZk3Ne2m57l1-9" value="&lt;b&gt;SOA Management Layer&lt;/b&gt;" style="text;html=1;strokeColor=#FFFFFF;fillColor=#000066;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;shadow=0;glass=0;sketch=0;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
           <mxGeometry x="40" y="480" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ALtG-egyAZk3Ne2m57l1-10" value="Network Security" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
-          <mxGeometry x="460" y="500" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ALtG-egyAZk3Ne2m57l1-11" value="Protocol Stack" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
-          <mxGeometry x="620" y="500" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ALtG-egyAZk3Ne2m57l1-23" value="Service Discovery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;fontSize=12;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
-          <mxGeometry x="140" y="500" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ALtG-egyAZk3Ne2m57l1-24" value="I/O Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
-          <mxGeometry x="300" y="500" width="140" height="50" as="geometry" />
+        <mxCell id="ALtG-egyAZk3Ne2m57l1-23" value="Service Discovery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;fontSize=14;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
+          <mxGeometry x="681" y="495" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-28" value="&lt;b style=&quot;&quot;&gt;QNX Kernel&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#0f3c4c;strokeColor=#FFFFFF;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
           <mxGeometry x="40" y="440" width="80" height="40" as="geometry" />
@@ -745,9 +736,6 @@
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-43" value="Partition - QNX" style="text;html=1;fillColor=#cce5ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=1;sketch=0;fontSize=22;strokeColor=#36393d;strokeWidth=1;fontColor=default;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
           <mxGeometry x="500" y="14" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ALtG-egyAZk3Ne2m57l1-47" value="SOA Tool chain" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
-          <mxGeometry x="1100" y="500" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ALtG-egyAZk3Ne2m57l1-49" value="NXP S32G" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;strokeColor=#FFFFFF;fontStyle=3;shadow=0;sketch=0;glass=0;fontColor=#FFFFFF;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
           <mxGeometry x="1200" y="800" width="180" height="40" as="geometry" />
@@ -1306,11 +1294,17 @@
         <mxCell id="Jlt__Bt53T38BuWFuwja-5" value="Display Manager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2187ab;fontColor=#FFFFFF;strokeColor=default;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
           <mxGeometry x="160" y="300" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pIMf0nE50Fco8y9pLM6B-0" value="Service Security" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
-          <mxGeometry x="780" y="500" width="140" height="50" as="geometry" />
+        <mxCell id="pIMf0nE50Fco8y9pLM6B-0" value="Service Security" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;fontSize=14;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
+          <mxGeometry x="180" y="495" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="pIMf0nE50Fco8y9pLM6B-1" value="FuSa Framework Libs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;" parent="ALtG-egyAZk3Ne2m57l1-1" vertex="1">
-          <mxGeometry x="940" y="500" width="140" height="50" as="geometry" />
+        <mxCell id="KZYY4_QiXzHjsGGtKy0a-0" value="Service Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;fontSize=14;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+          <mxGeometry x="402" y="495" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KZYY4_QiXzHjsGGtKy0a-1" value="DDS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+          <mxGeometry x="620" y="488" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="KZYY4_QiXzHjsGGtKy0a-2" value="SOME/IP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#44ADD8;strokeColor=default;fontColor=#FFFFFF;shadow=0;glass=0;sketch=0;" vertex="1" parent="ALtG-egyAZk3Ne2m57l1-1">
+          <mxGeometry x="620" y="525" width="60" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
