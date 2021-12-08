@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-12-08T19:32:56.397Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="8_DH45raJp85crJ8RbQr" version="15.9.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-08T19:33:58.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="HCNgAo8ZD1h3QFct_y-H" version="15.9.4" type="github" pages="2">
   <diagram id="xZUEEhlqR2YgX-Inar-z" name="Page-1">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6IcUsDizwOfbhfRclnIK-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontColor=#3333FF;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="260" width="140" height="110" as="geometry" />
+          <mxGeometry x="60" y="260" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="-1aNArAHK49JRfU5nT5b-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/music-ui-solid-24px/24/radio_signal_antenna_broadcast-2-128.png" parent="1" vertex="1">
           <mxGeometry x="117" y="260" width="40" height="40" as="geometry" />
@@ -100,13 +100,13 @@
         <mxCell id="6IcUsDizwOfbhfRclnIK-5" value="&lt;p style=&quot;margin-top: 0pt ; margin-bottom: 0pt ; margin-left: 0in ; text-align: left ; direction: ltr ; unicode-bidi: embed ; word-break: normal ; font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px ; font-family: &amp;#34;calibri&amp;#34;&quot;&gt;Backend Services &lt;b&gt;out of scope&lt;/b&gt; for edge&amp;nbsp;representation&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="700" y="355" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6IcUsDizwOfbhfRclnIK-8" value="" style="shape=mxgraph.signs.transportation.car_2;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=11;fontColor=#3333FF;" vertex="1" parent="1">
+        <mxCell id="6IcUsDizwOfbhfRclnIK-8" value="&lt;font color=&quot;#330000&quot;&gt;Vehicle Edge&lt;/font&gt;" style="shape=mxgraph.signs.transportation.car_2;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontSize=11;fontColor=#3333FF;" vertex="1" parent="1">
           <mxGeometry x="82" y="322" width="100" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="6IcUsDizwOfbhfRclnIK-12" value="Onboard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;fontColor=#3333FF;" vertex="1" parent="1">
+        <mxCell id="6IcUsDizwOfbhfRclnIK-12" value="Onboard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=14;fontColor=#3333FF;" vertex="1" parent="1">
           <mxGeometry x="60" y="260" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6IcUsDizwOfbhfRclnIK-13" value="Offboard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;fontColor=#FF8000;" vertex="1" parent="1">
+        <mxCell id="6IcUsDizwOfbhfRclnIK-13" value="Offboard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=14;fontColor=#FF8000;" vertex="1" parent="1">
           <mxGeometry x="600" y="80" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
