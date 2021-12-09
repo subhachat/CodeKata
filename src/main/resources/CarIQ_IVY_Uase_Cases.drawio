@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-09T11:07:32.888Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="ghgEi8g6UY_fgMkEAuJc" version="15.9.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-09T12:31:20.435Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="OYw06dDsTBmzw_aadaUi" version="15.9.4" type="github" pages="3">
   <diagram id="xZUEEhlqR2YgX-Inar-z" name="Page-1">
     <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -206,6 +206,93 @@
         </mxCell>
         <mxCell id="wJnEJrDHo0wrk4RbbYKR-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/tiny-weather-1/512/flash-128.png;rotation=-150;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
           <mxGeometry x="661" y="89" width="68" height="68" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pGVW0kxQ4hnMFzZKYXj4" name="Page-3">
+    <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-0" />
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-1" parent="DpEmRlOjPfjntaRYl3Mz-0" />
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-2" value="CarIQ::EdgeConfigurator&lt;br&gt;&amp;lt;&amp;lt;Offboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
+          <mxGeometry x="40" y="40" width="140" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-2">
+          <mxGeometry x="65" y="210" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-2">
+          <mxGeometry x="70" y="260" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-18" value="Prepare Config &lt;br&gt;(data element, &lt;br&gt;frequency of extract)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" target="DpEmRlOjPfjntaRYl3Mz-17" parent="DpEmRlOjPfjntaRYl3Mz-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-20" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="DpEmRlOjPfjntaRYl3Mz-2" target="DpEmRlOjPfjntaRYl3Mz-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="319" as="sourcePoint" />
+            <mxPoint x="124.5" y="319" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-3" value="Connectivity Module&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
+          <mxGeometry x="280" y="40" width="140" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-3">
+          <mxGeometry x="65" y="180" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-4" value="IVY Vehicle Services&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
+          <mxGeometry x="480" y="40" width="140" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-4">
+          <mxGeometry x="65" y="135" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-6" value="Power State change: &lt;br&gt;Engine ON" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" target="DpEmRlOjPfjntaRYl3Mz-5" parent="DpEmRlOjPfjntaRYl3Mz-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="115" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="100" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-7" value="Establish Connect &lt;br&gt;with CarIQ endpoint" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=12;fontColor=#330000;exitX=0.5;exitY=0.875;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
+          <mxGeometry x="0.0973" width="60" relative="1" as="geometry">
+            <mxPoint x="550" y="220" as="sourcePoint" />
+            <mxPoint x="349.5" y="220" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-11" value="Mutual TLS" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=12;fontColor=#330000;exitX=-0.06;exitY=0.405;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="344.4000000000001" y="249.75" as="sourcePoint" />
+            <mxPoint x="109.5" y="249.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-21" value="IVY SS::Smart Telemetry&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
+          <mxGeometry x="720" y="40" width="140" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-21">
+          <mxGeometry x="65" y="160" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-21">
+          <mxGeometry x="70" y="190" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-28" value="Activate" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" target="DpEmRlOjPfjntaRYl3Mz-27" parent="DpEmRlOjPfjntaRYl3Mz-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-24" value="Desired Power state notification" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;fontColor=#330000;exitX=0.9;exitY=0.715;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="DpEmRlOjPfjntaRYl3Mz-1" source="DpEmRlOjPfjntaRYl3Mz-5" target="DpEmRlOjPfjntaRYl3Mz-26">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="560" y="205" as="sourcePoint" />
+            <mxPoint x="790" y="204.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
