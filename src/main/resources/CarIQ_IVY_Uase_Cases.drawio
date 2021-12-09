@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-09T10:25:18.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="YgqZvyDFLsR6W2-6C101" version="15.9.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-09T10:28:55.588Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="rXyyWzgLzpPAY3hsWHfm" version="15.9.4" type="github" pages="2">
   <diagram id="xZUEEhlqR2YgX-Inar-z" name="Page-1">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -123,19 +123,19 @@
         <mxCell id="WUQAmtTYIuR2_UULqb4M-28" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=14;fontColor=#ffffff;fillColor=#1ba1e2;glass=1;strokeColor=#006EAF;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
           <mxGeometry x="121" y="138" width="238" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="WUQAmtTYIuR2_UULqb4M-0" value="Actuators" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=14;fontColor=#330000;fillColor=#E1D5E7;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
+        <mxCell id="WUQAmtTYIuR2_UULqb4M-0" value="Actuators" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=14;fontColor=#FFFFFF;fillColor=#660066;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
           <mxGeometry x="160" y="348" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WUQAmtTYIuR2_UULqb4M-1" value="Sensors" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
+        <mxCell id="WUQAmtTYIuR2_UULqb4M-1" value="Sensors" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=14;fillColor=#660066;strokeColor=#9673a6;fontColor=#FFFFFF;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
           <mxGeometry x="521" y="348" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WUQAmtTYIuR2_UULqb4M-2" value="Vehicle E/E Architecture&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=14;fontColor=#ffffff;fillColor=#76608a;strokeColor=#432D57;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
+        <mxCell id="WUQAmtTYIuR2_UULqb4M-2" value="Vehicle E/E Architecture&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=14;fontColor=#ffffff;fillColor=#330066;strokeColor=#432D57;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
           <mxGeometry x="110" y="288" width="560" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WUQAmtTYIuR2_UULqb4M-3" value="Sub-system (Host ECU)" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=14;fontColor=#ffffff;fillColor=#647687;strokeColor=#314354;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
+        <mxCell id="WUQAmtTYIuR2_UULqb4M-3" value="Sub-system (Host ECU)" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=14;fontColor=#ffffff;fillColor=#330099;strokeColor=#314354;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
           <mxGeometry x="120" y="250" width="360" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="WUQAmtTYIuR2_UULqb4M-6" value="RTOS/OS" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=14;fontColor=#ffffff;fillColor=#6d8764;strokeColor=#3A5431;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
+        <mxCell id="WUQAmtTYIuR2_UULqb4M-6" value="RTOS/OS" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=14;fontColor=#ffffff;fillColor=#3300CC;strokeColor=#3A5431;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
           <mxGeometry x="119" y="211" width="360" height="38" as="geometry" />
         </mxCell>
         <mxCell id="WUQAmtTYIuR2_UULqb4M-10" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=#006EAF;shadow=0;align=center;verticalAlign=top;fillColor=#1ba1e2;shape=mxgraph.gcp2.process;dashed=1;fontSize=14;fontColor=#ffffff;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
@@ -150,7 +150,7 @@
         <mxCell id="WUQAmtTYIuR2_UULqb4M-13" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=#006EAF;shadow=0;align=center;verticalAlign=top;fillColor=#1ba1e2;shape=mxgraph.gcp2.process;dashed=1;fontSize=14;fontColor=#ffffff;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
           <mxGeometry x="251" y="85.62" width="44" height="52.38" as="geometry" />
         </mxCell>
-        <mxCell id="WUQAmtTYIuR2_UULqb4M-14" value="Connectivity &#xa;Module (TCU etc.)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=middle;dashed=1;fontSize=14;fontColor=#ffffff;fillColor=#647687;strokeColor=#314354;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
+        <mxCell id="WUQAmtTYIuR2_UULqb4M-14" value="Connectivity &#xa;Module (TCU etc.)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=middle;dashed=1;fontSize=14;fontColor=#ffffff;fillColor=#330099;strokeColor=#314354;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
           <mxGeometry x="521" y="210" width="140" height="78" as="geometry" />
         </mxCell>
         <mxCell id="WUQAmtTYIuR2_UULqb4M-15" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/vecico-connectivity/288/wifi_Symbol-128.png;dashed=1;fontSize=14;fontColor=#330000;fillColor=#9999FF;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
@@ -177,7 +177,7 @@
         <mxCell id="WUQAmtTYIuR2_UULqb4M-26" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/ui-essential-17/32/UI_Essential_Outline_2_essential-app-ui-jigsaw-128.png;dashed=1;fontSize=14;fontColor=#330000;fillColor=#9999FF;imageBorder=none;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
           <mxGeometry x="300" y="145" width="48" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="WUQAmtTYIuR2_UULqb4M-32" value="ECU Core SW" style="rounded=1;whiteSpace=wrap;html=1;glass=0;dashed=1;fontSize=14;fontColor=#FFFFFF;fillColor=#6D8740;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
+        <mxCell id="WUQAmtTYIuR2_UULqb4M-32" value="ECU Core SW" style="rounded=1;whiteSpace=wrap;html=1;glass=0;dashed=1;fontSize=14;fontColor=#FFFFFF;fillColor=#3300FF;" vertex="1" parent="OppfQNcWZWz8VkuyHKna-1">
           <mxGeometry x="379" y="151" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
