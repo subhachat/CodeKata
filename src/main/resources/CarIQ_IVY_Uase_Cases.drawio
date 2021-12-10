@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T16:37:31.714Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="0Fx3x2piKoPMZtZT7zDT" version="15.9.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-10T16:37:57.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="43c-GLMMQ1RzHSzPGtP-" version="15.9.4" type="github" pages="5">
   <diagram id="xZUEEhlqR2YgX-Inar-z" name="Page-1">
     <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -837,7 +837,7 @@
         <mxCell id="FvKwFQ4FHgm5z5ajYj5a-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;glass=0;dashed=1;sketch=0;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;gradientColor=#ffffff;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-20">
           <mxGeometry x="65" y="450" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FvKwFQ4FHgm5z5ajYj5a-11" value="Is last payload &lt;br&gt;message in queue &lt;br&gt;cleared?" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;strokeColor=#330000;" edge="1" target="FvKwFQ4FHgm5z5ajYj5a-10" parent="bDZlbGgos1EzM1IyOgFE-20">
+        <mxCell id="FvKwFQ4FHgm5z5ajYj5a-11" value="Is last payload &lt;br&gt;message for the transition type,&lt;br&gt;in queue,&amp;nbsp;cleared?" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;strokeColor=#330000;" edge="1" target="FvKwFQ4FHgm5z5ajYj5a-10" parent="bDZlbGgos1EzM1IyOgFE-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="70" y="430" as="sourcePoint" />
             <Array as="points">
