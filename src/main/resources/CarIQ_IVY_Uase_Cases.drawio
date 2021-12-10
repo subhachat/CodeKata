@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T16:39:56.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="wiF_7mBH49ZRzbC6iwzN" version="15.9.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-10T16:41:11.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="QqyvURidOybeLYBM0frT" version="15.9.4" type="github" pages="5">
   <diagram id="xZUEEhlqR2YgX-Inar-z" name="Page-1">
     <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -744,6 +744,9 @@
         <mxCell id="bDZlbGgos1EzM1IyOgFE-41" value="CarIQ::Vehicle State Manager&lt;br&gt;&amp;lt;&amp;lt;Offboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-1">
           <mxGeometry x="120" y="120" width="120" height="870" as="geometry" />
         </mxCell>
+        <mxCell id="27KJk3r6Mv-NI7KEUVvG-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;glass=0;dashed=1;sketch=0;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;gradientColor=#ffffff;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-41">
+          <mxGeometry x="55" y="750" width="10" height="70" as="geometry" />
+        </mxCell>
         <mxCell id="ZUPEm-Xo52IJW4rEOKMm-0" value="Desired Power state notification" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="bDZlbGgos1EzM1IyOgFE-1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="666" y="209" as="sourcePoint" />
@@ -766,14 +769,14 @@
             <mxPoint x="660" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="trEYFg0Qp6kBPL-6ZQlB-1" value="&lt;span style=&quot;background-color: rgb(255 , 242 , 204)&quot;&gt;Message posted; &lt;br&gt;Continuous AuthN flow&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=10;fontColor=#330000;strokeColor=#36393d;exitX=1.06;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#ffff88;" edge="1" parent="bDZlbGgos1EzM1IyOgFE-1" source="FvKwFQ4FHgm5z5ajYj5a-8">
+        <mxCell id="trEYFg0Qp6kBPL-6ZQlB-1" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=10;fontColor=#330000;strokeColor=#36393d;exitX=1.06;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#ffff88;" edge="1" parent="bDZlbGgos1EzM1IyOgFE-1" source="FvKwFQ4FHgm5z5ajYj5a-8">
           <mxGeometry x="0.3273" width="80" relative="1" as="geometry">
             <mxPoint x="970" y="670" as="sourcePoint" />
-            <mxPoint x="1050" y="670" as="targetPoint" />
+            <mxPoint x="1080" y="680" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="trEYFg0Qp6kBPL-6ZQlB-2" value="Clear Message Queue" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=#FFF2CC;fontSize=10;fontColor=#330000;strokeColor=#330000;" edge="1" parent="bDZlbGgos1EzM1IyOgFE-1" source="FvKwFQ4FHgm5z5ajYj5a-8">
+        <mxCell id="trEYFg0Qp6kBPL-6ZQlB-2" value="Clear Message &lt;br&gt;Queue" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=#FFF2CC;fontSize=10;fontColor=#330000;strokeColor=#330000;" edge="1" parent="bDZlbGgos1EzM1IyOgFE-1" source="FvKwFQ4FHgm5z5ajYj5a-8">
           <mxGeometry x="0.1814" y="-12" width="80" relative="1" as="geometry">
             <mxPoint x="950" y="680" as="sourcePoint" />
             <mxPoint x="950" y="710" as="targetPoint" />
@@ -891,6 +894,9 @@
             <mxPoint x="860" y="930" as="sourcePoint" />
             <mxPoint x="660" y="930" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="27KJk3r6Mv-NI7KEUVvG-2" value="Follow the Alternate Flow: &quot;Continuous AuthN cycle&quot;" style="text;html=1;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;fontSize=12;gradientColor=#ffffff;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-1">
+          <mxGeometry x="960" y="630" width="90" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
