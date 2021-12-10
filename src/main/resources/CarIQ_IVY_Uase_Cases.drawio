@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T14:03:01.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="LmSU-GGFzSdL4cMTd5uz" version="15.9.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-10T14:05:00.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="wYI37u5NQF7lMDi5lLGv" version="15.9.4" type="github" pages="4">
   <diagram id="xZUEEhlqR2YgX-Inar-z" name="Page-1">
     <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -498,7 +498,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="04yVemnoc5Yd-XPa1gnK-20" value="IVY_SS::&lt;br&gt;EdgeEngage&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-1">
-          <mxGeometry x="801" y="40" width="139" height="1040" as="geometry" />
+          <mxGeometry x="801" y="40" width="270" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="0pHiQ21FJgbQC_MHCTsg-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-20">
           <mxGeometry x="65" y="385" width="10" height="425" as="geometry" />
@@ -547,7 +547,7 @@
         <mxCell id="0pHiQ21FJgbQC_MHCTsg-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-20">
           <mxGeometry x="80" y="499" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0pHiQ21FJgbQC_MHCTsg-13" value="Display User &lt;br&gt;screenflow based &lt;br&gt;on zone transition (entry/exit)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-20">
+        <mxCell id="0pHiQ21FJgbQC_MHCTsg-13" value="Display User &lt;br&gt;workflow based &lt;br&gt;on zone transition (entry/exit)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="85" y="480" as="sourcePoint" />
             <Array as="points">
@@ -570,6 +570,9 @@
             <mxPoint x="-331" y="658" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="oUj4DmLmajHJ-Xjb-qfP-16" value="Interaction to CarIQ Payment Service (offboard)" style="text;html=1;strokeColor=#36393d;fillColor=#cce5ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;fontSize=12;gradientColor=#ffffff;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-20">
+          <mxGeometry x="99" y="515" width="171" height="30" as="geometry" />
         </mxCell>
         <mxCell id="04yVemnoc5Yd-XPa1gnK-33" value="Desired Power state notification" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-1">
           <mxGeometry width="80" relative="1" as="geometry">
