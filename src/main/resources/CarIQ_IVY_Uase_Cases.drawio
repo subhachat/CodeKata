@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-09T16:22:25.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="-TMkkk0rucIFYdZ6TF9P" version="15.9.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-10T11:55:32.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="LT2xPEfQw-rwGOd0PY8i" version="15.9.4" type="github" pages="4">
   <diagram id="xZUEEhlqR2YgX-Inar-z" name="Page-1">
     <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -211,11 +211,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pGVW0kxQ4hnMFzZKYXj4" name="Page-3">
-    <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-0" />
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-1" parent="DpEmRlOjPfjntaRYl3Mz-0" />
-        <mxCell id="DpEmRlOjPfjntaRYl3Mz-2" value="CarIQ::EdgeConfigurator&lt;br&gt;&amp;lt;&amp;lt;Offboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-2" value="CarIQ::&lt;br&gt;Edge Configurator&lt;br&gt;&amp;lt;&amp;lt;Offboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
           <mxGeometry x="220" y="40" width="140" height="360" as="geometry" />
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-2">
@@ -238,7 +238,7 @@
             <mxPoint x="241" y="319" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DpEmRlOjPfjntaRYl3Mz-3" value="Connectivity Module&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-3" value="Vehicle::&lt;br&gt;Connectivity Module&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
           <mxGeometry x="401" y="40" width="119" height="960" as="geometry" />
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-3">
@@ -247,7 +247,7 @@
         <mxCell id="cU3Oaf6gQCP1iPa4O0yy-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-3">
           <mxGeometry x="55" y="753" width="10" height="157" as="geometry" />
         </mxCell>
-        <mxCell id="DpEmRlOjPfjntaRYl3Mz-4" value="IVY Vehicle Services&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-4" value="IVY::Vehicle Services&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
           <mxGeometry x="560" y="40" width="129" height="720" as="geometry" />
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-4">
@@ -302,7 +302,7 @@
             <mxPoint x="291" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DpEmRlOjPfjntaRYl3Mz-21" value="IVY SS::Smart-Telemetry&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-21" value="IVY_SS::Smart Telemetry&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
           <mxGeometry x="801" y="40" width="140" height="980" as="geometry" />
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-21">
@@ -385,7 +385,7 @@
             <mxPoint x="460" y="792" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DpEmRlOjPfjntaRYl3Mz-56" value="CarIQ: AuthManager&lt;br&gt;&amp;lt;&amp;lt;Offboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-56" value="CarIQ:: Auth Manager&lt;br&gt;&amp;lt;&amp;lt;Offboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
           <mxGeometry x="60" y="40" width="100" height="950" as="geometry" />
         </mxCell>
         <mxCell id="cU3Oaf6gQCP1iPa4O0yy-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-56">
@@ -410,7 +410,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cU3Oaf6gQCP1iPa4O0yy-1" value="CarIQ:Vehicle State Manager&lt;br&gt;&amp;lt;&amp;lt;Offboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
+        <mxCell id="cU3Oaf6gQCP1iPa4O0yy-1" value="CarIQ::Vehicle State Manager&lt;br&gt;&amp;lt;&amp;lt;Offboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
           <mxGeometry x="150" y="120" width="100" height="870" as="geometry" />
         </mxCell>
         <mxCell id="cU3Oaf6gQCP1iPa4O0yy-3" value="Mutual TLS" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
@@ -432,6 +432,236 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cU3Oaf6gQCP1iPa4O0yy-13" value="Extract data set per template" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="864" y="692" as="sourcePoint" />
+            <mxPoint x="631" y="692" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Page-4" id="osGng8ioabRBhP54qBRh">
+    <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-0" />
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-1" parent="04yVemnoc5Yd-XPa1gnK-0" />
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-2" value="CarIQ::&lt;br&gt;EdgeConfigurator&lt;br&gt;&amp;lt;&amp;lt;Offboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-1">
+          <mxGeometry x="130" y="120" width="110" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-2">
+          <mxGeometry x="65" y="210" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-2">
+          <mxGeometry x="70" y="260" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-5" value="Prepare Config &lt;br&gt;(data element, &lt;br&gt;frequency of extract)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-2" target="04yVemnoc5Yd-XPa1gnK-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-6" value="return Config" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="319" as="sourcePoint" />
+            <mxPoint x="241" y="319" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-7" value="Vehicle::&lt;br&gt;Connectivity Module&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-1">
+          <mxGeometry x="401" y="40" width="119" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-7">
+          <mxGeometry x="55" y="190" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-7">
+          <mxGeometry x="55" y="753" width="10" height="157" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-10" value="IVY::Vehicle Services&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-1">
+          <mxGeometry x="560" y="40" width="129" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-10">
+          <mxGeometry x="55" y="120" width="10" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-12" value="Power State change: &lt;br&gt;Engine ON" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="121" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="95" y="121" />
+            </Array>
+            <mxPoint x="65" y="141" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-13" value="return Config" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-90" y="329" as="sourcePoint" />
+            <mxPoint x="60" y="329" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-10">
+          <mxGeometry x="61" y="360" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-15" value="Update HW Abstraction layer &lt;br&gt;Signal Subscription Template&lt;br&gt;(based on input data elements)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="66" y="340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="96" y="340" />
+            </Array>
+            <mxPoint x="71" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-16" value="Establish Connect &lt;br&gt;with CarIQ endpoint" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=12;fontColor=#330000;exitX=0.5;exitY=0.875;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-10">
+          <mxGeometry x="0.0973" width="60" relative="1" as="geometry">
+            <mxPoint x="60" y="190" as="sourcePoint" />
+            <mxPoint x="-101" y="190" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-10">
+          <mxGeometry x="59" y="653" width="10" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-18" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="676" as="sourcePoint" />
+            <mxPoint x="307.5" y="676" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-19" value="Mutual TLS" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="461" y="250" as="sourcePoint" />
+            <mxPoint x="291" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-20" value="IVY_SS::Smart-Telemetry&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-1">
+          <mxGeometry x="801" y="40" width="140" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-20">
+          <mxGeometry x="65" y="170" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-20">
+          <mxGeometry x="70" y="190" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-23" value="Activate" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-20" target="04yVemnoc5Yd-XPa1gnK-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-20">
+          <mxGeometry x="70" y="420" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-20">
+          <mxGeometry x="75" y="450" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-26" value="setup RTC timers, &lt;br&gt;based on signal read &lt;br&gt;frequency" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-20" target="04yVemnoc5Yd-XPa1gnK-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="430" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="110" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-20">
+          <mxGeometry x="75" y="520" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-28" value="prepare Payload Manager &lt;br&gt;with data elements template" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-20" target="04yVemnoc5Yd-XPa1gnK-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="500" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="110" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-20">
+          <mxGeometry x="65" y="640" width="10" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-30" value="Timer kicks in" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-20" target="04yVemnoc5Yd-XPa1gnK-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="620" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="100" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-20">
+          <mxGeometry x="70" y="708" width="10" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-32" value="Prepare message payload;&amp;nbsp;&lt;br&gt;apply security encoding,&lt;br&gt;&amp;nbsp;message id,&amp;nbsp;message signature" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="688" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="688" />
+            </Array>
+            <mxPoint x="80" y="708" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-33" value="Desired Power state notification" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="623" y="209" as="sourcePoint" />
+            <mxPoint x="870" y="209" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-34" value="update config elements" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;fontColor=#330000;exitX=1.06;exitY=0.933;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-1" source="04yVemnoc5Yd-XPa1gnK-11" target="04yVemnoc5Yd-XPa1gnK-20">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="684" y="460" as="sourcePoint" />
+            <mxPoint x="764" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-35" value="Establish Connect with CarIQ endpoint" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="870.5" y="792" as="sourcePoint" />
+            <mxPoint x="460" y="792" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-36" value="CarIQ:: AuthManager&lt;br&gt;&amp;lt;&amp;lt;Offboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-1">
+          <mxGeometry x="60" y="40" width="100" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-36">
+          <mxGeometry x="45" y="770" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-36">
+          <mxGeometry x="50" y="800" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-39" value="Authenticate vehicle" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="784" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="784" />
+            </Array>
+            <mxPoint x="60" y="804" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-40" value="SUCCESS; &lt;br&gt;Store State" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-36">
+          <mxGeometry y="7" width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="857" as="sourcePoint" />
+            <mxPoint x="140" y="857" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-41" value="CarIQ::&lt;br&gt;GeofenceManager&lt;br&gt;&amp;lt;&amp;lt;Offboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-1">
+          <mxGeometry x="220" y="40" width="110" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-42" value="Mutual TLS" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="456" y="809" as="sourcePoint" />
+            <mxPoint x="110" y="809" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-43" value="return Status" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=12;fontColor=#330000;exitX=0.72;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-1" source="04yVemnoc5Yd-XPa1gnK-38" target="04yVemnoc5Yd-XPa1gnK-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="920" as="sourcePoint" />
+            <mxPoint x="200" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-44" value="return Status" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=12;fontColor=#330000;exitX=0.72;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-1" target="04yVemnoc5Yd-XPa1gnK-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470.00000000000006" y="940.0000000000001" as="sourcePoint" />
+            <mxPoint x="812.8" y="940.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="04yVemnoc5Yd-XPa1gnK-45" value="Extract data set per template" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="864" y="692" as="sourcePoint" />
             <mxPoint x="631" y="692" as="targetPoint" />
