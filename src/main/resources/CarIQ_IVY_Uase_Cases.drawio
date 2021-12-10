@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T16:37:57.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="43c-GLMMQ1RzHSzPGtP-" version="15.9.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-10T16:39:40.513Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="pEQXUuxV1qMBh4gBbNpH" version="15.9.4" type="github" pages="5">
   <diagram id="xZUEEhlqR2YgX-Inar-z" name="Page-1">
     <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -690,7 +690,7 @@
           <mxGeometry x="55" y="752" width="10" height="108" as="geometry" />
         </mxCell>
         <mxCell id="bDZlbGgos1EzM1IyOgFE-10" value="IVY::&lt;br&gt;Vehicle Services&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-1">
-          <mxGeometry x="600" y="40" width="120" height="1040" as="geometry" />
+          <mxGeometry x="600" y="40" width="120" height="1060" as="geometry" />
         </mxCell>
         <mxCell id="kbyqeL69uOimKdxRqXpg-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;glass=0;dashed=1;sketch=0;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;gradientColor=#ffffff;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-10">
           <mxGeometry x="55" y="140" width="10" height="40" as="geometry" />
@@ -713,7 +713,7 @@
           <mxGeometry x="100" y="527" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="trEYFg0Qp6kBPL-6ZQlB-3" value="Activity Transition list&amp;nbsp;Not Available" style="shape=umlFrame;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;sketch=0;fontSize=12;fillColor=#ffcccc;strokeColor=#36393d;width=110;height=30;gradientColor=#ffffff;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-10">
-          <mxGeometry x="20" y="685" width="340" height="345" as="geometry" />
+          <mxGeometry x="20" y="685" width="420" height="375" as="geometry" />
         </mxCell>
         <mxCell id="vBTmrieUSvAQeO82CSUM-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;glass=0;dashed=1;sketch=0;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;gradientColor=#ffffff;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-10">
           <mxGeometry x="55" y="890" width="10" height="30" as="geometry" />
@@ -734,6 +734,9 @@
             <mxPoint x="70" y="1000" as="sourcePoint" />
             <mxPoint x="150" y="1000" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="27KJk3r6Mv-NI7KEUVvG-0" value="Follow the Alternate Flow: &quot;Activity Transition list Available&quot;" style="text;html=1;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;fontSize=12;gradientColor=#ffffff;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-10">
+          <mxGeometry x="270" y="975" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bDZlbGgos1EzM1IyOgFE-36" value="CarIQ:: &lt;br&gt;Auth Manager&lt;br&gt;&amp;lt;&amp;lt;Offboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-1">
           <mxGeometry x="40" y="40" width="120" height="950" as="geometry" />
@@ -826,7 +829,7 @@
         <mxCell id="FvKwFQ4FHgm5z5ajYj5a-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;glass=0;dashed=1;sketch=0;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;gradientColor=#ffffff;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-20">
           <mxGeometry x="60" y="400" width="10" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="FvKwFQ4FHgm5z5ajYj5a-9" value="Check latest &lt;br&gt;Transition type" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;strokeColor=#330000;" edge="1" target="FvKwFQ4FHgm5z5ajYj5a-8" parent="bDZlbGgos1EzM1IyOgFE-20">
+        <mxCell id="FvKwFQ4FHgm5z5ajYj5a-9" value="Check latest &lt;br&gt;Activity type" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;strokeColor=#330000;" edge="1" target="FvKwFQ4FHgm5z5ajYj5a-8" parent="bDZlbGgos1EzM1IyOgFE-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="65" y="380" as="sourcePoint" />
             <Array as="points">
@@ -837,7 +840,7 @@
         <mxCell id="FvKwFQ4FHgm5z5ajYj5a-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;glass=0;dashed=1;sketch=0;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;gradientColor=#ffffff;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-20">
           <mxGeometry x="65" y="450" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FvKwFQ4FHgm5z5ajYj5a-11" value="Is last payload &lt;br&gt;message for the transition type,&lt;br&gt;in queue,&amp;nbsp;cleared?" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;strokeColor=#330000;" edge="1" target="FvKwFQ4FHgm5z5ajYj5a-10" parent="bDZlbGgos1EzM1IyOgFE-20">
+        <mxCell id="FvKwFQ4FHgm5z5ajYj5a-11" value="Is last payload &lt;br&gt;message for the activity type,&lt;br&gt;in queue,&amp;nbsp;cleared?" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;strokeColor=#330000;" edge="1" target="FvKwFQ4FHgm5z5ajYj5a-10" parent="bDZlbGgos1EzM1IyOgFE-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="70" y="430" as="sourcePoint" />
             <Array as="points">
