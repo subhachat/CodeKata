@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T16:18:21.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="KfWhmNdX9RK0WtqMuS1S" version="15.9.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-10T16:23:42.522Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="XLBtCu2HFlTsaaPTzbWN" version="15.9.4" type="github" pages="5">
   <diagram id="xZUEEhlqR2YgX-Inar-z" name="Page-1">
     <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -222,7 +222,7 @@
           <mxGeometry x="65" y="220" width="10" height="120" as="geometry" />
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-2">
-          <mxGeometry x="70" y="260" width="10" height="40" as="geometry" />
+          <mxGeometry x="70" y="260" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-18" value="Prepare Config &lt;br&gt;(data element, &lt;br&gt;frequency of extract)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" target="DpEmRlOjPfjntaRYl3Mz-17" parent="DpEmRlOjPfjntaRYl3Mz-2">
           <mxGeometry relative="1" as="geometry">
@@ -234,8 +234,8 @@
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-20" value="return Config" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="DpEmRlOjPfjntaRYl3Mz-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="75" y="319" as="sourcePoint" />
-            <mxPoint x="241" y="319" as="targetPoint" />
+            <mxPoint x="75" y="295" as="sourcePoint" />
+            <mxPoint x="241" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-3" value="Vehicle::&lt;br&gt;Connectivity Module&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
@@ -250,8 +250,11 @@
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-4" value="IVY::&lt;br&gt;Vehicle Services&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
           <mxGeometry x="560" y="40" width="129" height="720" as="geometry" />
         </mxCell>
+        <mxCell id="M9682Uceh7mA6T73Mkha-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;glass=0;dashed=1;sketch=0;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;gradientColor=#ffffff;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-4">
+          <mxGeometry x="59" y="347" width="10" height="93" as="geometry" />
+        </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-4">
-          <mxGeometry x="55" y="120" width="10" height="320" as="geometry" />
+          <mxGeometry x="55" y="120" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-6" value="Power State change: &lt;br&gt;Engine ON" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="DpEmRlOjPfjntaRYl3Mz-4">
           <mxGeometry relative="1" as="geometry">
@@ -264,20 +267,20 @@
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-29" value="return Config" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="DpEmRlOjPfjntaRYl3Mz-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-90" y="329" as="sourcePoint" />
-            <mxPoint x="60" y="329" as="targetPoint" />
+            <mxPoint x="-90" y="310" as="sourcePoint" />
+            <mxPoint x="310.5" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-4">
-          <mxGeometry x="61" y="360" width="10" height="40" as="geometry" />
+          <mxGeometry x="65" y="388" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-36" value="Update HW Abstraction layer &lt;br&gt;Signal Subscription Template&lt;br&gt;(based on input data elements)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" parent="DpEmRlOjPfjntaRYl3Mz-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="66" y="340" as="sourcePoint" />
+            <mxPoint x="69" y="369" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="96" y="340" />
+              <mxPoint x="99" y="369" />
             </Array>
-            <mxPoint x="71" y="360" as="targetPoint" />
+            <mxPoint x="74" y="389" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-7" value="Establish Connect &lt;br&gt;with CarIQ endpoint; &lt;br&gt;GET edge config" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="DpEmRlOjPfjntaRYl3Mz-4">
@@ -306,7 +309,7 @@
           <mxGeometry x="801" y="40" width="140" height="980" as="geometry" />
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-21">
-          <mxGeometry x="65" y="170" width="10" height="80" as="geometry" />
+          <mxGeometry x="65" y="170" width="10" height="150" as="geometry" />
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-21">
           <mxGeometry x="70" y="190" width="10" height="40" as="geometry" />
@@ -336,7 +339,7 @@
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-21">
           <mxGeometry x="75" y="520" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DpEmRlOjPfjntaRYl3Mz-45" value="prepare Payload Manager &lt;br&gt;with data elements template" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" target="DpEmRlOjPfjntaRYl3Mz-44" parent="DpEmRlOjPfjntaRYl3Mz-21">
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-45" value="update &quot;Payload Manager&quot;&lt;br&gt;with data elements &lt;br&gt;from Config" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" target="DpEmRlOjPfjntaRYl3Mz-44" parent="DpEmRlOjPfjntaRYl3Mz-21">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="80" y="500" as="sourcePoint" />
             <Array as="points">
@@ -358,7 +361,7 @@
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-21">
           <mxGeometry x="70" y="708" width="10" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="DpEmRlOjPfjntaRYl3Mz-49" value="Prepare message payload;&amp;nbsp;&lt;br&gt;apply security encoding,&lt;br&gt;&amp;nbsp;message id,&amp;nbsp;message signature" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" parent="DpEmRlOjPfjntaRYl3Mz-21">
+        <mxCell id="DpEmRlOjPfjntaRYl3Mz-49" value="&quot;Payload Manager&quot; prepares &lt;br&gt;message payload;&amp;nbsp;&lt;br&gt;apply security encoding,&lt;br&gt;&amp;nbsp;message id,&amp;nbsp;message signature" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" parent="DpEmRlOjPfjntaRYl3Mz-21">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="75" y="688" as="sourcePoint" />
             <Array as="points">
@@ -371,12 +374,6 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="623" y="209" as="sourcePoint" />
             <mxPoint x="870" y="209" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DpEmRlOjPfjntaRYl3Mz-39" value="update config elements" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;fontColor=#330000;exitX=1.06;exitY=0.933;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="DpEmRlOjPfjntaRYl3Mz-1" source="DpEmRlOjPfjntaRYl3Mz-5" target="DpEmRlOjPfjntaRYl3Mz-21">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="684" y="460" as="sourcePoint" />
-            <mxPoint x="764" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-50" value="Establish Connect with CarIQ endpoint; POST Payload" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
@@ -435,6 +432,12 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="864" y="692" as="sourcePoint" />
             <mxPoint x="631" y="692" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M9682Uceh7mA6T73Mkha-0" value="Update VAL with Signal list" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#330000;strokeColor=#330000;" edge="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="870.5" y="386" as="sourcePoint" />
+            <mxPoint x="624" y="386" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
