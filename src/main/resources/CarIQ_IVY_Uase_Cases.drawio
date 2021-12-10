@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T16:41:50.913Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="gF8PpiznDy7AjiTE2OBE" version="15.9.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-10T16:42:58.518Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="R6EGDDvLTpw-tQuHH3ZL" version="15.9.4" type="github" pages="5">
   <diagram id="xZUEEhlqR2YgX-Inar-z" name="Page-1">
     <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -745,7 +745,7 @@
           <mxGeometry x="120" y="120" width="120" height="870" as="geometry" />
         </mxCell>
         <mxCell id="27KJk3r6Mv-NI7KEUVvG-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;glass=0;dashed=1;sketch=0;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;gradientColor=#ffffff;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-41">
-          <mxGeometry x="55" y="750" width="10" height="70" as="geometry" />
+          <mxGeometry x="55" y="740" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZUPEm-Xo52IJW4rEOKMm-0" value="Desired Power state notification" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="bDZlbGgos1EzM1IyOgFE-1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -795,10 +795,10 @@
             <mxPoint x="289.5" y="808.1400000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ioqHNwR69Q2_elOrLcVK-1" value="return List" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#330000;strokeColor=#330000;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bDZlbGgos1EzM1IyOgFE-1" source="fk8rVdiSIStqvXXJC6re-0" target="bDZlbGgos1EzM1IyOgFE-7">
+        <mxCell id="ioqHNwR69Q2_elOrLcVK-1" value="return List" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#330000;strokeColor=#330000;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bDZlbGgos1EzM1IyOgFE-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="880" as="sourcePoint" />
-            <mxPoint x="340" y="880" as="targetPoint" />
+            <mxPoint x="300" y="889" as="sourcePoint" />
+            <mxPoint x="460" y="889" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bDZlbGgos1EzM1IyOgFE-20" value="IVY_SS::&lt;br&gt;SmartTelemetry&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-1">
@@ -863,10 +863,10 @@
             <mxPoint x="75" y="565" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JfGbzrO-H4DsdmMT-WBM-1" value="return List" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#330000;strokeColor=#330000;" edge="1" parent="bDZlbGgos1EzM1IyOgFE-20" target="bDZlbGgos1EzM1IyOgFE-20">
+        <mxCell id="JfGbzrO-H4DsdmMT-WBM-1" value="return List" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#330000;strokeColor=#330000;" edge="1" parent="bDZlbGgos1EzM1IyOgFE-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-331" y="850" as="sourcePoint" />
-            <mxPoint x="-111" y="850" as="targetPoint" />
+            <mxPoint x="-331" y="856" as="sourcePoint" />
+            <mxPoint x="59" y="856" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hXe0rn9eOlE0amxBFZ9Y-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;glass=0;dashed=1;sketch=0;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;gradientColor=#ffffff;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-20">
@@ -897,6 +897,13 @@
         </mxCell>
         <mxCell id="27KJk3r6Mv-NI7KEUVvG-2" value="Follow the Alternate Flow: &quot;Continuous AuthN cycle&quot;" style="text;html=1;strokeColor=#36393d;fillColor=#cdeb8b;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;fontSize=12;gradientColor=#ffffff;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-1">
           <mxGeometry x="960" y="630" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="27KJk3r6Mv-NI7KEUVvG-3" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#330000;strokeColor=#330000;entryX=0.18;entryY=0.931;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="bDZlbGgos1EzM1IyOgFE-1">
+          <mxGeometry x="0.0531" y="-10" relative="1" as="geometry">
+            <mxPoint x="183.5" y="880.4100000000001" as="sourcePoint" />
+            <mxPoint x="290.79999999999995" y="880.4100000000001" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
