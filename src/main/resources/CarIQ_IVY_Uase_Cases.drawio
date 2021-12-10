@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T15:59:14.218Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="m_1VVNKbggc7AQvrFInJ" version="15.9.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-10T15:59:38.797Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="dcoqnvc-DU3PDygiu_Vs" version="15.9.4" type="github" pages="5">
   <diagram id="xZUEEhlqR2YgX-Inar-z" name="Page-1">
     <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -564,7 +564,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="THcXVkZ32cX3tllNl3JD-3" value="Establish connect, fetch geofence list&lt;br&gt;&lt;b style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(248 , 249 , 250)&quot;&gt;i/p:&lt;/b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(248 , 249 , 250)&quot;&gt;&amp;nbsp;current {lat, long}&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=12;fontColor=#330000;entryX=0.76;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-20" target="THcXVkZ32cX3tllNl3JD-4">
+        <mxCell id="THcXVkZ32cX3tllNl3JD-3" value="Establish connect, GET geofence list&lt;br&gt;&lt;b style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(248 , 249 , 250)&quot;&gt;i/p:&lt;/b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(248 , 249 , 250)&quot;&gt;&amp;nbsp;current {lat, long}&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=12;fontColor=#330000;entryX=0.76;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-20" target="THcXVkZ32cX3tllNl3JD-4">
           <mxGeometry x="-0.3202" y="22" width="60" relative="1" as="geometry">
             <mxPoint x="67" y="658" as="sourcePoint" />
             <mxPoint x="-331" y="658" as="targetPoint" />
@@ -601,7 +601,7 @@
             <mxPoint x="110" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oUj4DmLmajHJ-Xjb-qfP-2" value="Fetch Geofence list&lt;br&gt;&lt;font color=&quot;#3300ff&quot;&gt;by Territory&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(248 , 249 , 250)&quot;&gt;i/p:&lt;/b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(248 , 249 , 250)&quot;&gt;&amp;nbsp;current {lat, long}&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-1">
+        <mxCell id="oUj4DmLmajHJ-Xjb-qfP-2" value="GET Geofence list&lt;br&gt;&lt;font color=&quot;#3300ff&quot;&gt;by Territory&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(248 , 249 , 250)&quot;&gt;i/p:&lt;/b&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(248 , 249 , 250)&quot;&gt;&amp;nbsp;current {lat, long}&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="04yVemnoc5Yd-XPa1gnK-1">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="270" y="721" as="sourcePoint" />
             <mxPoint x="104.5" y="721" as="targetPoint" />
