@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T14:06:35.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="l4J5hRB_PD3r980WwwG3" version="15.9.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-10T15:37:48.210Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="KFI7P3qN3G6lPb68zJ7h" version="15.9.4" type="github" pages="5">
   <diagram id="xZUEEhlqR2YgX-Inar-z" name="Page-1">
     <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -211,7 +211,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pGVW0kxQ4hnMFzZKYXj4" name="Page-3">
-    <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-0" />
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-1" parent="DpEmRlOjPfjntaRYl3Mz-0" />
@@ -637,6 +637,32 @@
         </mxCell>
         <mxCell id="oUj4DmLmajHJ-Xjb-qfP-14" value="Follow the Alternate Flow: &quot;Expired Zone record exists&quot;" style="text;html=1;strokeColor=#36393d;fillColor=#ffcc99;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;dashed=1;sketch=0;fontSize=12;gradientColor=#ffffff;" vertex="1" parent="04yVemnoc5Yd-XPa1gnK-1">
           <mxGeometry x="720" y="980" width="150" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Page-5" id="ebR65uIPoZV7l-iqWYvO">
+    <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="bDZlbGgos1EzM1IyOgFE-0" />
+        <mxCell id="bDZlbGgos1EzM1IyOgFE-1" parent="bDZlbGgos1EzM1IyOgFE-0" />
+        <mxCell id="bDZlbGgos1EzM1IyOgFE-2" value="CarIQ::&lt;br&gt;Edge Configurator&lt;br&gt;&amp;lt;&amp;lt;Offboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-1">
+          <mxGeometry x="220" y="40" width="140" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="bDZlbGgos1EzM1IyOgFE-7" value="Vehicle::&lt;br&gt;Connectivity Module&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-1">
+          <mxGeometry x="401" y="40" width="119" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="bDZlbGgos1EzM1IyOgFE-10" value="IVY::&lt;br&gt;Vehicle Services&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-1">
+          <mxGeometry x="600" y="40" width="120" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="bDZlbGgos1EzM1IyOgFE-20" value="IVY_SS::&lt;br&gt;SmartTelemetry&lt;br&gt;&amp;lt;&amp;lt;Onboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-1">
+          <mxGeometry x="801" y="40" width="119" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="bDZlbGgos1EzM1IyOgFE-36" value="CarIQ:: &lt;br&gt;Auth Manager&lt;br&gt;&amp;lt;&amp;lt;Offboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-1">
+          <mxGeometry x="40" y="40" width="120" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="bDZlbGgos1EzM1IyOgFE-41" value="CarIQ::Vehicle State Manager&lt;br&gt;&amp;lt;&amp;lt;Offboard&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;glass=0;dashed=1;fontSize=12;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="bDZlbGgos1EzM1IyOgFE-1">
+          <mxGeometry x="120" y="120" width="120" height="870" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
