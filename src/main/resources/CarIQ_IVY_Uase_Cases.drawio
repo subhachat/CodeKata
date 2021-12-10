@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T16:23:42.522Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="XLBtCu2HFlTsaaPTzbWN" version="15.9.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-10T16:25:01.681Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="MvgLmXpviKvgoBEH0M4I" version="15.9.4" type="github" pages="5">
   <diagram id="xZUEEhlqR2YgX-Inar-z" name="Page-1">
     <mxGraphModel dx="1038" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -251,7 +251,7 @@
           <mxGeometry x="560" y="40" width="129" height="720" as="geometry" />
         </mxCell>
         <mxCell id="M9682Uceh7mA6T73Mkha-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;glass=0;dashed=1;sketch=0;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;gradientColor=#ffffff;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-4">
-          <mxGeometry x="59" y="347" width="10" height="93" as="geometry" />
+          <mxGeometry x="59" y="347" width="10" height="83" as="geometry" />
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-4">
           <mxGeometry x="55" y="120" width="10" height="60" as="geometry" />
@@ -272,7 +272,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;glass=0;dashed=1;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-4">
-          <mxGeometry x="65" y="388" width="10" height="40" as="geometry" />
+          <mxGeometry x="65" y="388" width="10" height="32" as="geometry" />
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-36" value="Update HW Abstraction layer &lt;br&gt;Signal Subscription Template&lt;br&gt;(based on input data elements)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=12;fontColor=#330000;" edge="1" parent="DpEmRlOjPfjntaRYl3Mz-4">
           <mxGeometry relative="1" as="geometry">
@@ -297,6 +297,17 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="70" y="676" as="sourcePoint" />
             <mxPoint x="307.5" y="676" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M9682Uceh7mA6T73Mkha-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;glass=0;dashed=1;sketch=0;fontSize=12;fontColor=#330000;fillColor=#D4E1F5;gradientColor=#ffffff;" vertex="1" parent="DpEmRlOjPfjntaRYl3Mz-4">
+          <mxGeometry x="60" y="485" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M9682Uceh7mA6T73Mkha-4" value="HAL components &lt;br&gt;start filtering PDUs &lt;br&gt;per the template" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#330000;strokeColor=#330000;" edge="1" target="M9682Uceh7mA6T73Mkha-3" parent="DpEmRlOjPfjntaRYl3Mz-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="465" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="95" y="465" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DpEmRlOjPfjntaRYl3Mz-11" value="Mutual TLS" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=12;fontColor=#330000;" edge="1" parent="DpEmRlOjPfjntaRYl3Mz-1">
