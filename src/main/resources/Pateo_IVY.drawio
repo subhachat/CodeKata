@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T13:50:41.920Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="4ItmIiadhLnWnIjRQDHB" version="17.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-16T13:50:58.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="1iuDtlmd8uZyFGn6OAoh" version="17.1.2" type="github" pages="2">
   <diagram id="p7EDJOorh8zfAeoK4Xsa" name="To Be SW Stack Design">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -724,7 +724,7 @@
         <mxCell id="sVMsbPy-h0Ceoadt3ZuA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=none;endFill=0;" edge="1" parent="-CWStoijEZZkzX5niCIb-1" source="sVMsbPy-h0Ceoadt3ZuA-20" target="sVMsbPy-h0Ceoadt3ZuA-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sVMsbPy-h0Ceoadt3ZuA-20" value="Power Adapter" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="-CWStoijEZZkzX5niCIb-1">
+        <mxCell id="sVMsbPy-h0Ceoadt3ZuA-20" value="Power Adapter" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="-CWStoijEZZkzX5niCIb-1">
           <mxGeometry x="630" y="180" width="76" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sVMsbPy-h0Ceoadt3ZuA-21" value="Charging Socket &lt;br&gt;(wall mount/extender)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="-CWStoijEZZkzX5niCIb-1">
