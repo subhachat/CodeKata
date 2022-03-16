@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-16T13:48:46.121Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="MbwW3Gxn9MqdNY0hW2mi" version="17.1.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-16T13:50:15.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="QMVx41lmLpyFP8Oxtt-N" version="17.1.2" type="github" pages="2">
   <diagram id="p7EDJOorh8zfAeoK4Xsa" name="To Be SW Stack Design">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -635,7 +635,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sVMsbPy-h0Ceoadt3ZuA-2" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Windows 10 64-bit (b1803+)&lt;br&gt;&amp;gt; QEMU on Windows&lt;br&gt;&amp;gt; QEMU Manager on Windows&lt;br&gt;&amp;gt; UBuntu 20.04 server VM on QEMU&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-CWStoijEZZkzX5niCIb-1">
+        <mxCell id="sVMsbPy-h0Ceoadt3ZuA-2" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Windows 10 64-bit (b1803+)&lt;br&gt;&amp;gt; QEMU on Windows&lt;br&gt;&amp;gt; QEMU Manager on Windows&lt;br&gt;&amp;gt; UBuntu 20.04 server VM on QEMU&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="-CWStoijEZZkzX5niCIb-1">
           <mxGeometry x="272" y="80" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sVMsbPy-h0Ceoadt3ZuA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=none;endFill=0;" edge="1" parent="-CWStoijEZZkzX5niCIb-1" source="sVMsbPy-h0Ceoadt3ZuA-3">
@@ -690,8 +690,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sVMsbPy-h0Ceoadt3ZuA-14" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&amp;gt; Qualcomm SA8155&lt;br&gt;&amp;gt; ECAN&lt;br&gt;&amp;gt; Microcontroller&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-CWStoijEZZkzX5niCIb-1">
-          <mxGeometry x="596.04" y="60" width="103.96" height="80" as="geometry" />
+        <mxCell id="sVMsbPy-h0Ceoadt3ZuA-14" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&amp;gt; Qualcomm SA8155&lt;br&gt;&amp;gt; ECAN&lt;br&gt;&amp;gt; Microcontroller&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="-CWStoijEZZkzX5niCIb-1">
+          <mxGeometry x="596.04" y="77" width="103.96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sVMsbPy-h0Ceoadt3ZuA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;endArrow=none;endFill=0;dashed=1;" edge="1" parent="-CWStoijEZZkzX5niCIb-1" target="sVMsbPy-h0Ceoadt3ZuA-20">
           <mxGeometry relative="1" as="geometry">
@@ -748,9 +748,9 @@
             <mxPoint x="560.0000000000027" y="403.15" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sVMsbPy-h0Ceoadt3ZuA-39" value="Internet Link &lt;br&gt;@100MBPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#0000FF;" vertex="1" connectable="0" parent="sVMsbPy-h0Ceoadt3ZuA-38">
+        <mxCell id="sVMsbPy-h0Ceoadt3ZuA-39" value="&lt;font color=&quot;#33001a&quot;&gt;Internet Link &lt;br&gt;@100MBPS&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#0000FF;" vertex="1" connectable="0" parent="sVMsbPy-h0Ceoadt3ZuA-38">
           <mxGeometry x="0.0636" relative="1" as="geometry">
-            <mxPoint x="10" y="-34" as="offset" />
+            <mxPoint x="-2" y="-24" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sVMsbPy-h0Ceoadt3ZuA-40" value="&lt;font color=&quot;#33001a&quot;&gt;USB Hub&lt;/font&gt;" style="strokeColor=#666666;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.general.hub;fontSize=10;fontColor=#0000FF;" vertex="1" parent="-CWStoijEZZkzX5niCIb-1">
